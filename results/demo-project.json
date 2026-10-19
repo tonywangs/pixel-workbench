@@ -1,0 +1,70 @@
+{
+  "schema": 1,
+  "widths": [
+    64,
+    256
+  ],
+  "background": "transparent",
+  "artworks": [
+    {
+      "name": "lucide-camera.svg",
+      "sha256": "ebbb3178dd80dfd942770a2237fe7bfc3515c55c7daa9d3666933a656d2790e3",
+      "selected": true
+    },
+    {
+      "name": "lucide-heart.svg",
+      "sha256": "70af5f30be9fcb500b852556b38dcdf8c04a4ba81fd262534fb0336bd39b3b52",
+      "selected": true
+    },
+    {
+      "name": "lucide-bike.svg",
+      "sha256": "eb129250bb946117fce7ecb22f33f89dcb64c6d69a4b86724f6f75b363c91e76",
+      "selected": true
+    },
+    {
+      "name": "lucide-sun.svg",
+      "sha256": "a3955c8b0425fcc5c9ba12d2bdd77fe53b2cd5dd05e7742a56f342e996fb2ef8",
+      "selected": true
+    },
+    {
+      "name": "lucide-rocket.svg",
+      "sha256": "2b7887d9a5623f2e5e4a5d32716f93829d61b458e03b6eae33a6df648b9eb855",
+      "selected": true
+    },
+    {
+      "name": "lucide-flower.svg",
+      "sha256": "52d9db5e1448d213e81954d8fbd331ca2bb8849a4be5adf9426e5683e7ee8b85",
+      "selected": true
+    },
+    {
+      "name": "tabler-camera.svg",
+      "sha256": "a87eae819b9c5a98b07e635c5a52fd2aaed392000ce62bb8724cd5f5baba4bc7",
+      "selected": true
+    },
+    {
+      "name": "tabler-heart.svg",
+      "sha256": "332be1c5c3a67df766c69da053a0eb29a11aa74a262f4422b82bceaaf098b1e8",
+      "selected": true
+    },
+    {
+      "name": "tabler-bike.svg",
+      "sha256": "3ee7df4fb336b02f431540d0175d425e13548e04bea6f209b941f5ddc5e087db",
+      "selected": true
+    },
+    {
+      "name": "tabler-sun.svg",
+      "sha256": "6677490605af8987d55d6e4185b1f6c241eced65b63ccfece68cadb7ce90fbb5",
+      "selected": true
+    },
+    {
+      "name": "tabler-rocket.svg",
+      "sha256": "ea5f8a0922691d4c36d56c61c6e5c1dab1ae11ff5856a1036430f26d0eb23214",
+      "selected": true
+    },
+    {
+      "name": "tabler-flower.svg",
+      "sha256": "fc0e05fd927e64dd04b35fdb0332ad9e09771d3a9add0a38bb9d9eb67efa3536",
+      "selected": true
+    }
+  ]
+}
