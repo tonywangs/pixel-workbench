@@ -1,0 +1,577 @@
+{
+  "version": 1,
+  "paper": "Letter",
+  "pageSize": [
+    612,
+    792
+  ],
+  "columns": 4,
+  "rows": 5,
+  "labelMode": "path",
+  "coordinateSystem": "PDF points from top left",
+  "pages": 1,
+  "selected": [
+    {
+      "id": "S0001",
+      "name": "fixtures/a/duplicate.png",
+      "sha256": "f5a125595511288e5d97ae31350f4922e30806c42cedc4a588656c7e82499364",
+      "page": 1,
+      "cell": 1,
+      "order": 1,
+      "width": 120,
+      "height": 80,
+      "exifOrientation": 1,
+      "imageBounds": {
+        "x": 41.699999999999996,
+        "y": 60,
+        "width": 107.10000000000001,
+        "height": 71.4
+      },
+      "cellBounds": {
+        "x": 30,
+        "y": 55,
+        "width": 130.5,
+        "height": 132.4
+      },
+      "labelLines": [
+        "fixtures/a/duplicate.png"
+      ],
+      "labelBounds": {
+        "x": 35,
+        "y": 139.4,
+        "width": 120.5,
+        "height": 30
+      },
+      "identity": "S0001 | f5a1255955"
+    },
+    {
+      "id": "S0003",
+      "name": "fixtures/b/duplicate.png",
+      "sha256": "f5a125595511288e5d97ae31350f4922e30806c42cedc4a588656c7e82499364",
+      "page": 1,
+      "cell": 2,
+      "order": 2,
+      "width": 120,
+      "height": 80,
+      "exifOrientation": 1,
+      "imageBounds": {
+        "x": 182.2,
+        "y": 60,
+        "width": 107.10000000000001,
+        "height": 71.4
+      },
+      "cellBounds": {
+        "x": 170.5,
+        "y": 55,
+        "width": 130.5,
+        "height": 132.4
+      },
+      "labelLines": [
+        "fixtures/b/duplicate.png"
+      ],
+      "labelBounds": {
+        "x": 175.5,
+        "y": 139.4,
+        "width": 120.5,
+        "height": 30
+      },
+      "identity": "S0003 | f5a1255955"
+    },
+    {
+      "id": "S0006",
+      "name": "fixtures/orientation-1.jpg",
+      "sha256": "d3936ef7bbc4d2a418ee97c9aafcb1f8a3bb286fb3d15cf44a3e6cd7d87b8e6e",
+      "page": 1,
+      "cell": 3,
+      "order": 3,
+      "width": 120,
+      "height": 80,
+      "exifOrientation": 1,
+      "imageBounds": {
+        "x": 322.7,
+        "y": 60,
+        "width": 107.10000000000001,
+        "height": 71.4
+      },
+      "cellBounds": {
+        "x": 311,
+        "y": 55,
+        "width": 130.5,
+        "height": 132.4
+      },
+      "labelLines": [
+        "fixtures/orientation-1.jpg"
+      ],
+      "labelBounds": {
+        "x": 316,
+        "y": 139.4,
+        "width": 120.5,
+        "height": 30
+      },
+      "identity": "S0006 | d3936ef7bb"
+    },
+    {
+      "id": "S0007",
+      "name": "fixtures/orientation-2.jpg",
+      "sha256": "533d76cdbae41a22f1ae2cda51434d4dbbe170b4669e3cf82ddb46c7c23a2d8b",
+      "page": 1,
+      "cell": 4,
+      "order": 4,
+      "width": 120,
+      "height": 80,
+      "exifOrientation": 2,
+      "imageBounds": {
+        "x": 463.2,
+        "y": 60,
+        "width": 107.10000000000001,
+        "height": 71.4
+      },
+      "cellBounds": {
+        "x": 451.5,
+        "y": 55,
+        "width": 130.5,
+        "height": 132.4
+      },
+      "labelLines": [
+        "fixtures/orientation-2.jpg"
+      ],
+      "labelBounds": {
+        "x": 456.5,
+        "y": 139.4,
+        "width": 120.5,
+        "height": 30
+      },
+      "identity": "S0007 | 533d76cdba"
+    },
+    {
+      "id": "S0008",
+      "name": "fixtures/orientation-3.jpg",
+      "sha256": "d870b460f602f15b447cb75745f4121d69d1ecf575ca425e423f402e89f362d1",
+      "page": 1,
+      "cell": 5,
+      "order": 5,
+      "width": 120,
+      "height": 80,
+      "exifOrientation": 3,
+      "imageBounds": {
+        "x": 41.699999999999996,
+        "y": 202.4,
+        "width": 107.10000000000001,
+        "height": 71.4
+      },
+      "cellBounds": {
+        "x": 30,
+        "y": 197.4,
+        "width": 130.5,
+        "height": 132.4
+      },
+      "labelLines": [
+        "fixtures/orientation-3.jpg"
+      ],
+      "labelBounds": {
+        "x": 35,
+        "y": 281.8,
+        "width": 120.5,
+        "height": 30
+      },
+      "identity": "S0008 | d870b460f6"
+    },
+    {
+      "id": "S0009",
+      "name": "fixtures/orientation-4.jpg",
+      "sha256": "3becb7d8d996abd53e26dcf07d1ff8dc32b800a777d6b836ac08e29127ac623b",
+      "page": 1,
+      "cell": 6,
+      "order": 6,
+      "width": 120,
+      "height": 80,
+      "exifOrientation": 4,
+      "imageBounds": {
+        "x": 182.2,
+        "y": 202.4,
+        "width": 107.10000000000001,
+        "height": 71.4
+      },
+      "cellBounds": {
+        "x": 170.5,
+        "y": 197.4,
+        "width": 130.5,
+        "height": 132.4
+      },
+      "labelLines": [
+        "fixtures/orientation-4.jpg"
+      ],
+      "labelBounds": {
+        "x": 175.5,
+        "y": 281.8,
+        "width": 120.5,
+        "height": 30
+      },
+      "identity": "S0009 | 3becb7d8d9"
+    },
+    {
+      "id": "S0010",
+      "name": "fixtures/orientation-5.jpg",
+      "sha256": "dffe577a864daedadfe9f114052ff04418a7bb3a8ea8146ea5512e5f9237d118",
+      "page": 1,
+      "cell": 7,
+      "order": 7,
+      "width": 80,
+      "height": 120,
+      "exifOrientation": 5,
+      "imageBounds": {
+        "x": 352.45,
+        "y": 202.4,
+        "width": 47.60000000000001,
+        "height": 71.4
+      },
+      "cellBounds": {
+        "x": 311,
+        "y": 197.4,
+        "width": 130.5,
+        "height": 132.4
+      },
+      "labelLines": [
+        "fixtures/orientation-5.jpg"
+      ],
+      "labelBounds": {
+        "x": 316,
+        "y": 281.8,
+        "width": 120.5,
+        "height": 30
+      },
+      "identity": "S0010 | dffe577a86"
+    },
+    {
+      "id": "S0011",
+      "name": "fixtures/orientation-6.jpg",
+      "sha256": "5f78d95b86090a0f80db08fd7080dde24939f62186a6a26153387ee5d0219500",
+      "page": 1,
+      "cell": 8,
+      "order": 8,
+      "width": 80,
+      "height": 120,
+      "exifOrientation": 6,
+      "imageBounds": {
+        "x": 492.95,
+        "y": 202.4,
+        "width": 47.60000000000001,
+        "height": 71.4
+      },
+      "cellBounds": {
+        "x": 451.5,
+        "y": 197.4,
+        "width": 130.5,
+        "height": 132.4
+      },
+      "labelLines": [
+        "fixtures/orientation-6.jpg"
+      ],
+      "labelBounds": {
+        "x": 456.5,
+        "y": 281.8,
+        "width": 120.5,
+        "height": 30
+      },
+      "identity": "S0011 | 5f78d95b86"
+    },
+    {
+      "id": "S0012",
+      "name": "fixtures/orientation-7.jpg",
+      "sha256": "760fab35350d7c881f2ccd0f5e1ebedb6727cf734ec9f660948d4f4c45e736c7",
+      "page": 1,
+      "cell": 9,
+      "order": 9,
+      "width": 80,
+      "height": 120,
+      "exifOrientation": 7,
+      "imageBounds": {
+        "x": 71.44999999999999,
+        "y": 344.8,
+        "width": 47.60000000000001,
+        "height": 71.4
+      },
+      "cellBounds": {
+        "x": 30,
+        "y": 339.8,
+        "width": 130.5,
+        "height": 132.4
+      },
+      "labelLines": [
+        "fixtures/orientation-7.jpg"
+      ],
+      "labelBounds": {
+        "x": 35,
+        "y": 424.20000000000005,
+        "width": 120.5,
+        "height": 30
+      },
+      "identity": "S0012 | 760fab3535"
+    },
+    {
+      "id": "S0013",
+      "name": "fixtures/orientation-8.jpg",
+      "sha256": "f8fe3aea7d48620b0afc0cd94396ac90fae38c63067e8089f16493689e40ed18",
+      "page": 1,
+      "cell": 10,
+      "order": 10,
+      "width": 80,
+      "height": 120,
+      "exifOrientation": 8,
+      "imageBounds": {
+        "x": 211.95,
+        "y": 344.8,
+        "width": 47.60000000000001,
+        "height": 71.4
+      },
+      "cellBounds": {
+        "x": 170.5,
+        "y": 339.8,
+        "width": 130.5,
+        "height": 132.4
+      },
+      "labelLines": [
+        "fixtures/orientation-8.jpg"
+      ],
+      "labelBounds": {
+        "x": 175.5,
+        "y": 424.20000000000005,
+        "width": 120.5,
+        "height": 30
+      },
+      "identity": "S0013 | f8fe3aea7d"
+    },
+    {
+      "id": "S0014",
+      "name": "fixtures/transparent.png",
+      "sha256": "6fc44a33e1530338e3d64bd664f98e6c4d9aca2ea6f5761f880cc365e449c1e9",
+      "page": 1,
+      "cell": 11,
+      "order": 11,
+      "width": 100,
+      "height": 70,
+      "exifOrientation": 1,
+      "imageBounds": {
+        "x": 325.25,
+        "y": 344.8,
+        "width": 102,
+        "height": 71.4
+      },
+      "cellBounds": {
+        "x": 311,
+        "y": 339.8,
+        "width": 130.5,
+        "height": 132.4
+      },
+      "labelLines": [
+        "fixtures/transparent.png"
+      ],
+      "labelBounds": {
+        "x": 316,
+        "y": 424.20000000000005,
+        "width": 120.5,
+        "height": 30
+      },
+      "identity": "S0014 | 6fc44a33e1"
+    },
+    {
+      "id": "S0015",
+      "name": "fixtures/very-long-filename-very-long-filename-very-long-filename-very-long-filename-very-long-filename-very-long-filename-very-long-filename-very-long-filename-very-long-filename-very-long-filename-end.png",
+      "sha256": "f5a125595511288e5d97ae31350f4922e30806c42cedc4a588656c7e82499364",
+      "page": 1,
+      "cell": 12,
+      "order": 12,
+      "width": 120,
+      "height": 80,
+      "exifOrientation": 1,
+      "imageBounds": {
+        "x": 463.2,
+        "y": 344.8,
+        "width": 107.10000000000001,
+        "height": 71.4
+      },
+      "cellBounds": {
+        "x": 451.5,
+        "y": 339.8,
+        "width": 130.5,
+        "height": 132.4
+      },
+      "labelLines": [
+        "fixtures/very-long-filename-v",
+        "ery-long-filename-very-long-fi",
+        "lename-very-long-filename-..."
+      ],
+      "labelBounds": {
+        "x": 456.5,
+        "y": 424.20000000000005,
+        "width": 120.5,
+        "height": 30
+      },
+      "identity": "S0015 | f5a1255955"
+    },
+    {
+      "id": "S0016",
+      "name": "fixtures/東京-é-😀.png",
+      "sha256": "f5a125595511288e5d97ae31350f4922e30806c42cedc4a588656c7e82499364",
+      "page": 1,
+      "cell": 13,
+      "order": 13,
+      "width": 120,
+      "height": 80,
+      "exifOrientation": 1,
+      "imageBounds": {
+        "x": 41.699999999999996,
+        "y": 487.20000000000005,
+        "width": 107.10000000000001,
+        "height": 71.4
+      },
+      "cellBounds": {
+        "x": 30,
+        "y": 482.20000000000005,
+        "width": 130.5,
+        "height": 132.4
+      },
+      "labelLines": [
+        "fixtures/[U+6771][U+4EAC]-[",
+        "U+00E9]-[U+1F600].png"
+      ],
+      "labelBounds": {
+        "x": 35,
+        "y": 566.6,
+        "width": 120.5,
+        "height": 30
+      },
+      "identity": "S0016 | f5a1255955"
+    }
+  ],
+  "inputs": [
+    {
+      "id": "S0001",
+      "name": "fixtures/a/duplicate.png",
+      "sha256": "f5a125595511288e5d97ae31350f4922e30806c42cedc4a588656c7e82499364",
+      "bytes": 370,
+      "status": "included",
+      "reason": "Selected by user"
+    },
+    {
+      "id": "S0002",
+      "name": "fixtures/animated.gif",
+      "sha256": "2b5e3ba425caf41cf0aa080beb6d830843e4615f7e402a1221bbc1fdb94ecf01",
+      "bytes": 66,
+      "status": "rejected",
+      "reason": "Animated or multipage images are not supported"
+    },
+    {
+      "id": "S0003",
+      "name": "fixtures/b/duplicate.png",
+      "sha256": "f5a125595511288e5d97ae31350f4922e30806c42cedc4a588656c7e82499364",
+      "bytes": 370,
+      "status": "included",
+      "reason": "Selected by user"
+    },
+    {
+      "id": "S0004",
+      "name": "fixtures/broken.jpg",
+      "sha256": "bd2e9d2f954f38a9ac7b34710a1361a8565c92e0ea7b008a42df4732756d35cd",
+      "bytes": 34,
+      "status": "rejected",
+      "reason": "Input buffer contains unsupported image format"
+    },
+    {
+      "id": "S0005",
+      "name": "fixtures/notes.txt",
+      "sha256": "32506e1611ef0ebe847a987196f4718537b04a101466ab11317ae951b76c1a2d",
+      "bytes": 28,
+      "status": "rejected",
+      "reason": "Input buffer contains unsupported image format"
+    },
+    {
+      "id": "S0006",
+      "name": "fixtures/orientation-1.jpg",
+      "sha256": "d3936ef7bbc4d2a418ee97c9aafcb1f8a3bb286fb3d15cf44a3e6cd7d87b8e6e",
+      "bytes": 1486,
+      "status": "included",
+      "reason": "Selected by user"
+    },
+    {
+      "id": "S0007",
+      "name": "fixtures/orientation-2.jpg",
+      "sha256": "533d76cdbae41a22f1ae2cda51434d4dbbe170b4669e3cf82ddb46c7c23a2d8b",
+      "bytes": 1486,
+      "status": "included",
+      "reason": "Selected by user"
+    },
+    {
+      "id": "S0008",
+      "name": "fixtures/orientation-3.jpg",
+      "sha256": "d870b460f602f15b447cb75745f4121d69d1ecf575ca425e423f402e89f362d1",
+      "bytes": 1486,
+      "status": "included",
+      "reason": "Selected by user"
+    },
+    {
+      "id": "S0009",
+      "name": "fixtures/orientation-4.jpg",
+      "sha256": "3becb7d8d996abd53e26dcf07d1ff8dc32b800a777d6b836ac08e29127ac623b",
+      "bytes": 1486,
+      "status": "included",
+      "reason": "Selected by user"
+    },
+    {
+      "id": "S0010",
+      "name": "fixtures/orientation-5.jpg",
+      "sha256": "dffe577a864daedadfe9f114052ff04418a7bb3a8ea8146ea5512e5f9237d118",
+      "bytes": 1486,
+      "status": "included",
+      "reason": "Selected by user"
+    },
+    {
+      "id": "S0011",
+      "name": "fixtures/orientation-6.jpg",
+      "sha256": "5f78d95b86090a0f80db08fd7080dde24939f62186a6a26153387ee5d0219500",
+      "bytes": 1486,
+      "status": "included",
+      "reason": "Selected by user"
+    },
+    {
+      "id": "S0012",
+      "name": "fixtures/orientation-7.jpg",
+      "sha256": "760fab35350d7c881f2ccd0f5e1ebedb6727cf734ec9f660948d4f4c45e736c7",
+      "bytes": 1486,
+      "status": "included",
+      "reason": "Selected by user"
+    },
+    {
+      "id": "S0013",
+      "name": "fixtures/orientation-8.jpg",
+      "sha256": "f8fe3aea7d48620b0afc0cd94396ac90fae38c63067e8089f16493689e40ed18",
+      "bytes": 1486,
+      "status": "included",
+      "reason": "Selected by user"
+    },
+    {
+      "id": "S0014",
+      "name": "fixtures/transparent.png",
+      "sha256": "6fc44a33e1530338e3d64bd664f98e6c4d9aca2ea6f5761f880cc365e449c1e9",
+      "bytes": 342,
+      "status": "included",
+      "reason": "Selected by user"
+    },
+    {
+      "id": "S0015",
+      "name": "fixtures/very-long-filename-very-long-filename-very-long-filename-very-long-filename-very-long-filename-very-long-filename-very-long-filename-very-long-filename-very-long-filename-very-long-filename-end.png",
+      "sha256": "f5a125595511288e5d97ae31350f4922e30806c42cedc4a588656c7e82499364",
+      "bytes": 370,
+      "status": "included",
+      "reason": "Selected by user"
+    },
+    {
+      "id": "S0016",
+      "name": "fixtures/東京-é-😀.png",
+      "sha256": "f5a125595511288e5d97ae31350f4922e30806c42cedc4a588656c7e82499364",
+      "bytes": 370,
+      "status": "included",
+      "reason": "Selected by user"
+    }
+  ]
+}
