@@ -1,0 +1,2633 @@
+{
+  "retrieved_at": "2026-10-19T16:50:36.681Z",
+  "license": "CC0",
+  "license_url": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
+  "api_docs": "https://metmuseum.github.io/",
+  "images": [
+    {
+      "filename": "436500.jpg",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/57101.jpg",
+      "metadata_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/436500",
+      "record_url": "https://www.metmuseum.org/art/collection/search/436500",
+      "record": {
+        "objectID": 436500,
+        "isHighlight": false,
+        "accessionNumber": "24.80.509",
+        "accessionYear": "1924",
+        "isPublicDomain": true,
+        "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/57101.jpg",
+        "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/57101.jpg",
+        "additionalImages": [],
+        "constituents": [
+          {
+            "constituentID": 166173,
+            "role": "Artist",
+            "name": "Attributed to Richard Gibson",
+            "constituentULAN_URL": "http://vocab.getty.edu/page/ulan/500027234",
+            "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q2779250",
+            "gender": ""
+          }
+        ],
+        "department": "European Paintings",
+        "objectName": "Painting, miniature",
+        "title": "Portrait of a Man, Said to Be John Cecil (1628–1678), Fourth Earl of Exeter",
+        "culture": "",
+        "period": "",
+        "dynasty": "",
+        "reign": "",
+        "portfolio": "",
+        "artistRole": "Artist",
+        "artistPrefix": "Attributed to",
+        "artistDisplayName": "Richard Gibson",
+        "artistDisplayBio": "British, 1605/15?–1690 London",
+        "artistSuffix": "",
+        "artistAlphaSort": "Gibson, Richard",
+        "artistNationality": "British",
+        "artistBeginDate": "1605",
+        "artistEndDate": "1690",
+        "artistGender": "",
+        "artistWikidata_URL": "https://www.wikidata.org/wiki/Q2779250",
+        "artistULAN_URL": "http://vocab.getty.edu/page/ulan/500027234",
+        "objectDate": "ca. 1670",
+        "objectBeginDate": 1665,
+        "objectEndDate": 1675,
+        "medium": "Vellum laid on card",
+        "dimensions": "Oval, 2 7/8 x 2 3/8 in. (72 x 59 mm)",
+        "measurements": [
+          {
+            "elementName": "Overall",
+            "elementDescription": null,
+            "elementMeasurements": {
+              "Height": 7.3,
+              "Width": 6
+            }
+          }
+        ],
+        "creditLine": "Bequest of Mary Clark Thompson, 1923",
+        "geographyType": "",
+        "city": "",
+        "state": "",
+        "county": "",
+        "country": "",
+        "region": "",
+        "subregion": "",
+        "locale": "",
+        "locus": "",
+        "excavation": "",
+        "river": "",
+        "classification": "Miniatures",
+        "rightsAndReproduction": "",
+        "linkResource": "",
+        "metadataDate": "2024-10-03T04:53:53.567Z",
+        "repository": "Metropolitan Museum of Art, New York, NY",
+        "objectURL": "https://www.metmuseum.org/art/collection/search/436500",
+        "tags": [
+          {
+            "term": "Men",
+            "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+            "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+          },
+          {
+            "term": "Portraits",
+            "AAT_URL": "http://vocab.getty.edu/page/aat/300015637",
+            "Wikidata_URL": "https://www.wikidata.org/wiki/Q134307"
+          }
+        ],
+        "objectWikidata_URL": "https://www.wikidata.org/wiki/Q19913820",
+        "isTimelineWork": false,
+        "GalleryNumber": ""
+      },
+      "sha256": "344eccd5c5cee4364bb1674a4f0cb9b8abb7d68a9eb889d03bb36e0923522722",
+      "bytes": 46910
+    },
+    {
+      "filename": "436501.jpg",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/ep26.168.33.R.jpg",
+      "metadata_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/436501",
+      "record_url": "https://www.metmuseum.org/art/collection/search/436501",
+      "record": {
+        "objectID": 436501,
+        "isHighlight": false,
+        "accessionNumber": "26.168.33",
+        "accessionYear": "1926",
+        "isPublicDomain": true,
+        "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/ep26.168.33.R.jpg",
+        "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/ep26.168.33.R.jpg",
+        "additionalImages": [],
+        "constituents": [
+          {
+            "constituentID": 108642,
+            "role": "Artist",
+            "name": "Giovanni Battista Gigola",
+            "constituentULAN_URL": "http://vocab.getty.edu/page/ulan/500013912",
+            "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q18508242",
+            "gender": ""
+          }
+        ],
+        "department": "European Paintings",
+        "objectName": "Painting, miniature",
+        "title": "Francesca Ghirardi Lechi (1773–1806)",
+        "culture": "",
+        "period": "",
+        "dynasty": "",
+        "reign": "",
+        "portfolio": "",
+        "artistRole": "Artist",
+        "artistPrefix": "",
+        "artistDisplayName": "Giovanni Battista Gigola",
+        "artistDisplayBio": "Italian, Brescian, 1767–1841",
+        "artistSuffix": "",
+        "artistAlphaSort": "Gigola, Giovanni Battista",
+        "artistNationality": "Italian",
+        "artistBeginDate": "1767",
+        "artistEndDate": "1841",
+        "artistGender": "",
+        "artistWikidata_URL": "https://www.wikidata.org/wiki/Q18508242",
+        "artistULAN_URL": "http://vocab.getty.edu/page/ulan/500013912",
+        "objectDate": "",
+        "objectBeginDate": 1789,
+        "objectEndDate": 1841,
+        "medium": "Ivory",
+        "dimensions": "Diameter 2 5/8 in. (66 mm)",
+        "measurements": [
+          {
+            "elementName": "Overall",
+            "elementDescription": null,
+            "elementMeasurements": {
+              "Height": 6.7,
+              "Width": 6.7
+            }
+          }
+        ],
+        "creditLine": "Bequest of Collis P. Huntington, 1900",
+        "geographyType": "",
+        "city": "",
+        "state": "",
+        "county": "",
+        "country": "",
+        "region": "",
+        "subregion": "",
+        "locale": "",
+        "locus": "",
+        "excavation": "",
+        "river": "",
+        "classification": "Miniatures",
+        "rightsAndReproduction": "",
+        "linkResource": "",
+        "metadataDate": "2025-01-30T04:54:21.21Z",
+        "repository": "Metropolitan Museum of Art, New York, NY",
+        "objectURL": "https://www.metmuseum.org/art/collection/search/436501",
+        "tags": [
+          {
+            "term": "Portraits",
+            "AAT_URL": "http://vocab.getty.edu/page/aat/300015637",
+            "Wikidata_URL": "https://www.wikidata.org/wiki/Q134307"
+          },
+          {
+            "term": "Female Nudes",
+            "AAT_URL": "http://vocab.getty.edu/page/aat/300189568",
+            "Wikidata_URL": "https://www.wikidata.org/wiki/Q40446"
+          }
+        ],
+        "objectWikidata_URL": "https://www.wikidata.org/wiki/Q19913821",
+        "isTimelineWork": false,
+        "GalleryNumber": ""
+      },
+      "sha256": "270adc373b2f416a96772cd5353f8141030852b3df6033c31a0199f817e0a69e",
+      "bytes": 102771
+    },
+    {
+      "filename": "436502.jpg",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-22842-001.jpg",
+      "metadata_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/436502",
+      "record_url": "https://www.metmuseum.org/art/collection/search/436502",
+      "record": {
+        "objectID": 436502,
+        "isHighlight": false,
+        "accessionNumber": "1973.311.2",
+        "accessionYear": "1973",
+        "isPublicDomain": true,
+        "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP-22842-001.jpg",
+        "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-22842-001.jpg",
+        "additionalImages": [
+          "https://images.metmuseum.org/CRDImages/ep/original/LC-1973_311_2-2.jpg",
+          "https://images.metmuseum.org/CRDImages/ep/original/LC-1973_311_2-3.jpg"
+        ],
+        "constituents": [
+          {
+            "constituentID": 161936,
+            "role": "Artist",
+            "name": "Luca Giordano",
+            "constituentULAN_URL": "http://vocab.getty.edu/page/ulan/500115457",
+            "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q332494",
+            "gender": ""
+          }
+        ],
+        "department": "European Paintings",
+        "objectName": "Painting",
+        "title": "The Annunciation",
+        "culture": "",
+        "period": "",
+        "dynasty": "",
+        "reign": "",
+        "portfolio": "",
+        "artistRole": "Artist",
+        "artistPrefix": "",
+        "artistDisplayName": "Luca Giordano",
+        "artistDisplayBio": "Italian, Naples 1634–1705 Naples",
+        "artistSuffix": "",
+        "artistAlphaSort": "Giordano, Luca",
+        "artistNationality": "Italian",
+        "artistBeginDate": "1634",
+        "artistEndDate": "1705",
+        "artistGender": "",
+        "artistWikidata_URL": "https://www.wikidata.org/wiki/Q332494",
+        "artistULAN_URL": "http://vocab.getty.edu/page/ulan/500115457",
+        "objectDate": "1672",
+        "objectBeginDate": 1672,
+        "objectEndDate": 1672,
+        "medium": "Oil on canvas",
+        "dimensions": "93 1/8 x 66 7/8 in. (236.5 x 169.9 cm)",
+        "measurements": [
+          {
+            "elementName": "Overall",
+            "elementDescription": null,
+            "elementMeasurements": {
+              "Height": 236.5,
+              "Width": 169.9
+            }
+          },
+          {
+            "elementName": "Framed",
+            "elementDescription": null,
+            "elementMeasurements": {
+              "Height": 257.81052,
+              "Width": 192.7
+            }
+          },
+          {
+            "elementName": "Other",
+            "elementDescription": "Picture + Frame ",
+            "elementMeasurements": {
+              "Weight": 47.62769
+            }
+          }
+        ],
+        "creditLine": "Gift of Mr. and Mrs. Charles Wrightsman, 1973",
+        "geographyType": "",
+        "city": "",
+        "state": "",
+        "county": "",
+        "country": "",
+        "region": "",
+        "subregion": "",
+        "locale": "",
+        "locus": "",
+        "excavation": "",
+        "river": "",
+        "classification": "Paintings",
+        "rightsAndReproduction": "",
+        "linkResource": "",
+        "metadataDate": "2026-10-06T04:59:37.62Z",
+        "repository": "Metropolitan Museum of Art, New York, NY",
+        "objectURL": "https://www.metmuseum.org/art/collection/search/436502",
+        "tags": [
+          {
+            "term": "Lilies",
+            "AAT_URL": "http://vocab.getty.edu/page/aat/300375591",
+            "Wikidata_URL": "https://www.wikidata.org/wiki/Q40458125"
+          },
+          {
+            "term": "Angels",
+            "AAT_URL": "http://vocab.getty.edu/page/aat/300379004",
+            "Wikidata_URL": "https://www.wikidata.org/wiki/Q235113"
+          },
+          {
+            "term": "Virgin Mary",
+            "AAT_URL": "http://vocab.getty.edu/page/ia/901000032",
+            "Wikidata_URL": "https://www.wikidata.org/wiki/Q345"
+          },
+          {
+            "term": "Archangel Gabriel",
+            "AAT_URL": "http://vocab.getty.edu/page/ia/901000493",
+            "Wikidata_URL": "https://www.wikidata.org/wiki/Q81989"
+          },
+          {
+            "term": "Annunciation",
+            "AAT_URL": "http://vocab.getty.edu/page/aat/300412102",
+            "Wikidata_URL": "https://www.wikidata.org/wiki/Q154326"
+          }
+        ],
+        "objectWikidata_URL": "https://www.wikidata.org/wiki/Q19911552",
+        "isTimelineWork": true,
+        "GalleryNumber": ""
+      },
+      "sha256": "bcc9315a5eccf1e557920d8527bab11e4a9cbb7d6a8910a29ad23ff9f0ad6e94",
+      "bytes": 94350
+    },
+    {
+      "filename": "436503.jpg",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-24117-001.jpg",
+      "metadata_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/436503",
+      "record_url": "https://www.metmuseum.org/art/collection/search/436503",
+      "record": {
+        "objectID": 436503,
+        "isHighlight": false,
+        "accessionNumber": "61.50",
+        "accessionYear": "1961",
+        "isPublicDomain": true,
+        "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP-24117-001.jpg",
+        "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-24117-001.jpg",
+        "additionalImages": [
+          "https://images.metmuseum.org/CRDImages/ep/original/LC-61_50-2.jpg",
+          "https://images.metmuseum.org/CRDImages/ep/original/LC-61_50-3.jpg"
+        ],
+        "constituents": [
+          {
+            "constituentID": 161936,
+            "role": "Artist",
+            "name": "Luca Giordano",
+            "constituentULAN_URL": "http://vocab.getty.edu/page/ulan/500115457",
+            "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q332494",
+            "gender": ""
+          }
+        ],
+        "department": "European Paintings",
+        "objectName": "Painting",
+        "title": "The Flight into Egypt",
+        "culture": "",
+        "period": "",
+        "dynasty": "",
+        "reign": "",
+        "portfolio": "",
+        "artistRole": "Artist",
+        "artistPrefix": "",
+        "artistDisplayName": "Luca Giordano",
+        "artistDisplayBio": "Italian, Naples 1634–1705 Naples",
+        "artistSuffix": "",
+        "artistAlphaSort": "Giordano, Luca",
+        "artistNationality": "Italian",
+        "artistBeginDate": "1634",
+        "artistEndDate": "1705",
+        "artistGender": "",
+        "artistWikidata_URL": "https://www.wikidata.org/wiki/Q332494",
+        "artistULAN_URL": "http://vocab.getty.edu/page/ulan/500115457",
+        "objectDate": "1701",
+        "objectBeginDate": 1701,
+        "objectEndDate": 1701,
+        "medium": "Oil on canvas",
+        "dimensions": "24 1/4 x 19 1/4 in. (61.5 x 48.9 cm)",
+        "measurements": [
+          {
+            "elementName": "Overall",
+            "elementDescription": null,
+            "elementMeasurements": {
+              "Height": 61.6,
+              "Width": 48.9
+            }
+          }
+        ],
+        "creditLine": "Gift of Mr. and Mrs. Harold Morton Landon, 1961",
+        "geographyType": "",
+        "city": "",
+        "state": "",
+        "county": "",
+        "country": "",
+        "region": "",
+        "subregion": "",
+        "locale": "",
+        "locus": "",
+        "excavation": "",
+        "river": "",
+        "classification": "Paintings",
+        "rightsAndReproduction": "",
+        "linkResource": "",
+        "metadataDate": "2026-10-06T04:59:37.62Z",
+        "repository": "Metropolitan Museum of Art, New York, NY",
+        "objectURL": "https://www.metmuseum.org/art/collection/search/436503",
+        "tags": [
+          {
+            "term": "Angels",
+            "AAT_URL": "http://vocab.getty.edu/page/aat/300379004",
+            "Wikidata_URL": "https://www.wikidata.org/wiki/Q235113"
+          },
+          {
+            "term": "Christ",
+            "AAT_URL": "http://vocab.getty.edu/page/ia/901000087",
+            "Wikidata_URL": "https://www.wikidata.org/wiki/Q642420"
+          },
+          {
+            "term": "Holy Family",
+            "AAT_URL": "http://vocab.getty.edu/page/ia/901001175",
+            "Wikidata_URL": "https://www.wikidata.org/wiki/Q618057"
+          },
+          {
+            "term": "Saint Joseph",
+            "AAT_URL": "http://vocab.getty.edu/page/ia/901000953",
+            "Wikidata_URL": "https://www.wikidata.org/wiki/Q128267"
+          },
+          {
+            "term": "Virgin Mary",
+            "AAT_URL": "http://vocab.getty.edu/page/ia/901000032",
+            "Wikidata_URL": "https://www.wikidata.org/wiki/Q345"
+          },
+          {
+            "term": "Boats",
+            "AAT_URL": "http://vocab.getty.edu/page/aat/300178749",
+            "Wikidata_URL": "https://www.wikidata.org/wiki/Q35872"
+          }
+        ],
+        "objectWikidata_URL": "https://www.wikidata.org/wiki/Q19911994",
+        "isTimelineWork": true,
+        "GalleryNumber": "624"
+      },
+      "sha256": "3fec498b88ea9dc68fa08a6e91b1abc6e801d08955a526d0cc47785e34a7a180",
+      "bytes": 115746
+    },
+    {
+      "filename": "436504.jpg",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-31416-001.jpg",
+      "metadata_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/436504",
+      "record_url": "https://www.metmuseum.org/art/collection/search/436504",
+      "record": {
+        "objectID": 436504,
+        "isHighlight": true,
+        "accessionNumber": "11.126.1",
+        "accessionYear": "1911",
+        "isPublicDomain": true,
+        "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP-31416-001.jpg",
+        "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-31416-001.jpg",
+        "additionalImages": [
+          "https://images.metmuseum.org/CRDImages/ep/original/DP-19501-002.jpg"
+        ],
+        "constituents": [
+          {
+            "constituentID": 107703,
+            "role": "Artist",
+            "name": "Giotto di Bondone",
+            "constituentULAN_URL": "http://vocab.getty.edu/page/ulan/500010766",
+            "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q7814",
+            "gender": ""
+          }
+        ],
+        "department": "European Paintings",
+        "objectName": "Painting",
+        "title": "The Adoration of the Magi",
+        "culture": "",
+        "period": "",
+        "dynasty": "",
+        "reign": "",
+        "portfolio": "",
+        "artistRole": "Artist",
+        "artistPrefix": "",
+        "artistDisplayName": "Giotto di Bondone",
+        "artistDisplayBio": "Italian, Florentine, 1266/76–1337",
+        "artistSuffix": "",
+        "artistAlphaSort": "Giotto di Bondone",
+        "artistNationality": "Italian",
+        "artistBeginDate": "1266",
+        "artistEndDate": "1337",
+        "artistGender": "",
+        "artistWikidata_URL": "https://www.wikidata.org/wiki/Q7814",
+        "artistULAN_URL": "http://vocab.getty.edu/page/ulan/500010766",
+        "objectDate": "possibly ca. 1320",
+        "objectBeginDate": 1315,
+        "objectEndDate": 1325,
+        "medium": "Tempera on wood, gold ground",
+        "dimensions": "17 3/4 x 17 1/4 in. (45.1 x 43.8 cm)",
+        "measurements": [
+          {
+            "elementName": "Overall",
+            "elementDescription": null,
+            "elementMeasurements": {
+              "Height": 45.1,
+              "Width": 43.8
+            }
+          },
+          {
+            "elementName": "Framed",
+            "elementDescription": null,
+            "elementMeasurements": {
+              "Depth": 10.16002,
+              "Height": 60.64262,
+              "Width": 57.785114
+            }
+          },
+          {
+            "elementName": "Glazing",
+            "elementDescription": null,
+            "elementMeasurements": {
+              "Height": 47.625095,
+              "Width": 46.037594
+            }
+          }
+        ],
+        "creditLine": "John Stewart Kennedy Fund, 1911",
+        "geographyType": "",
+        "city": "",
+        "state": "",
+        "county": "",
+        "country": "",
+        "region": "",
+        "subregion": "",
+        "locale": "",
+        "locus": "",
+        "excavation": "",
+        "river": "",
+        "classification": "Paintings",
+        "rightsAndReproduction": "",
+        "linkResource": "",
+        "metadataDate": "2026-07-09T04:50:07.86Z",
+        "repository": "Metropolitan Museum of Art, New York, NY",
+        "objectURL": "https://www.metmuseum.org/art/collection/search/436504",
+        "tags": [
+          {
+            "term": "Animals",
+            "AAT_URL": "http://vocab.getty.edu/page/aat/300249525",
+            "Wikidata_URL": "https://www.wikidata.org/wiki/Q729"
+          },
+          {
+            "term": "Angels",
+            "AAT_URL": "http://vocab.getty.edu/page/aat/300379004",
+            "Wikidata_URL": "https://www.wikidata.org/wiki/Q235113"
+          },
+          {
+            "term": "Jesus",
+            "AAT_URL": "http://vocab.getty.edu/page/ia/901000087",
+            "Wikidata_URL": "https://www.wikidata.org/wiki/Q302"
+          },
+          {
+            "term": "Adoration of the Magi",
+            "AAT_URL": "http://vocab.getty.edu/page/ia/901000083",
+            "Wikidata_URL": "https://www.wikidata.org/wiki/Q488841"
+          }
+        ],
+        "objectWikidata_URL": "https://www.wikidata.org/wiki/Q19911414",
+        "isTimelineWork": true,
+        "GalleryNumber": "601"
+      },
+      "sha256": "c7bc4afa5ccc1266096691ce8762c7059f1f373b8e7a6fdec47f5a4caa3f4e49",
+      "bytes": 239941
+    },
+    {
+      "filename": "436506.jpg",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-18296-011.jpg",
+      "metadata_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/436506",
+      "record_url": "https://www.metmuseum.org/art/collection/search/436506",
+      "record": {
+        "objectID": 436506,
+        "isHighlight": false,
+        "accessionNumber": "07.200",
+        "accessionYear": "1907",
+        "isPublicDomain": true,
+        "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP-18296-011.jpg",
+        "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-18296-011.jpg",
+        "additionalImages": [],
+        "constituents": [
+          {
+            "constituentID": 107705,
+            "role": "Artist",
+            "name": "Giovanni da Milano",
+            "constituentULAN_URL": "http://vocab.getty.edu/page/ulan/500012251",
+            "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q2628927",
+            "gender": ""
+          }
+        ],
+        "department": "European Paintings",
+        "objectName": "Painting, lunette",
+        "title": "Madonna and Child with Donors",
+        "culture": "",
+        "period": "",
+        "dynasty": "",
+        "reign": "",
+        "portfolio": "",
+        "artistRole": "Artist",
+        "artistPrefix": "",
+        "artistDisplayName": "Giovanni da Milano",
+        "artistDisplayBio": "Italian, born Lombardy, active Florence 1346–69",
+        "artistSuffix": "",
+        "artistAlphaSort": "Giovanni da Milano",
+        "artistNationality": "Italian",
+        "artistBeginDate": "1346",
+        "artistEndDate": "1369",
+        "artistGender": "",
+        "artistWikidata_URL": "https://www.wikidata.org/wiki/Q2628927",
+        "artistULAN_URL": "http://vocab.getty.edu/page/ulan/500012251",
+        "objectDate": "ca. 1365",
+        "objectBeginDate": 1360,
+        "objectEndDate": 1370,
+        "medium": "Tempera on wood, gold ground",
+        "dimensions": "27 1/8 x 56 3/4 in. (68.9 x 144.1 cm)",
+        "measurements": [
+          {
+            "elementName": "Overall",
+            "elementDescription": null,
+            "elementMeasurements": {
+              "Depth": 6.6675,
+              "Height": 68.8976,
+              "Width": 144.1453
+            }
+          }
+        ],
+        "creditLine": "Rogers Fund, 1907",
+        "geographyType": "",
+        "city": "",
+        "state": "",
+        "county": "",
+        "country": "",
+        "region": "",
+        "subregion": "",
+        "locale": "",
+        "locus": "",
+        "excavation": "",
+        "river": "",
+        "classification": "Paintings",
+        "rightsAndReproduction": "",
+        "linkResource": "",
+        "metadataDate": "2025-01-30T04:54:21.21Z",
+        "repository": "Metropolitan Museum of Art, New York, NY",
+        "objectURL": "https://www.metmuseum.org/art/collection/search/436506",
+        "tags": [
+          {
+            "term": "Women",
+            "AAT_URL": "http://vocab.getty.edu/page/aat/300025943",
+            "Wikidata_URL": "https://www.wikidata.org/wiki/Q467"
+          },
+          {
+            "term": "Lilies",
+            "AAT_URL": "http://vocab.getty.edu/page/aat/300375591",
+            "Wikidata_URL": "https://www.wikidata.org/wiki/Q40458125"
+          },
+          {
+            "term": "Madonna and Child",
+            "AAT_URL": "http://vocab.getty.edu/page/ia/901000052",
+            "Wikidata_URL": "https://www.wikidata.org/wiki/Q9309699"
+          },
+          {
+            "term": "Jesus",
+            "AAT_URL": "http://vocab.getty.edu/page/ia/901000087",
+            "Wikidata_URL": "https://www.wikidata.org/wiki/Q302"
+          }
+        ],
+        "objectWikidata_URL": "https://www.wikidata.org/wiki/Q19911621",
+        "isTimelineWork": false,
+        "GalleryNumber": "601"
+      },
+      "sha256": "1e85183ed68e273a0eca3a3c0677e5037cb9726ca7b0dc12f0a049e3d246ce92",
+      "bytes": 94729
+    },
+    {
+      "filename": "436508.jpg",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/LC-32_100_76-1.jpg",
+      "metadata_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/436508",
+      "record_url": "https://www.metmuseum.org/art/collection/search/436508",
+      "record": {
+        "objectID": 436508,
+        "isHighlight": false,
+        "accessionNumber": "32.100.76",
+        "accessionYear": "1932",
+        "isPublicDomain": true,
+        "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/LC-32_100_76-1.jpg",
+        "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/LC-32_100_76-1.jpg",
+        "additionalImages": [],
+        "constituents": [
+          {
+            "constituentID": 161939,
+            "role": "Artist",
+            "name": "Giovanni di Paolo (Giovanni di Paolo di Grazia)",
+            "constituentULAN_URL": "http://vocab.getty.edu/page/ulan/500116438",
+            "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q946420",
+            "gender": ""
+          }
+        ],
+        "department": "European Paintings",
+        "objectName": "Painting, polyptych",
+        "title": "Madonna and Child with Saints",
+        "culture": "",
+        "period": "",
+        "dynasty": "",
+        "reign": "",
+        "portfolio": "",
+        "artistRole": "Artist",
+        "artistPrefix": "",
+        "artistDisplayName": "Giovanni di Paolo (Giovanni di Paolo di Grazia)",
+        "artistDisplayBio": "Italian, Siena 1398–1482 Siena",
+        "artistSuffix": "",
+        "artistAlphaSort": "Giovanni di Paolo (Giovanni di Paolo di Grazia)",
+        "artistNationality": "Italian",
+        "artistBeginDate": "1398",
+        "artistEndDate": "1482",
+        "artistGender": "",
+        "artistWikidata_URL": "https://www.wikidata.org/wiki/Q946420",
+        "artistULAN_URL": "http://vocab.getty.edu/page/ulan/500116438",
+        "objectDate": "1454",
+        "objectBeginDate": 1454,
+        "objectEndDate": 1454,
+        "medium": "Tempera on wood, gold ground",
+        "dimensions": "Central panel 82 3/4 x 25 7/8 in. (210.2 x 65.7 cm); left panels 70 7/8 x 16 7/8 in. (180 x 42.9 cm), 70 7/8 x 16 3/4 in. (180 x 42.5 cm); right panels 70 7/8 x 16 7/8 in. (180 x 42.9 cm), 70 7/8 x 16 3/4 in. (180 x 42.5 cm)",
+        "measurements": [
+          {
+            "elementName": "Overall",
+            "elementDescription": null,
+            "elementMeasurements": {
+              "Height": 210.2,
+              "Width": 65.7
+            }
+          }
+        ],
+        "creditLine": "The Friedsam Collection, Bequest of Michael Friedsam, 1931",
+        "geographyType": "",
+        "city": "",
+        "state": "",
+        "county": "",
+        "country": "",
+        "region": "",
+        "subregion": "",
+        "locale": "",
+        "locus": "",
+        "excavation": "",
+        "river": "",
+        "classification": "Paintings",
+        "rightsAndReproduction": "",
+        "linkResource": "",
+        "metadataDate": "2025-04-09T04:57:24.78Z",
+        "repository": "Metropolitan Museum of Art, New York, NY",
+        "objectURL": "https://www.metmuseum.org/art/collection/search/436508",
+        "tags": [
+          {
+            "term": "Musical Instruments",
+            "AAT_URL": "http://vocab.getty.edu/page/aat/300041620",
+            "Wikidata_URL": "https://www.wikidata.org/wiki/Q34379"
+          },
+          {
+            "term": "Madonna and Child",
+            "AAT_URL": "http://vocab.getty.edu/page/ia/901000052",
+            "Wikidata_URL": "https://www.wikidata.org/wiki/Q9309699"
+          },
+          {
+            "term": "Saint John the Baptist",
+            "AAT_URL": "http://vocab.getty.edu/page/ia/901001056",
+            "Wikidata_URL": "https://www.wikidata.org/wiki/Q40662"
+          },
+          {
+            "term": "Saints",
+            "AAT_URL": "http://vocab.getty.edu/page/aat/300150555",
+            "Wikidata_URL": "https://www.wikidata.org/wiki/Q43115"
+          }
+        ],
+        "objectWikidata_URL": "https://www.wikidata.org/wiki/Q20166951",
+        "isTimelineWork": false,
+        "GalleryNumber": "601"
+      },
+      "sha256": "21234cda63f7114e60b761db0cfdb793a4d2491a8035b77f17c95a2422b0fcc5",
+      "bytes": 220270
+    },
+    {
+      "filename": "436509.jpg",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DT2580.jpg",
+      "metadata_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/436509",
+      "record_url": "https://www.metmuseum.org/art/collection/search/436509",
+      "record": {
+        "objectID": 436509,
+        "isHighlight": false,
+        "accessionNumber": "1982.60.4",
+        "accessionYear": "1982",
+        "isPublicDomain": true,
+        "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DT2580.jpg",
+        "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DT2580.jpg",
+        "additionalImages": [],
+        "constituents": [
+          {
+            "constituentID": 161939,
+            "role": "Artist",
+            "name": "Giovanni di Paolo (Giovanni di Paolo di Grazia)",
+            "constituentULAN_URL": "http://vocab.getty.edu/page/ulan/500116438",
+            "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q946420",
+            "gender": ""
+          }
+        ],
+        "department": "European Paintings",
+        "objectName": "Painting",
+        "title": "The Adoration of the Magi",
+        "culture": "",
+        "period": "",
+        "dynasty": "",
+        "reign": "",
+        "portfolio": "",
+        "artistRole": "Artist",
+        "artistPrefix": "",
+        "artistDisplayName": "Giovanni di Paolo (Giovanni di Paolo di Grazia)",
+        "artistDisplayBio": "Italian, Siena 1398–1482 Siena",
+        "artistSuffix": "",
+        "artistAlphaSort": "Giovanni di Paolo (Giovanni di Paolo di Grazia)",
+        "artistNationality": "Italian",
+        "artistBeginDate": "1398",
+        "artistEndDate": "1482",
+        "artistGender": "",
+        "artistWikidata_URL": "https://www.wikidata.org/wiki/Q946420",
+        "artistULAN_URL": "http://vocab.getty.edu/page/ulan/500116438",
+        "objectDate": "ca. 1460",
+        "objectBeginDate": 1455,
+        "objectEndDate": 1465,
+        "medium": "Tempera and gold on wood",
+        "dimensions": "10 5/8 x 9 1/8 in. (27 x 23.2 cm)",
+        "measurements": [
+          {
+            "elementName": "Overall",
+            "elementDescription": null,
+            "elementMeasurements": {
+              "Height": 27,
+              "Width": 23.2
+            }
+          }
+        ],
+        "creditLine": "The Jack and Belle Linsky Collection, 1982",
+        "geographyType": "",
+        "city": "",
+        "state": "",
+        "county": "",
+        "country": "",
+        "region": "",
+        "subregion": "",
+        "locale": "",
+        "locus": "",
+        "excavation": "",
+        "river": "",
+        "classification": "Paintings",
+        "rightsAndReproduction": "",
+        "linkResource": "",
+        "metadataDate": "2025-09-25T04:51:07.587Z",
+        "repository": "Metropolitan Museum of Art, New York, NY",
+        "objectURL": "https://www.metmuseum.org/art/collection/search/436509",
+        "tags": [
+          {
+            "term": "Cows",
+            "AAT_URL": "http://vocab.getty.edu/page/aat/300250120",
+            "Wikidata_URL": "https://www.wikidata.org/wiki/Q830"
+          },
+          {
+            "term": "Donkeys",
+            "AAT_URL": "http://vocab.getty.edu/page/aat/300265959",
+            "Wikidata_URL": "https://www.wikidata.org/wiki/Q3537778"
+          },
+          {
+            "term": "Horses",
+            "AAT_URL": "http://vocab.getty.edu/page/aat/300250148",
+            "Wikidata_URL": "https://www.wikidata.org/wiki/Q726"
+          },
+          {
+            "term": "Christ",
+            "AAT_URL": "http://vocab.getty.edu/page/ia/901000087",
+            "Wikidata_URL": "https://www.wikidata.org/wiki/Q642420"
+          },
+          {
+            "term": "Saint Joseph",
+            "AAT_URL": "http://vocab.getty.edu/page/ia/901000953",
+            "Wikidata_URL": "https://www.wikidata.org/wiki/Q128267"
+          },
+          {
+            "term": "Virgin Mary",
+            "AAT_URL": "http://vocab.getty.edu/page/ia/901000032",
+            "Wikidata_URL": "https://www.wikidata.org/wiki/Q345"
+          },
+          {
+            "term": "Adoration of the Magi",
+            "AAT_URL": "http://vocab.getty.edu/page/ia/901000083",
+            "Wikidata_URL": "https://www.wikidata.org/wiki/Q488841"
+          }
+        ],
+        "objectWikidata_URL": "https://www.wikidata.org/wiki/Q19912102",
+        "isTimelineWork": true,
+        "GalleryNumber": "537"
+      },
+      "sha256": "9a5753c32553a0926f6d2454d28e682f2925510f223d0488724c8f49dba14e34",
+      "bytes": 193348
+    },
+    {
+      "filename": "436510.jpg",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DT269020.jpg",
+      "metadata_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/436510",
+      "record_url": "https://www.metmuseum.org/art/collection/search/436510",
+      "record": {
+        "objectID": 436510,
+        "isHighlight": false,
+        "accessionNumber": "41.190.16",
+        "accessionYear": "1941",
+        "isPublicDomain": true,
+        "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DT269020.jpg",
+        "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DT269020.jpg",
+        "additionalImages": [
+          "https://images.metmuseum.org/CRDImages/ep/original/SF 41.190.16.jpg"
+        ],
+        "constituents": [
+          {
+            "constituentID": 161939,
+            "role": "Artist",
+            "name": "Giovanni di Paolo (Giovanni di Paolo di Grazia)",
+            "constituentULAN_URL": "http://vocab.getty.edu/page/ulan/500116438",
+            "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q946420",
+            "gender": ""
+          }
+        ],
+        "department": "European Paintings",
+        "objectName": "Painting",
+        "title": "Madonna and Child with Two Angels and a Donor",
+        "culture": "",
+        "period": "",
+        "dynasty": "",
+        "reign": "",
+        "portfolio": "",
+        "artistRole": "Artist",
+        "artistPrefix": "",
+        "artistDisplayName": "Giovanni di Paolo (Giovanni di Paolo di Grazia)",
+        "artistDisplayBio": "Italian, Siena 1398–1482 Siena",
+        "artistSuffix": "",
+        "artistAlphaSort": "Giovanni di Paolo (Giovanni di Paolo di Grazia)",
+        "artistNationality": "Italian",
+        "artistBeginDate": "1398",
+        "artistEndDate": "1482",
+        "artistGender": "",
+        "artistWikidata_URL": "https://www.wikidata.org/wiki/Q946420",
+        "artistULAN_URL": "http://vocab.getty.edu/page/ulan/500116438",
+        "objectDate": "ca. 1445",
+        "objectBeginDate": 1440,
+        "objectEndDate": 1450,
+        "medium": "Tempera on wood, gold ground (partly checkered with modern red glazes)",
+        "dimensions": "Shaped top: overall 57 1/8 x 32 in. (145.1 x 81.3 cm); painted surface 54 1/4 x 32 in. (137.8 x 81.3 cm)",
+        "measurements": [
+          {
+            "elementName": "Overall",
+            "elementDescription": null,
+            "elementMeasurements": {
+              "Height": 145.1,
+              "Width": 81.3
+            }
+          }
+        ],
+        "creditLine": "Bequest of George Blumenthal, 1941",
+        "geographyType": "",
+        "city": "",
+        "state": "",
+        "county": "",
+        "country": "",
+        "region": "",
+        "subregion": "",
+        "locale": "",
+        "locus": "",
+        "excavation": "",
+        "river": "",
+        "classification": "Paintings",
+        "rightsAndReproduction": "",
+        "linkResource": "",
+        "metadataDate": "2025-01-30T04:54:21.21Z",
+        "repository": "Metropolitan Museum of Art, New York, NY",
+        "objectURL": "https://www.metmuseum.org/art/collection/search/436510",
+        "tags": [
+          {
+            "term": "Men",
+            "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+            "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+          },
+          {
+            "term": "Angels",
+            "AAT_URL": "http://vocab.getty.edu/page/aat/300379004",
+            "Wikidata_URL": "https://www.wikidata.org/wiki/Q235113"
+          },
+          {
+            "term": "Madonna and Child",
+            "AAT_URL": "http://vocab.getty.edu/page/ia/901000052",
+            "Wikidata_URL": "https://www.wikidata.org/wiki/Q9309699"
+          },
+          {
+            "term": "Nursing",
+            "AAT_URL": "http://vocab.getty.edu/page/aat/300379905",
+            "Wikidata_URL": "https://www.wikidata.org/wiki/Q174876"
+          }
+        ],
+        "objectWikidata_URL": "https://www.wikidata.org/wiki/Q19911996",
+        "isTimelineWork": true,
+        "GalleryNumber": ""
+      },
+      "sha256": "b52593695f13429449d93edb3951c45bd8828c68731515bb99ed506d25ddbf82",
+      "bytes": 240872
+    },
+    {
+      "filename": "436511.jpg",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-16597-001.jpg",
+      "metadata_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/436511",
+      "record_url": "https://www.metmuseum.org/art/collection/search/436511",
+      "record": {
+        "objectID": 436511,
+        "isHighlight": false,
+        "accessionNumber": "32.100.95",
+        "accessionYear": "1932",
+        "isPublicDomain": true,
+        "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP-16597-001.jpg",
+        "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-16597-001.jpg",
+        "additionalImages": [],
+        "constituents": [
+          {
+            "constituentID": 161939,
+            "role": "Artist",
+            "name": "Giovanni di Paolo (Giovanni di Paolo di Grazia)",
+            "constituentULAN_URL": "http://vocab.getty.edu/page/ulan/500116438",
+            "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q946420",
+            "gender": ""
+          }
+        ],
+        "department": "European Paintings",
+        "objectName": "Painting",
+        "title": "The Miraculous Communion of Saint Catherine of Siena",
+        "culture": "",
+        "period": "",
+        "dynasty": "",
+        "reign": "",
+        "portfolio": "",
+        "artistRole": "Artist",
+        "artistPrefix": "",
+        "artistDisplayName": "Giovanni di Paolo (Giovanni di Paolo di Grazia)",
+        "artistDisplayBio": "Italian, Siena 1398–1482 Siena",
+        "artistSuffix": "",
+        "artistAlphaSort": "Giovanni di Paolo (Giovanni di Paolo di Grazia)",
+        "artistNationality": "Italian",
+        "artistBeginDate": "1398",
+        "artistEndDate": "1482",
+        "artistGender": "",
+        "artistWikidata_URL": "https://www.wikidata.org/wiki/Q946420",
+        "artistULAN_URL": "http://vocab.getty.edu/page/ulan/500116438",
+        "objectDate": "",
+        "objectBeginDate": 1417,
+        "objectEndDate": 1482,
+        "medium": "Tempera and gold on wood",
+        "dimensions": "11 3/8 x 8 3/4 in. (28.9 x 22.2 cm)",
+        "measurements": [
+          {
+            "elementName": "Overall",
+            "elementDescription": null,
+            "elementMeasurements": {
+              "Height": 28.9,
+              "Width": 22.2
+            }
+          }
+        ],
+        "creditLine": "The Friedsam Collection, Bequest of Michael Friedsam, 1931",
+        "geographyType": "",
+        "city": "",
+        "state": "",
+        "county": "",
+        "country": "",
+        "region": "",
+        "subregion": "",
+        "locale": "",
+        "locus": "",
+        "excavation": "",
+        "river": "",
+        "classification": "Paintings",
+        "rightsAndReproduction": "",
+        "linkResource": "",
+        "metadataDate": "2026-03-05T04:55:54.84Z",
+        "repository": "Metropolitan Museum of Art, New York, NY",
+        "objectURL": "https://www.metmuseum.org/art/collection/search/436511",
+        "tags": [
+          {
+            "term": "Angels",
+            "AAT_URL": "http://vocab.getty.edu/page/aat/300379004",
+            "Wikidata_URL": "https://www.wikidata.org/wiki/Q235113"
+          },
+          {
+            "term": "Christ",
+            "AAT_URL": "http://vocab.getty.edu/page/ia/901000087",
+            "Wikidata_URL": "https://www.wikidata.org/wiki/Q642420"
+          },
+          {
+            "term": "Saint Catherine",
+            "AAT_URL": null,
+            "Wikidata_URL": null
+          }
+        ],
+        "objectWikidata_URL": "https://www.wikidata.org/wiki/Q19911708",
+        "isTimelineWork": true,
+        "GalleryNumber": "956"
+      },
+      "sha256": "04d4268ead48c7b4fd7cc6ce636057b1b905ca2400c808e287e5273b508cc4aa",
+      "bytes": 205861
+    },
+    {
+      "filename": "436512.jpg",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-19297-001.jpg",
+      "metadata_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/436512",
+      "record_url": "https://www.metmuseum.org/art/collection/search/436512",
+      "record": {
+        "objectID": 436512,
+        "isHighlight": false,
+        "accessionNumber": "06.1046",
+        "accessionYear": "1906",
+        "isPublicDomain": true,
+        "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP-19297-001.jpg",
+        "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-19297-001.jpg",
+        "additionalImages": [],
+        "constituents": [
+          {
+            "constituentID": 161939,
+            "role": "Artist",
+            "name": "Giovanni di Paolo (Giovanni di Paolo di Grazia)",
+            "constituentULAN_URL": "http://vocab.getty.edu/page/ulan/500116438",
+            "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q946420",
+            "gender": ""
+          }
+        ],
+        "department": "European Paintings",
+        "objectName": "Painting, predella panel",
+        "title": "Paradise",
+        "culture": "",
+        "period": "",
+        "dynasty": "",
+        "reign": "",
+        "portfolio": "",
+        "artistRole": "Artist",
+        "artistPrefix": "",
+        "artistDisplayName": "Giovanni di Paolo (Giovanni di Paolo di Grazia)",
+        "artistDisplayBio": "Italian, Siena 1398–1482 Siena",
+        "artistSuffix": "",
+        "artistAlphaSort": "Giovanni di Paolo (Giovanni di Paolo di Grazia)",
+        "artistNationality": "Italian",
+        "artistBeginDate": "1398",
+        "artistEndDate": "1482",
+        "artistGender": "",
+        "artistWikidata_URL": "https://www.wikidata.org/wiki/Q946420",
+        "artistULAN_URL": "http://vocab.getty.edu/page/ulan/500116438",
+        "objectDate": "1445",
+        "objectBeginDate": 1445,
+        "objectEndDate": 1445,
+        "medium": "Tempera and gold on canvas, transferred from wood",
+        "dimensions": "18 7/16 × 16 1/16 in. (46.8 × 40.8 cm); painted surface 17 1/2 x 15 1/8 in. (44.5 x 38.4 cm)",
+        "measurements": [
+          {
+            "elementName": "Overall",
+            "elementDescription": null,
+            "elementMeasurements": {
+              "Height": 46.831345,
+              "Thickness": 1.9050038,
+              "Width": 40.798832
+            }
+          },
+          {
+            "elementName": "Framed",
+            "elementDescription": null,
+            "elementMeasurements": {
+              "Depth": 8.89,
+              "Height": 62.5476,
+              "Width": 56.5151
+            }
+          }
+        ],
+        "creditLine": "Rogers Fund, 1906",
+        "geographyType": "",
+        "city": "",
+        "state": "",
+        "county": "",
+        "country": "",
+        "region": "",
+        "subregion": "",
+        "locale": "",
+        "locus": "",
+        "excavation": "",
+        "river": "",
+        "classification": "Paintings",
+        "rightsAndReproduction": "",
+        "linkResource": "",
+        "metadataDate": "2026-03-17T04:55:46.587Z",
+        "repository": "Metropolitan Museum of Art, New York, NY",
+        "objectURL": "https://www.metmuseum.org/art/collection/search/436512",
+        "tags": [
+          {
+            "term": "Gardens",
+            "AAT_URL": "http://vocab.getty.edu/page/aat/300008090",
+            "Wikidata_URL": "https://www.wikidata.org/wiki/Q1107656"
+          },
+          {
+            "term": "Men",
+            "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+            "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+          },
+          {
+            "term": "Women",
+            "AAT_URL": "http://vocab.getty.edu/page/aat/300025943",
+            "Wikidata_URL": "https://www.wikidata.org/wiki/Q467"
+          },
+          {
+            "term": "Rabbits",
+            "AAT_URL": "http://vocab.getty.edu/page/aat/300250218",
+            "Wikidata_URL": "https://www.wikidata.org/wiki/Q9394"
+          },
+          {
+            "term": "Angels",
+            "AAT_URL": "http://vocab.getty.edu/page/aat/300379004",
+            "Wikidata_URL": "https://www.wikidata.org/wiki/Q235113"
+          },
+          {
+            "term": "Saints",
+            "AAT_URL": "http://vocab.getty.edu/page/aat/300150555",
+            "Wikidata_URL": "https://www.wikidata.org/wiki/Q43115"
+          }
+        ],
+        "objectWikidata_URL": "https://www.wikidata.org/wiki/Q19911510",
+        "isTimelineWork": true,
+        "GalleryNumber": "603"
+      },
+      "sha256": "27de3c79cdc0b51554fbb3a87cada03b44f6d2010182d3ea9432c5dc0e21f08b",
+      "bytes": 227470
+    },
+    {
+      "filename": "436513.jpg",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-26503-001.jpg",
+      "metadata_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/436513",
+      "record_url": "https://www.metmuseum.org/art/collection/search/436513",
+      "record": {
+        "objectID": 436513,
+        "isHighlight": false,
+        "accessionNumber": "41.100.4",
+        "accessionYear": "1941",
+        "isPublicDomain": true,
+        "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP-26503-001.jpg",
+        "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-26503-001.jpg",
+        "additionalImages": [],
+        "constituents": [
+          {
+            "constituentID": 161939,
+            "role": "Artist",
+            "name": "Giovanni di Paolo (Giovanni di Paolo di Grazia)",
+            "constituentULAN_URL": "http://vocab.getty.edu/page/ulan/500116438",
+            "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q946420",
+            "gender": ""
+          }
+        ],
+        "department": "European Paintings",
+        "objectName": "Painting, predella panel",
+        "title": "The Presentation of Christ in the Temple",
+        "culture": "",
+        "period": "",
+        "dynasty": "",
+        "reign": "",
+        "portfolio": "",
+        "artistRole": "Artist",
+        "artistPrefix": "",
+        "artistDisplayName": "Giovanni di Paolo (Giovanni di Paolo di Grazia)",
+        "artistDisplayBio": "Italian, Siena 1398–1482 Siena",
+        "artistSuffix": "",
+        "artistAlphaSort": "Giovanni di Paolo (Giovanni di Paolo di Grazia)",
+        "artistNationality": "Italian",
+        "artistBeginDate": "1398",
+        "artistEndDate": "1482",
+        "artistGender": "",
+        "artistWikidata_URL": "https://www.wikidata.org/wiki/Q946420",
+        "artistULAN_URL": "http://vocab.getty.edu/page/ulan/500116438",
+        "objectDate": "ca. 1435",
+        "objectBeginDate": 1430,
+        "objectEndDate": 1440,
+        "medium": "Tempera and gold on wood",
+        "dimensions": "Overall 15 1/2 x 18 1/8 in. (39.4 x 46 cm); painted surface 15 1/4 x 17 1/4 in. (38.7 x 43.8 cm)",
+        "measurements": [
+          {
+            "elementName": "Overall",
+            "elementDescription": null,
+            "elementMeasurements": {
+              "Height": 39.4,
+              "Width": 46
+            }
+          },
+          {
+            "elementName": "Framed",
+            "elementDescription": null,
+            "elementMeasurements": {
+              "Depth": 9.525,
+              "Height": 54.2926,
+              "Width": 60.3251
+            }
+          }
+        ],
+        "creditLine": "Gift of George Blumenthal, 1941",
+        "geographyType": "",
+        "city": "",
+        "state": "",
+        "county": "",
+        "country": "",
+        "region": "",
+        "subregion": "",
+        "locale": "",
+        "locus": "",
+        "excavation": "",
+        "river": "",
+        "classification": "Paintings",
+        "rightsAndReproduction": "",
+        "linkResource": "",
+        "metadataDate": "2026-01-15T04:50:28.29Z",
+        "repository": "Metropolitan Museum of Art, New York, NY",
+        "objectURL": "https://www.metmuseum.org/art/collection/search/436513",
+        "tags": [
+          {
+            "term": "Temples",
+            "AAT_URL": "http://vocab.getty.edu/page/aat/300007595",
+            "Wikidata_URL": "https://www.wikidata.org/wiki/Q44539"
+          },
+          {
+            "term": "Men",
+            "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+            "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+          },
+          {
+            "term": "Women",
+            "AAT_URL": "http://vocab.getty.edu/page/aat/300025943",
+            "Wikidata_URL": "https://www.wikidata.org/wiki/Q467"
+          },
+          {
+            "term": "Virgin Mary",
+            "AAT_URL": "http://vocab.getty.edu/page/ia/901000032",
+            "Wikidata_URL": "https://www.wikidata.org/wiki/Q345"
+          },
+          {
+            "term": "Jesus",
+            "AAT_URL": "http://vocab.getty.edu/page/ia/901000087",
+            "Wikidata_URL": "https://www.wikidata.org/wiki/Q302"
+          },
+          {
+            "term": "Saints",
+            "AAT_URL": "http://vocab.getty.edu/page/aat/300150555",
+            "Wikidata_URL": "https://www.wikidata.org/wiki/Q43115"
+          },
+          {
+            "term": "Joseph",
+            "AAT_URL": "http://vocab.getty.edu/page/ia/901000953",
+            "Wikidata_URL": "https://www.wikidata.org/wiki/Q128267"
+          }
+        ],
+        "objectWikidata_URL": "https://www.wikidata.org/wiki/Q19911876",
+        "isTimelineWork": false,
+        "GalleryNumber": ""
+      },
+      "sha256": "ae1ab09e45795314e79a4d7c58b57593b8fa7171f9ceaf444dff411899a6707b",
+      "bytes": 202544
+    },
+    {
+      "filename": "436514.jpg",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DT2830.jpg",
+      "metadata_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/436514",
+      "record_url": "https://www.metmuseum.org/art/collection/search/436514",
+      "record": {
+        "objectID": 436514,
+        "isHighlight": false,
+        "accessionNumber": "32.100.83a–d",
+        "accessionYear": "1932",
+        "isPublicDomain": true,
+        "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DT2830.jpg",
+        "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DT2830.jpg",
+        "additionalImages": [],
+        "constituents": [
+          {
+            "constituentID": 161939,
+            "role": "Artist",
+            "name": "Giovanni di Paolo (Giovanni di Paolo di Grazia)",
+            "constituentULAN_URL": "http://vocab.getty.edu/page/ulan/500116438",
+            "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q946420",
+            "gender": ""
+          }
+        ],
+        "department": "European Paintings",
+        "objectName": "Painting, pilasters of an altarpiece",
+        "title": "Saints Catherine of Alexandria, Barbara, Agatha, and Margaret",
+        "culture": "",
+        "period": "",
+        "dynasty": "",
+        "reign": "",
+        "portfolio": "",
+        "artistRole": "Artist",
+        "artistPrefix": "",
+        "artistDisplayName": "Giovanni di Paolo (Giovanni di Paolo di Grazia)",
+        "artistDisplayBio": "Italian, Siena 1398–1482 Siena",
+        "artistSuffix": "",
+        "artistAlphaSort": "Giovanni di Paolo (Giovanni di Paolo di Grazia)",
+        "artistNationality": "Italian",
+        "artistBeginDate": "1398",
+        "artistEndDate": "1482",
+        "artistGender": "",
+        "artistWikidata_URL": "https://www.wikidata.org/wiki/Q946420",
+        "artistULAN_URL": "http://vocab.getty.edu/page/ulan/500116438",
+        "objectDate": "ca. 1470",
+        "objectBeginDate": 1465,
+        "objectEndDate": 1475,
+        "medium": "Tempera on wood, gold ground",
+        "dimensions": "(a) overall 18 3/4 x 6 in. (47.6 x 15.2 cm), painted surface 18 1/4 x 5 1/2 in. (46.4 x 14 cm); (b) overall 18 3/4 x 6 in. (47.6 x 15.2 cm), painted surface 18 3/8 x 5 5/8 in. (46.7 x 14.3 cm); (c) overall 18 3/4 x 6 in. (47.6 x 15.2 cm), painted surface 18 3/8 x 5 3/8 in. (46.7 x 13.7 cm); (d) overall 18 3/4 x 6 in. (47.6 x 15.2 cm), painted surface 18 1/4 x 5 5/8 in. (46.4 x 14.3 cm)",
+        "measurements": [
+          {
+            "elementName": "Overall",
+            "elementDescription": null,
+            "elementMeasurements": {
+              "Height": 47.6,
+              "Width": 15.2
+            }
+          }
+        ],
+        "creditLine": "The Friedsam Collection, Bequest of Michael Friedsam, 1931",
+        "geographyType": "",
+        "city": "",
+        "state": "",
+        "county": "",
+        "country": "",
+        "region": "",
+        "subregion": "",
+        "locale": "",
+        "locus": "",
+        "excavation": "",
+        "river": "",
+        "classification": "Paintings",
+        "rightsAndReproduction": "",
+        "linkResource": "",
+        "metadataDate": "2025-05-22T04:50:13.743Z",
+        "repository": "Metropolitan Museum of Art, New York, NY",
+        "objectURL": "https://www.metmuseum.org/art/collection/search/436514",
+        "tags": [
+          {
+            "term": "Saint Catherine",
+            "AAT_URL": null,
+            "Wikidata_URL": null
+          },
+          {
+            "term": "Saints",
+            "AAT_URL": "http://vocab.getty.edu/page/aat/300150555",
+            "Wikidata_URL": "https://www.wikidata.org/wiki/Q43115"
+          },
+          {
+            "term": "Saint Barbara",
+            "AAT_URL": "http://vocab.getty.edu/page/ia/901000589",
+            "Wikidata_URL": "https://www.wikidata.org/wiki/Q25212897"
+          }
+        ],
+        "objectWikidata_URL": "https://www.wikidata.org/wiki/Q19911997",
+        "isTimelineWork": false,
+        "GalleryNumber": ""
+      },
+      "sha256": "c96abba7284013e2485ef4ddaa78fbaad25455d25b0038a719fc7fd62acd8280",
+      "bytes": 129723
+    },
+    {
+      "filename": "436515.jpg",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-19499-001.jpg",
+      "metadata_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/436515",
+      "record_url": "https://www.metmuseum.org/art/collection/search/436515",
+      "record": {
+        "objectID": 436515,
+        "isHighlight": false,
+        "accessionNumber": "88.3.111",
+        "accessionYear": "1888",
+        "isPublicDomain": true,
+        "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP-19499-001.jpg",
+        "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-19499-001.jpg",
+        "additionalImages": [],
+        "constituents": [
+          {
+            "constituentID": 161939,
+            "role": "Artist",
+            "name": "Giovanni di Paolo (Giovanni di Paolo di Grazia)",
+            "constituentULAN_URL": "http://vocab.getty.edu/page/ulan/500116438",
+            "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q946420",
+            "gender": ""
+          }
+        ],
+        "department": "European Paintings",
+        "objectName": "Painting",
+        "title": "Saints Matthew and Francis",
+        "culture": "",
+        "period": "",
+        "dynasty": "",
+        "reign": "",
+        "portfolio": "",
+        "artistRole": "Artist",
+        "artistPrefix": "",
+        "artistDisplayName": "Giovanni di Paolo (Giovanni di Paolo di Grazia)",
+        "artistDisplayBio": "Italian, Siena 1398–1482 Siena",
+        "artistSuffix": "",
+        "artistAlphaSort": "Giovanni di Paolo (Giovanni di Paolo di Grazia)",
+        "artistNationality": "Italian",
+        "artistBeginDate": "1398",
+        "artistEndDate": "1482",
+        "artistGender": "",
+        "artistWikidata_URL": "https://www.wikidata.org/wiki/Q946420",
+        "artistULAN_URL": "http://vocab.getty.edu/page/ulan/500116438",
+        "objectDate": "ca. 1435",
+        "objectBeginDate": 1430,
+        "objectEndDate": 1440,
+        "medium": "Tempera on wood, gold ground",
+        "dimensions": "Overall, with added strips, 54 5/8 x 34 3/4 in. (138.7 x 88.3 cm); painted surface 52 7/8 x 33 1/2 in. (134.3 x 85.1 cm)",
+        "measurements": [
+          {
+            "elementName": "Overall",
+            "elementDescription": null,
+            "elementMeasurements": {
+              "Height": 138.7,
+              "Width": 88.3
+            }
+          }
+        ],
+        "creditLine": "Gift of Coudert Brothers, 1888",
+        "geographyType": "",
+        "city": "",
+        "state": "",
+        "county": "",
+        "country": "",
+        "region": "",
+        "subregion": "",
+        "locale": "",
+        "locus": "",
+        "excavation": "",
+        "river": "",
+        "classification": "Paintings",
+        "rightsAndReproduction": "",
+        "linkResource": "",
+        "metadataDate": "2026-01-15T04:50:28.29Z",
+        "repository": "Metropolitan Museum of Art, New York, NY",
+        "objectURL": "https://www.metmuseum.org/art/collection/search/436515",
+        "tags": [
+          {
+            "term": "Saint Francis",
+            "AAT_URL": "http://vocab.getty.edu/page/ulan/500349636",
+            "Wikidata_URL": "https://www.wikidata.org/wiki/Q676555"
+          },
+          {
+            "term": "Saint Matthew",
+            "AAT_URL": "http://vocab.getty.edu/page/ia/901000497",
+            "Wikidata_URL": "https://www.wikidata.org/wiki/Q43600"
+          }
+        ],
+        "objectWikidata_URL": "https://www.wikidata.org/wiki/Q19905072",
+        "isTimelineWork": false,
+        "GalleryNumber": "603"
+      },
+      "sha256": "cb66f6903c0eab37ca9abde01beb1f22713ca3c4d45a4781c1352f61766d59cb",
+      "bytes": 160288
+    },
+    {
+      "filename": "436516.jpg",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP164870.jpg",
+      "metadata_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/436516",
+      "record_url": "https://www.metmuseum.org/art/collection/search/436516",
+      "record": {
+        "objectID": 436516,
+        "isHighlight": true,
+        "accessionNumber": "1995.7",
+        "accessionYear": "1995",
+        "isPublicDomain": true,
+        "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP164870.jpg",
+        "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP164870.jpg",
+        "additionalImages": [
+          "https://images.metmuseum.org/CRDImages/ep/original/DP164871.jpg",
+          "https://images.metmuseum.org/CRDImages/ep/original/LC-1995_7-2.jpg",
+          "https://images.metmuseum.org/CRDImages/ep/original/LC-1995_7-3.jpg"
+        ],
+        "constituents": [
+          {
+            "constituentID": 108514,
+            "role": "Artist",
+            "name": "Giovanni di ser Giovanni Guidi (called Scheggia)",
+            "constituentULAN_URL": "http://vocab.getty.edu/page/ulan/500022041",
+            "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q2738832",
+            "gender": ""
+          }
+        ],
+        "department": "European Paintings",
+        "objectName": "Painting, birth tray",
+        "title": "The Triumph of Fame; (reverse) Impresa of the Medici Family and Arms of the Medici and Tornabuoni Families",
+        "culture": "",
+        "period": "",
+        "dynasty": "",
+        "reign": "",
+        "portfolio": "",
+        "artistRole": "Artist",
+        "artistPrefix": "",
+        "artistDisplayName": "Giovanni di ser Giovanni Guidi (called Scheggia)",
+        "artistDisplayBio": "Italian, San Giovanni Valdarno 1406–1486 Florence",
+        "artistSuffix": "",
+        "artistAlphaSort": "Giovanni di ser Giovanni Guidi (called Scheggia)",
+        "artistNationality": "Italian",
+        "artistBeginDate": "1406",
+        "artistEndDate": "1486",
+        "artistGender": "",
+        "artistWikidata_URL": "https://www.wikidata.org/wiki/Q2738832",
+        "artistULAN_URL": "http://vocab.getty.edu/page/ulan/500022041",
+        "objectDate": "ca. 1449",
+        "objectBeginDate": 1444,
+        "objectEndDate": 1454,
+        "medium": "Tempera, silver, and gold on wood",
+        "dimensions": "Overall, with engaged frame, diameter 36 1/2 in. (92.7 cm); recto, painted surface, diameter 24 5/8 in. (62.5 cm); verso, painted surface, diameter 29 5/8 in. (75.2 cm)",
+        "measurements": [
+          {
+            "elementName": "Overall",
+            "elementDescription": null,
+            "elementMeasurements": {
+              "Height": 92.7,
+              "Width": 92.7
+            }
+          }
+        ],
+        "creditLine": "Purchase in memory of Sir John Pope-Hennessy: Rogers Fund, The Annenberg Foundation, Drue Heinz Foundation, Annette de la Renta, Mr. and Mrs. Frank E. Richardson, and The Vincent Astor Foundation Gifts, Wrightsman and Gwynne Andrews Funds, special funds, and Gift of the children of Mrs. Harry Payne Whitney, Gift of Mr. and Mrs. Joshua Logan, and other gifts and bequests, by exchange, 1995",
+        "geographyType": "",
+        "city": "",
+        "state": "",
+        "county": "",
+        "country": "",
+        "region": "",
+        "subregion": "",
+        "locale": "",
+        "locus": "",
+        "excavation": "",
+        "river": "",
+        "classification": "Paintings",
+        "rightsAndReproduction": "",
+        "linkResource": "",
+        "metadataDate": "2025-11-21T10:05:27.96Z",
+        "repository": "Metropolitan Museum of Art, New York, NY",
+        "objectURL": "https://www.metmuseum.org/art/collection/search/436516",
+        "tags": [
+          {
+            "term": "Animals",
+            "AAT_URL": "http://vocab.getty.edu/page/aat/300249525",
+            "Wikidata_URL": "https://www.wikidata.org/wiki/Q729"
+          },
+          {
+            "term": "Armor",
+            "AAT_URL": "http://vocab.getty.edu/page/aat/300226591",
+            "Wikidata_URL": "https://www.wikidata.org/wiki/Q20793164"
+          },
+          {
+            "term": "Men",
+            "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+            "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+          },
+          {
+            "term": "Dogs",
+            "AAT_URL": "http://vocab.getty.edu/page/aat/300265714",
+            "Wikidata_URL": "https://www.wikidata.org/wiki/Q144"
+          },
+          {
+            "term": "Horses",
+            "AAT_URL": "http://vocab.getty.edu/page/aat/300250148",
+            "Wikidata_URL": "https://www.wikidata.org/wiki/Q726"
+          }
+        ],
+        "objectWikidata_URL": "https://www.wikidata.org/wiki/Q3998939",
+        "isTimelineWork": true,
+        "GalleryNumber": "604"
+      },
+      "sha256": "27e134d2c63edd79aa74f285bff6f8127023fb4e8ec66eee4f7f3aa27fcc419c",
+      "bytes": 158395
+    },
+    {
+      "filename": "436517.jpg",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DT200204.jpg",
+      "metadata_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/436517",
+      "record_url": "https://www.metmuseum.org/art/collection/search/436517",
+      "record": {
+        "objectID": 436517,
+        "isHighlight": false,
+        "accessionNumber": "49.7.8",
+        "accessionYear": "1949",
+        "isPublicDomain": true,
+        "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DT200204.jpg",
+        "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DT200204.jpg",
+        "additionalImages": [],
+        "constituents": [
+          {
+            "constituentID": 161940,
+            "role": "Artist",
+            "name": "Girolamo da Cremona",
+            "constituentULAN_URL": "http://vocab.getty.edu/page/ulan/500017653",
+            "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q2485838",
+            "gender": ""
+          }
+        ],
+        "department": "European Paintings",
+        "objectName": "Painting, drawing",
+        "title": "Descent from the Cross",
+        "culture": "",
+        "period": "",
+        "dynasty": "",
+        "reign": "",
+        "portfolio": "",
+        "artistRole": "Artist",
+        "artistPrefix": "",
+        "artistDisplayName": "Girolamo da Cremona",
+        "artistDisplayBio": "Italian, active 1451–83",
+        "artistSuffix": "",
+        "artistAlphaSort": "Girolamo da Cremona",
+        "artistNationality": "Italian",
+        "artistBeginDate": "1451",
+        "artistEndDate": "1481",
+        "artistGender": "",
+        "artistWikidata_URL": "https://www.wikidata.org/wiki/Q2485838",
+        "artistULAN_URL": "http://vocab.getty.edu/page/ulan/500017653",
+        "objectDate": "",
+        "objectBeginDate": 1451,
+        "objectEndDate": 1483,
+        "medium": "Tempera on parchment, laid down on wood",
+        "dimensions": "6 1/4 x 4 1/2 in. (15.9 x 11.4 cm)",
+        "measurements": [
+          {
+            "elementName": "Overall",
+            "elementDescription": null,
+            "elementMeasurements": {
+              "Height": 15.9,
+              "Width": 11.4
+            }
+          }
+        ],
+        "creditLine": "The Jules Bache Collection, 1949",
+        "geographyType": "",
+        "city": "",
+        "state": "",
+        "county": "",
+        "country": "",
+        "region": "",
+        "subregion": "",
+        "locale": "",
+        "locus": "",
+        "excavation": "",
+        "river": "",
+        "classification": "Manuscripts and Illuminations",
+        "rightsAndReproduction": "",
+        "linkResource": "",
+        "metadataDate": "2025-10-09T04:51:37.793Z",
+        "repository": "Metropolitan Museum of Art, New York, NY",
+        "objectURL": "https://www.metmuseum.org/art/collection/search/436517",
+        "tags": [
+          {
+            "term": "Christ",
+            "AAT_URL": "http://vocab.getty.edu/page/ia/901000087",
+            "Wikidata_URL": "https://www.wikidata.org/wiki/Q642420"
+          },
+          {
+            "term": "Mary Magdalene",
+            "AAT_URL": "http://vocab.getty.edu/page/ia/901000161",
+            "Wikidata_URL": "https://www.wikidata.org/wiki/Q63070"
+          },
+          {
+            "term": "Saint John the Evangelist",
+            "AAT_URL": "http://vocab.getty.edu/page/ia/901001171",
+            "Wikidata_URL": "https://www.wikidata.org/wiki/Q328804"
+          },
+          {
+            "term": "Descent from the Cross",
+            "AAT_URL": "http://vocab.getty.edu/page/ia/901000462",
+            "Wikidata_URL": "https://www.wikidata.org/wiki/Q13365963"
+          }
+        ],
+        "objectWikidata_URL": "https://www.wikidata.org/wiki/Q19913069",
+        "isTimelineWork": true,
+        "GalleryNumber": ""
+      },
+      "sha256": "c02a9cca24ca9b2b2e97dc755f55cb3b7a6e5ff9506baa0e9b9b9a00de25b01e",
+      "bytes": 146764
+    },
+    {
+      "filename": "436518.jpg",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DT2956.jpg",
+      "metadata_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/436518",
+      "record_url": "https://www.metmuseum.org/art/collection/search/436518",
+      "record": {
+        "objectID": 436518,
+        "isHighlight": false,
+        "accessionNumber": "20.92",
+        "accessionYear": "1920",
+        "isPublicDomain": true,
+        "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DT2956.jpg",
+        "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DT2956.jpg",
+        "additionalImages": [],
+        "constituents": [
+          {
+            "constituentID": 165428,
+            "role": "Artist",
+            "name": "Girolamo dai Libri",
+            "constituentULAN_URL": "http://vocab.getty.edu/page/ulan/500023072",
+            "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q1440424",
+            "gender": ""
+          }
+        ],
+        "department": "European Paintings",
+        "objectName": "Painting, altarpiece",
+        "title": "Madonna and Child with Saints",
+        "culture": "",
+        "period": "",
+        "dynasty": "",
+        "reign": "",
+        "portfolio": "",
+        "artistRole": "Artist",
+        "artistPrefix": "",
+        "artistDisplayName": "Girolamo dai Libri",
+        "artistDisplayBio": "Italian, Verona 1474–1555 Verona",
+        "artistSuffix": "",
+        "artistAlphaSort": "Girolamo dai Libri",
+        "artistNationality": "Italian",
+        "artistBeginDate": "1474",
+        "artistEndDate": "1555",
+        "artistGender": "",
+        "artistWikidata_URL": "https://www.wikidata.org/wiki/Q1440424",
+        "artistULAN_URL": "http://vocab.getty.edu/page/ulan/500023072",
+        "objectDate": "ca. 1520",
+        "objectBeginDate": 1515,
+        "objectEndDate": 1525,
+        "medium": "Tempera and oil on canvas",
+        "dimensions": "Arched top, 157 x 81 1/2 in. (398.8 x 207 cm)",
+        "measurements": [
+          {
+            "elementName": "Overall",
+            "elementDescription": null,
+            "elementMeasurements": {
+              "Height": 398.8,
+              "Width": 207
+            }
+          }
+        ],
+        "creditLine": "Fletcher Fund, 1920",
+        "geographyType": "",
+        "city": "",
+        "state": "",
+        "county": "",
+        "country": "",
+        "region": "",
+        "subregion": "",
+        "locale": "",
+        "locus": "",
+        "excavation": "",
+        "river": "",
+        "classification": "Paintings",
+        "rightsAndReproduction": "",
+        "linkResource": "",
+        "metadataDate": "2026-08-27T04:59:41.6Z",
+        "repository": "Metropolitan Museum of Art, New York, NY",
+        "objectURL": "https://www.metmuseum.org/art/collection/search/436518",
+        "tags": [
+          {
+            "term": "Men",
+            "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+            "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+          },
+          {
+            "term": "Women",
+            "AAT_URL": "http://vocab.getty.edu/page/aat/300025943",
+            "Wikidata_URL": "https://www.wikidata.org/wiki/Q467"
+          },
+          {
+            "term": "Peacocks",
+            "AAT_URL": "http://vocab.getty.edu/page/aat/300250082",
+            "Wikidata_URL": "https://www.wikidata.org/wiki/Q201251"
+          },
+          {
+            "term": "Angels",
+            "AAT_URL": "http://vocab.getty.edu/page/aat/300379004",
+            "Wikidata_URL": "https://www.wikidata.org/wiki/Q235113"
+          },
+          {
+            "term": "Madonna and Child",
+            "AAT_URL": "http://vocab.getty.edu/page/ia/901000052",
+            "Wikidata_URL": "https://www.wikidata.org/wiki/Q9309699"
+          },
+          {
+            "term": "Saints",
+            "AAT_URL": "http://vocab.getty.edu/page/aat/300150555",
+            "Wikidata_URL": "https://www.wikidata.org/wiki/Q43115"
+          }
+        ],
+        "objectWikidata_URL": "https://www.wikidata.org/wiki/Q19905201",
+        "isTimelineWork": true,
+        "GalleryNumber": ""
+      },
+      "sha256": "b9c6362a8a8cadbab533fe488e77e3911bb8e7cdedb8ec95a6e658b26fc69b0c",
+      "bytes": 96399
+    },
+    {
+      "filename": "436519.jpg",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-23348-001.jpg",
+      "metadata_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/436519",
+      "record_url": "https://www.metmuseum.org/art/collection/search/436519",
+      "record": {
+        "objectID": 436519,
+        "isHighlight": false,
+        "accessionNumber": "87.15.74",
+        "accessionYear": "1887",
+        "isPublicDomain": true,
+        "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP-23348-001.jpg",
+        "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-23348-001.jpg",
+        "additionalImages": [],
+        "constituents": [
+          {
+            "constituentID": 107710,
+            "role": "Artist",
+            "name": "Pierre-Paul-Léon Glaize",
+            "constituentULAN_URL": "http://vocab.getty.edu/page/ulan/500028770",
+            "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q3383448",
+            "gender": ""
+          }
+        ],
+        "department": "European Paintings",
+        "objectName": "Painting",
+        "title": "Before the Mirror",
+        "culture": "",
+        "period": "",
+        "dynasty": "",
+        "reign": "",
+        "portfolio": "",
+        "artistRole": "Artist",
+        "artistPrefix": "",
+        "artistDisplayName": "Pierre-Paul-Léon Glaize",
+        "artistDisplayBio": "French, Paris 1842–1932 Paris",
+        "artistSuffix": "",
+        "artistAlphaSort": "Glaize, Pierre-Paul-Léon",
+        "artistNationality": "French",
+        "artistBeginDate": "1842",
+        "artistEndDate": "1932",
+        "artistGender": "",
+        "artistWikidata_URL": "https://www.wikidata.org/wiki/Q3383448",
+        "artistULAN_URL": "http://vocab.getty.edu/page/ulan/500028770",
+        "objectDate": "1873",
+        "objectBeginDate": 1873,
+        "objectEndDate": 1873,
+        "medium": "Oil on canvas",
+        "dimensions": "39 3/4 x 29 7/8 in. (101 x 75.9 cm)",
+        "measurements": [
+          {
+            "elementName": "Overall",
+            "elementDescription": null,
+            "elementMeasurements": {
+              "Height": 101,
+              "Width": 75.9
+            }
+          }
+        ],
+        "creditLine": "Catharine Lorillard Wolfe Collection, Bequest of Catharine Lorillard Wolfe, 1887",
+        "geographyType": "",
+        "city": "",
+        "state": "",
+        "county": "",
+        "country": "",
+        "region": "",
+        "subregion": "",
+        "locale": "",
+        "locus": "",
+        "excavation": "",
+        "river": "",
+        "classification": "Paintings",
+        "rightsAndReproduction": "",
+        "linkResource": "",
+        "metadataDate": "2025-01-30T04:54:21.21Z",
+        "repository": "Metropolitan Museum of Art, New York, NY",
+        "objectURL": "https://www.metmuseum.org/art/collection/search/436519",
+        "tags": [
+          {
+            "term": "Women",
+            "AAT_URL": "http://vocab.getty.edu/page/aat/300025943",
+            "Wikidata_URL": "https://www.wikidata.org/wiki/Q467"
+          },
+          {
+            "term": "Mirrors",
+            "AAT_URL": "http://vocab.getty.edu/page/aat/300037682",
+            "Wikidata_URL": "https://www.wikidata.org/wiki/Q35197"
+          }
+        ],
+        "objectWikidata_URL": "https://www.wikidata.org/wiki/Q19913251",
+        "isTimelineWork": false,
+        "GalleryNumber": ""
+      },
+      "sha256": "0e58ef73320fecad2cf474b9822806462de2b317a5fcaaa6dc79767d8f5f6445",
+      "bytes": 120560
+    },
+    {
+      "filename": "436520.jpg",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP317663.jpg",
+      "metadata_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/436520",
+      "record_url": "https://www.metmuseum.org/art/collection/search/436520",
+      "record": {
+        "objectID": 436520,
+        "isHighlight": false,
+        "accessionNumber": "63.120",
+        "accessionYear": "1963",
+        "isPublicDomain": true,
+        "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP317663.jpg",
+        "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP317663.jpg",
+        "additionalImages": [
+          "https://images.metmuseum.org/CRDImages/ep/original/DP317661.jpg"
+        ],
+        "constituents": [
+          {
+            "constituentID": 164546,
+            "role": "Artist",
+            "name": "Pierre Gobert",
+            "constituentULAN_URL": "http://vocab.getty.edu/page/ulan/500028944",
+            "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q762544",
+            "gender": ""
+          }
+        ],
+        "department": "European Paintings",
+        "objectName": "Painting",
+        "title": "Marie Adélaïde de Savoie (1685–1712), Duchesse de Bourgogne",
+        "culture": "",
+        "period": "",
+        "dynasty": "",
+        "reign": "",
+        "portfolio": "",
+        "artistRole": "Artist",
+        "artistPrefix": "",
+        "artistDisplayName": "Pierre Gobert",
+        "artistDisplayBio": "French, Fontainebleau 1662–1744 Paris",
+        "artistSuffix": "",
+        "artistAlphaSort": "Gobert, Pierre",
+        "artistNationality": "French",
+        "artistBeginDate": "1662",
+        "artistEndDate": "1744",
+        "artistGender": "",
+        "artistWikidata_URL": "https://www.wikidata.org/wiki/Q762544",
+        "artistULAN_URL": "http://vocab.getty.edu/page/ulan/500028944",
+        "objectDate": "1710",
+        "objectBeginDate": 1710,
+        "objectEndDate": 1710,
+        "medium": "Oil on canvas",
+        "dimensions": "Oval, 28 3/4 x 23 1/4 in. (73 x 59.1 cm)",
+        "measurements": [
+          {
+            "elementName": "Overall",
+            "elementDescription": null,
+            "elementMeasurements": {
+              "Height": 73,
+              "Width": 59.1
+            }
+          }
+        ],
+        "creditLine": "Gift of the Marquis de La Bégassière, 1963",
+        "geographyType": "",
+        "city": "",
+        "state": "",
+        "county": "",
+        "country": "",
+        "region": "",
+        "subregion": "",
+        "locale": "",
+        "locus": "",
+        "excavation": "",
+        "river": "",
+        "classification": "Paintings",
+        "rightsAndReproduction": "",
+        "linkResource": "",
+        "metadataDate": "2026-10-06T04:59:37.62Z",
+        "repository": "Metropolitan Museum of Art, New York, NY",
+        "objectURL": "https://www.metmuseum.org/art/collection/search/436520",
+        "tags": [
+          {
+            "term": "Portraits",
+            "AAT_URL": "http://vocab.getty.edu/page/aat/300015637",
+            "Wikidata_URL": "https://www.wikidata.org/wiki/Q134307"
+          },
+          {
+            "term": "Women",
+            "AAT_URL": "http://vocab.getty.edu/page/aat/300025943",
+            "Wikidata_URL": "https://www.wikidata.org/wiki/Q467"
+          }
+        ],
+        "objectWikidata_URL": "https://www.wikidata.org/wiki/Q19912365",
+        "isTimelineWork": false,
+        "GalleryNumber": ""
+      },
+      "sha256": "beda7abbd546c65398254978cd096f57d8f6115352e49a15ca2186a8d8b84463",
+      "bytes": 60563
+    },
+    {
+      "filename": "436521.jpg",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP347299.jpg",
+      "metadata_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/436521",
+      "record_url": "https://www.metmuseum.org/art/collection/search/436521",
+      "record": {
+        "objectID": 436521,
+        "isHighlight": false,
+        "accessionNumber": "29.100.15",
+        "accessionYear": "1929",
+        "isPublicDomain": true,
+        "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP347299.jpg",
+        "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP347299.jpg",
+        "additionalImages": [
+          "https://images.metmuseum.org/CRDImages/ep/original/LC-29_100_15-Xray.jpg",
+          "https://images.metmuseum.org/CRDImages/ep/original/LC-29_100_15-IRR.jpg"
+        ],
+        "constituents": [
+          {
+            "constituentID": 165215,
+            "role": "Artist",
+            "name": "Hugo van der Goes",
+            "constituentULAN_URL": "http://vocab.getty.edu/page/ulan/500007457",
+            "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q215251",
+            "gender": ""
+          }
+        ],
+        "department": "European Paintings",
+        "objectName": "Painting",
+        "title": "Portrait of a Man",
+        "culture": "",
+        "period": "",
+        "dynasty": "",
+        "reign": "",
+        "portfolio": "",
+        "artistRole": "Artist",
+        "artistPrefix": "",
+        "artistDisplayName": "Hugo van der Goes",
+        "artistDisplayBio": "Netherlandish, Ghent, active by 1467–died 1482 Roode-Klooster",
+        "artistSuffix": "",
+        "artistAlphaSort": "Goes, Hugo van der",
+        "artistNationality": "Netherlandish",
+        "artistBeginDate": "1467",
+        "artistEndDate": "1482",
+        "artistGender": "",
+        "artistWikidata_URL": "https://www.wikidata.org/wiki/Q215251",
+        "artistULAN_URL": "http://vocab.getty.edu/page/ulan/500007457",
+        "objectDate": "ca. 1475",
+        "objectBeginDate": 1470,
+        "objectEndDate": 1480,
+        "medium": "Oil on wood",
+        "dimensions": "Oval, overall 12 1/2 x 10 1/2 in. (31.8 x 26.7 cm); painted surface 12 1/2 x 10 1/4 in. (31.8 x 26 cm)",
+        "measurements": [
+          {
+            "elementName": "Overall",
+            "elementDescription": null,
+            "elementMeasurements": {
+              "Height": 31.8,
+              "Width": 26.7
+            }
+          },
+          {
+            "elementName": "Framed",
+            "elementDescription": null,
+            "elementMeasurements": {
+              "Depth": 5.7150116,
+              "Height": 46.037594,
+              "Width": 40.322582
+            }
+          }
+        ],
+        "creditLine": "H. O. Havemeyer Collection, Bequest of Mrs. H. O. Havemeyer, 1929",
+        "geographyType": "",
+        "city": "",
+        "state": "",
+        "county": "",
+        "country": "",
+        "region": "",
+        "subregion": "",
+        "locale": "",
+        "locus": "",
+        "excavation": "",
+        "river": "",
+        "classification": "Paintings",
+        "rightsAndReproduction": "",
+        "linkResource": "",
+        "metadataDate": "2026-02-07T04:59:02.893Z",
+        "repository": "Metropolitan Museum of Art, New York, NY",
+        "objectURL": "https://www.metmuseum.org/art/collection/search/436521",
+        "tags": [
+          {
+            "term": "Men",
+            "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+            "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+          },
+          {
+            "term": "Portraits",
+            "AAT_URL": "http://vocab.getty.edu/page/aat/300015637",
+            "Wikidata_URL": "https://www.wikidata.org/wiki/Q134307"
+          }
+        ],
+        "objectWikidata_URL": "https://www.wikidata.org/wiki/Q20167120",
+        "isTimelineWork": false,
+        "GalleryNumber": "602"
+      },
+      "sha256": "d15dd2c4cd6216f8eccb55a85bb80fbdd109940a4584504cc0f524bfb0b3b2e9",
+      "bytes": 54310
+    },
+    {
+      "filename": "436522.jpg",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-19585-001.jpg",
+      "metadata_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/436522",
+      "record_url": "https://www.metmuseum.org/art/collection/search/436522",
+      "record": {
+        "objectID": 436522,
+        "isHighlight": false,
+        "accessionNumber": "22.60.53",
+        "accessionYear": "1922",
+        "isPublicDomain": true,
+        "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP-19585-001.jpg",
+        "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-19585-001.jpg",
+        "additionalImages": [
+          "https://images.metmuseum.org/CRDImages/ep/original/LC-22_60_53-XRAY.jpg",
+          "https://images.metmuseum.org/CRDImages/ep/original/LC-22_60_53-IRR.jpg"
+        ],
+        "constituents": [
+          {
+            "constituentID": 165215,
+            "role": "Artist",
+            "name": "Circle of Hugo van der Goes",
+            "constituentULAN_URL": "http://vocab.getty.edu/page/ulan/500007457",
+            "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q215251",
+            "gender": ""
+          }
+        ],
+        "department": "European Paintings",
+        "objectName": "Painting",
+        "title": "A Benedictine Monk",
+        "culture": "",
+        "period": "",
+        "dynasty": "",
+        "reign": "",
+        "portfolio": "",
+        "artistRole": "Artist",
+        "artistPrefix": "Circle of",
+        "artistDisplayName": "Hugo van der Goes",
+        "artistDisplayBio": "Netherlandish, early 1480s",
+        "artistSuffix": "",
+        "artistAlphaSort": "Goes, Hugo van der",
+        "artistNationality": "Netherlandish",
+        "artistBeginDate": "1467",
+        "artistEndDate": "1482",
+        "artistGender": "",
+        "artistWikidata_URL": "https://www.wikidata.org/wiki/Q215251",
+        "artistULAN_URL": "http://vocab.getty.edu/page/ulan/500007457",
+        "objectDate": "",
+        "objectBeginDate": 1480,
+        "objectEndDate": 1483,
+        "medium": "Oil on wood",
+        "dimensions": "Overall 9 7/8 x 7 3/8 in. (25.1 x 18.7 cm), with added strip of 3/4 in. (1.9 cm) at right",
+        "measurements": [
+          {
+            "elementName": "Overall",
+            "elementDescription": null,
+            "elementMeasurements": {
+              "Height": 25.1,
+              "Width": 18.7
+            }
+          },
+          {
+            "elementName": "Framed",
+            "elementDescription": null,
+            "elementMeasurements": {
+              "Depth": 3.1750064,
+              "Height": 35.24257,
+              "Width": 26.035051
+            }
+          }
+        ],
+        "creditLine": "The Bequest of Michael Dreicer, 1921",
+        "geographyType": "",
+        "city": "",
+        "state": "",
+        "county": "",
+        "country": "",
+        "region": "",
+        "subregion": "",
+        "locale": "",
+        "locus": "",
+        "excavation": "",
+        "river": "",
+        "classification": "Paintings",
+        "rightsAndReproduction": "",
+        "linkResource": "",
+        "metadataDate": "2026-06-19T04:51:17.1Z",
+        "repository": "Metropolitan Museum of Art, New York, NY",
+        "objectURL": "https://www.metmuseum.org/art/collection/search/436522",
+        "tags": [
+          {
+            "term": "Men",
+            "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+            "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+          },
+          {
+            "term": "Portraits",
+            "AAT_URL": "http://vocab.getty.edu/page/aat/300015637",
+            "Wikidata_URL": "https://www.wikidata.org/wiki/Q134307"
+          },
+          {
+            "term": "Monks",
+            "AAT_URL": "http://vocab.getty.edu/page/aat/300025765",
+            "Wikidata_URL": "https://www.wikidata.org/wiki/Q733786"
+          }
+        ],
+        "objectWikidata_URL": "https://www.wikidata.org/wiki/Q19912002",
+        "isTimelineWork": true,
+        "GalleryNumber": ""
+      },
+      "sha256": "d59b73fdae65066cb19f9464637a810b1668b51922e74836b9b713cab7615e17",
+      "bytes": 100208
+    },
+    {
+      "filename": "436523.jpg",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP332733.jpg",
+      "metadata_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/436523",
+      "record_url": "https://www.metmuseum.org/art/collection/search/436523",
+      "record": {
+        "objectID": 436523,
+        "isHighlight": false,
+        "accessionNumber": "71.100",
+        "accessionYear": "1871",
+        "isPublicDomain": true,
+        "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP332733.jpg",
+        "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP332733.jpg",
+        "additionalImages": [],
+        "constituents": [
+          {
+            "constituentID": 165215,
+            "role": "Artist",
+            "name": "Copy after Hugo van der Goes",
+            "constituentULAN_URL": "http://vocab.getty.edu/page/ulan/500007457",
+            "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q215251",
+            "gender": ""
+          }
+        ],
+        "department": "European Paintings",
+        "objectName": "Painting",
+        "title": "The Adoration of the Magi",
+        "culture": "",
+        "period": "",
+        "dynasty": "",
+        "reign": "",
+        "portfolio": "",
+        "artistRole": "Artist",
+        "artistPrefix": "Copy after",
+        "artistDisplayName": "Hugo van der Goes",
+        "artistDisplayBio": "Netherlandish, late 15th century",
+        "artistSuffix": "",
+        "artistAlphaSort": "Goes, Hugo van der",
+        "artistNationality": "Netherlandish",
+        "artistBeginDate": "1467",
+        "artistEndDate": "1482",
+        "artistGender": "",
+        "artistWikidata_URL": "https://www.wikidata.org/wiki/Q215251",
+        "artistULAN_URL": "http://vocab.getty.edu/page/ulan/500007457",
+        "objectDate": "",
+        "objectBeginDate": 1470,
+        "objectEndDate": 1499,
+        "medium": "Oil on wood",
+        "dimensions": "29 1/8 x 25 5/8 in. (74 x 65.1 cm)",
+        "measurements": [
+          {
+            "elementName": "Overall",
+            "elementDescription": null,
+            "elementMeasurements": {
+              "Height": 74,
+              "Width": 65.1
+            }
+          }
+        ],
+        "creditLine": "Purchase, 1871",
+        "geographyType": "",
+        "city": "",
+        "state": "",
+        "county": "",
+        "country": "",
+        "region": "",
+        "subregion": "",
+        "locale": "",
+        "locus": "",
+        "excavation": "",
+        "river": "",
+        "classification": "Paintings",
+        "rightsAndReproduction": "",
+        "linkResource": "",
+        "metadataDate": "2026-08-05T04:49:31.513Z",
+        "repository": "Metropolitan Museum of Art, New York, NY",
+        "objectURL": "https://www.metmuseum.org/art/collection/search/436523",
+        "tags": [
+          {
+            "term": "Men",
+            "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+            "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+          },
+          {
+            "term": "Virgin Mary",
+            "AAT_URL": "http://vocab.getty.edu/page/ia/901000032",
+            "Wikidata_URL": "https://www.wikidata.org/wiki/Q345"
+          },
+          {
+            "term": "Jesus",
+            "AAT_URL": "http://vocab.getty.edu/page/ia/901000087",
+            "Wikidata_URL": "https://www.wikidata.org/wiki/Q302"
+          },
+          {
+            "term": "Adoration of the Magi",
+            "AAT_URL": "http://vocab.getty.edu/page/ia/901000083",
+            "Wikidata_URL": "https://www.wikidata.org/wiki/Q488841"
+          },
+          {
+            "term": "Saints",
+            "AAT_URL": "http://vocab.getty.edu/page/aat/300150555",
+            "Wikidata_URL": "https://www.wikidata.org/wiki/Q43115"
+          }
+        ],
+        "objectWikidata_URL": "https://www.wikidata.org/wiki/Q19911561",
+        "isTimelineWork": false,
+        "GalleryNumber": ""
+      },
+      "sha256": "0d5861b7464c39dca5b78b446a68578f8f6b519059d2cdf71f1cb186ef4083e7",
+      "bytes": 126835
+    },
+    {
+      "filename": "436524.jpg",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-41223-001.jpg",
+      "metadata_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/436524",
+      "record_url": "https://www.metmuseum.org/art/collection/search/436524",
+      "record": {
+        "objectID": 436524,
+        "isHighlight": false,
+        "accessionNumber": "49.41",
+        "accessionYear": "1949",
+        "isPublicDomain": true,
+        "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP-41223-001.jpg",
+        "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-41223-001.jpg",
+        "additionalImages": [],
+        "constituents": [
+          {
+            "constituentID": 161947,
+            "role": "Artist",
+            "name": "Vincent van Gogh",
+            "constituentULAN_URL": "http://vocab.getty.edu/page/ulan/500115588",
+            "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q5582",
+            "gender": ""
+          }
+        ],
+        "department": "European Paintings",
+        "objectName": "Painting",
+        "title": "Sunflowers",
+        "culture": "",
+        "period": "",
+        "dynasty": "",
+        "reign": "",
+        "portfolio": "",
+        "artistRole": "Artist",
+        "artistPrefix": "",
+        "artistDisplayName": "Vincent van Gogh",
+        "artistDisplayBio": "Dutch, Zundert 1853–1890 Auvers-sur-Oise",
+        "artistSuffix": "",
+        "artistAlphaSort": "Gogh, Vincent van",
+        "artistNationality": "Dutch",
+        "artistBeginDate": "1853",
+        "artistEndDate": "1890",
+        "artistGender": "",
+        "artistWikidata_URL": "https://www.wikidata.org/wiki/Q5582",
+        "artistULAN_URL": "http://vocab.getty.edu/page/ulan/500115588",
+        "objectDate": "1887",
+        "objectBeginDate": 1887,
+        "objectEndDate": 1887,
+        "medium": "Oil on canvas",
+        "dimensions": "17 x 24 in. (43.2 x 61 cm)",
+        "measurements": [
+          {
+            "elementName": "Overall",
+            "elementDescription": null,
+            "elementMeasurements": {
+              "Height": 43.2,
+              "Width": 61
+            }
+          },
+          {
+            "elementName": "Framed",
+            "elementDescription": null,
+            "elementMeasurements": {
+              "Depth": 6.35,
+              "Height": 66.6751,
+              "Width": 85.0902
+            }
+          }
+        ],
+        "creditLine": "Rogers Fund, 1949",
+        "geographyType": "",
+        "city": "",
+        "state": "",
+        "county": "",
+        "country": "",
+        "region": "",
+        "subregion": "",
+        "locale": "",
+        "locus": "",
+        "excavation": "",
+        "river": "",
+        "classification": "Paintings",
+        "rightsAndReproduction": "",
+        "linkResource": "",
+        "metadataDate": "2026-02-04T04:58:06.107Z",
+        "repository": "Metropolitan Museum of Art, New York, NY",
+        "objectURL": "https://www.metmuseum.org/art/collection/search/436524",
+        "tags": [
+          {
+            "term": "Sunflowers",
+            "AAT_URL": "http://vocab.getty.edu/page/aat/300404749",
+            "Wikidata_URL": "https://www.wikidata.org/wiki/Q171497"
+          },
+          {
+            "term": "Still Life",
+            "AAT_URL": "http://vocab.getty.edu/page/aat/300015638",
+            "Wikidata_URL": "https://www.wikidata.org/wiki/Q170571"
+          }
+        ],
+        "objectWikidata_URL": "https://www.wikidata.org/wiki/Q9213165",
+        "isTimelineWork": false,
+        "GalleryNumber": "825"
+      },
+      "sha256": "e84f82f453c52151d3a28ef22a22faeefdd5dda51f656c4b089c4b88dab8b508",
+      "bytes": 208766
+    },
+    {
+      "filename": "436525.jpg",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DT7098.jpg",
+      "metadata_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/436525",
+      "record_url": "https://www.metmuseum.org/art/collection/search/436525",
+      "record": {
+        "objectID": 436525,
+        "isHighlight": false,
+        "accessionNumber": "1993.400.4",
+        "accessionYear": "1993",
+        "isPublicDomain": true,
+        "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DT7098.jpg",
+        "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DT7098.jpg",
+        "additionalImages": [],
+        "constituents": [
+          {
+            "constituentID": 161947,
+            "role": "Artist",
+            "name": "Vincent van Gogh",
+            "constituentULAN_URL": "http://vocab.getty.edu/page/ulan/500115588",
+            "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q5582",
+            "gender": ""
+          }
+        ],
+        "department": "European Paintings",
+        "objectName": "Painting",
+        "title": "Bouquet of Flowers in a Vase",
+        "culture": "",
+        "period": "",
+        "dynasty": "",
+        "reign": "",
+        "portfolio": "",
+        "artistRole": "Artist",
+        "artistPrefix": "",
+        "artistDisplayName": "Vincent van Gogh",
+        "artistDisplayBio": "Dutch, Zundert 1853–1890 Auvers-sur-Oise",
+        "artistSuffix": "",
+        "artistAlphaSort": "Gogh, Vincent van",
+        "artistNationality": "Dutch",
+        "artistBeginDate": "1853",
+        "artistEndDate": "1890",
+        "artistGender": "",
+        "artistWikidata_URL": "https://www.wikidata.org/wiki/Q5582",
+        "artistULAN_URL": "http://vocab.getty.edu/page/ulan/500115588",
+        "objectDate": "1890",
+        "objectBeginDate": 1890,
+        "objectEndDate": 1890,
+        "medium": "Oil on canvas",
+        "dimensions": "25 5/8 x 21 1/4 in. (65.1 x 54 cm)",
+        "measurements": [
+          {
+            "elementName": "Overall",
+            "elementDescription": null,
+            "elementMeasurements": {
+              "Height": 65.1,
+              "Width": 54
+            }
+          }
+        ],
+        "creditLine": "The Walter H. and Leonore Annenberg Collection, Gift of Walter H. and Leonore Annenberg, 1993, Bequest of Walter H. Annenberg, 2002",
+        "geographyType": "",
+        "city": "",
+        "state": "",
+        "county": "",
+        "country": "",
+        "region": "",
+        "subregion": "",
+        "locale": "",
+        "locus": "",
+        "excavation": "",
+        "river": "",
+        "classification": "Paintings",
+        "rightsAndReproduction": "",
+        "linkResource": "",
+        "metadataDate": "2026-02-04T04:58:06.107Z",
+        "repository": "Metropolitan Museum of Art, New York, NY",
+        "objectURL": "https://www.metmuseum.org/art/collection/search/436525",
+        "tags": [
+          {
+            "term": "Flowers",
+            "AAT_URL": "http://vocab.getty.edu/page/aat/300132399",
+            "Wikidata_URL": "https://www.wikidata.org/wiki/Q506"
+          },
+          {
+            "term": "Still Life",
+            "AAT_URL": "http://vocab.getty.edu/page/aat/300015638",
+            "Wikidata_URL": "https://www.wikidata.org/wiki/Q170571"
+          }
+        ],
+        "objectWikidata_URL": "https://www.wikidata.org/wiki/Q19905329",
+        "isTimelineWork": false,
+        "GalleryNumber": "822"
+      },
+      "sha256": "64b92c085fe7059c023bf330cb8ca5ef85956f6d63a05ddf826b80b86bf5b7c7",
+      "bytes": 179379
+    }
+  ]
+}
