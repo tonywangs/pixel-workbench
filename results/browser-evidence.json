@@ -1,0 +1,16 @@
+{
+  "executed": "2026-10-19T23:09:21.840Z",
+  "browser": "156.0.8078.4",
+  "steps": [
+    "Loaded 12 pinned real SVGs and decoded actual PNG preview",
+    "Reload drops source bytes and restores selection only after matching source reattachment",
+    "Saved portable project settings",
+    "Changed bytes with identical filename do not receive saved selection",
+    "Browser exported 24 transparent variants with complete manifest",
+    "Browser exported 24 solid-background variants",
+    "Independently reopened all 24 portable transparent PNGs in a fresh browser context",
+    "Reload also restores explicit solid background and requested widths",
+    "Clearing workspace invalidates a delayed in-flight preview"
+  ],
+  "status": "passed"
+}

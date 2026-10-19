@@ -1,0 +1,26 @@
+{
+  "name": "svg-export-desk",
+  "version": "1.0.0",
+  "description": "A local SVG export workbench for inspecting vector artwork and producing dimensioned PNG packages with explicit rendering limits.",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test tests/core.test.js",
+    "test:browser": "node scripts/browser-check.js",
+    "verify:demo": "node scripts/verify-demo.js",
+    "acquire": "node scripts/acquire.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@resvg/resvg-js": "2.6.2",
+    "@xmldom/xmldom": "0.9.12",
+    "fflate": "0.8.3"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.64.1",
+    "pngjs": "7.0.0"
+  },
+  "private": true
+}

@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "recordedBeforeExecution": true,
+  "inputs": "All 12 pinned Lucide and Tabler originals; widths 64 and 256; transparent and #f2e4c8 backgrounds",
+  "reference": "Chromium native SVG Image decoded into Canvas2D, independent of resvg; original SVG bytes",
+  "decoder": "pngjs independently parses every PNG and validates PNG checksums",
+  "metrics": "Mean absolute byte error across RGBA; fraction of pixels with any channel error > 32",
+  "tolerances": {"meanAbsoluteErrorMax": 5, "largeErrorPixelFractionMax": 0.08},
+  "checks": "Exact dimensions and SHA-256; transparent inputs must contain alpha 0, alpha 255 and visible pixels; solid exports must have alpha 255 everywhere; originals byte-identical",
+  "visual": "Retain side-by-side resvg/Chromium contact sheet and inspect for missing geometry, clipping, scaling, and color. Report disagreements even if aggregate tolerance passes.",
+  "scope": "These icon collections exercise strokes and paths, not all SVG features. Labeled synthetic controls separately exercise viewport/clipping and rejection limits."
+}
