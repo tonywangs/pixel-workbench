@@ -1,0 +1,416 @@
+[
+  {
+    "source_hash": "88431cd9653ccd539741b555fb0a46b61558b301d4110412b5bc28b5e3ea6cb5",
+    "dimensions": [
+      512,
+      512
+    ],
+    "policy": {
+      "coordinates": "oriented source pixels; integer [left, top, right, bottom), right/bottom exclusive",
+      "color": "8-bit RGBA samples; RGB/gray/palette expanded; ICC ignored (no color management); interpreted as sRGB",
+      "metadata": "all metadata stripped",
+      "resampling": "none",
+      "orientation": "EXIF transposed before coordinates",
+      "formats": "single-frame 8-bit JPEG/PNG only; CMYK, 16-bit, animation rejected"
+    },
+    "complete": true,
+    "results": [
+      {
+        "index": 0,
+        "name": "duplicate",
+        "status": "exported",
+        "file": "88431cd9653ccd53-001-duplicate.png",
+        "rect": [
+          0,
+          0,
+          408,
+          510
+        ],
+        "dimensions": [
+          408,
+          510
+        ],
+        "sha256": "e43dce75b715accb7c11541d7a1da851b9f0d39efd899dfce7394b87c9f02610"
+      },
+      {
+        "index": 1,
+        "name": "duplicate",
+        "status": "exported",
+        "file": "88431cd9653ccd53-002-duplicate.png",
+        "rect": [
+          2,
+          172,
+          512,
+          512
+        ],
+        "dimensions": [
+          510,
+          340
+        ],
+        "sha256": "b799f762ac20bb3be26c7cd02e2d9aaad30aa0efe240724acae89f69384750ca"
+      },
+      {
+        "index": 2,
+        "name": "duplicate",
+        "status": "exported",
+        "file": "88431cd9653ccd53-003-duplicate.png",
+        "rect": [
+          511,
+          511,
+          512,
+          512
+        ],
+        "dimensions": [
+          1,
+          1
+        ],
+        "sha256": "abc58d5127d7cdf313beb9ec8ee839860a9c6bfbc48c8b8eb6a3f7d8bb63de6f"
+      }
+    ]
+  },
+  {
+    "source_hash": "b0793d2adda0fa6ae899c03989482bff9a42d3d5690fc7e3648f2795d730c23a",
+    "dimensions": [
+      512,
+      512
+    ],
+    "policy": {
+      "coordinates": "oriented source pixels; integer [left, top, right, bottom), right/bottom exclusive",
+      "color": "8-bit RGBA samples; RGB/gray/palette expanded; ICC ignored (no color management); interpreted as sRGB",
+      "metadata": "all metadata stripped",
+      "resampling": "none",
+      "orientation": "EXIF transposed before coordinates",
+      "formats": "single-frame 8-bit JPEG/PNG only; CMYK, 16-bit, animation rejected"
+    },
+    "complete": true,
+    "results": [
+      {
+        "index": 0,
+        "name": "duplicate",
+        "status": "exported",
+        "file": "b0793d2adda0fa6a-001-duplicate.png",
+        "rect": [
+          0,
+          0,
+          408,
+          510
+        ],
+        "dimensions": [
+          408,
+          510
+        ],
+        "sha256": "50fc7ee1d909dfd596817828b9505ee2c6b1bbb0eef30047afebce019d989f6e"
+      },
+      {
+        "index": 1,
+        "name": "duplicate",
+        "status": "exported",
+        "file": "b0793d2adda0fa6a-002-duplicate.png",
+        "rect": [
+          2,
+          172,
+          512,
+          512
+        ],
+        "dimensions": [
+          510,
+          340
+        ],
+        "sha256": "83cf537404c419b35153a465a9ced4942408f6859fd8843361a3d65a3ea7698e"
+      },
+      {
+        "index": 2,
+        "name": "duplicate",
+        "status": "exported",
+        "file": "b0793d2adda0fa6a-003-duplicate.png",
+        "rect": [
+          511,
+          511,
+          512,
+          512
+        ],
+        "dimensions": [
+          1,
+          1
+        ],
+        "sha256": "9dc4dc322bf8b12c15eed4bcfa004d6e83622d7b5fb95f35e4969694811d14a7"
+      }
+    ]
+  },
+  {
+    "source_hash": "596aa1e7cb875eb79f437e310381d26b338a81c2da23439704a73c4651e8c4bb",
+    "dimensions": [
+      451,
+      300
+    ],
+    "policy": {
+      "coordinates": "oriented source pixels; integer [left, top, right, bottom), right/bottom exclusive",
+      "color": "8-bit RGBA samples; RGB/gray/palette expanded; ICC ignored (no color management); interpreted as sRGB",
+      "metadata": "all metadata stripped",
+      "resampling": "none",
+      "orientation": "EXIF transposed before coordinates",
+      "formats": "single-frame 8-bit JPEG/PNG only; CMYK, 16-bit, animation rejected"
+    },
+    "complete": true,
+    "results": [
+      {
+        "index": 0,
+        "name": "duplicate",
+        "status": "exported",
+        "file": "596aa1e7cb875eb7-001-duplicate.png",
+        "rect": [
+          0,
+          0,
+          240,
+          300
+        ],
+        "dimensions": [
+          240,
+          300
+        ],
+        "sha256": "63057f2c2d29cd6d571d92e93fd435556543c9bd9385fd738c581cea5b223a03"
+      },
+      {
+        "index": 1,
+        "name": "duplicate",
+        "status": "exported",
+        "file": "596aa1e7cb875eb7-002-duplicate.png",
+        "rect": [
+          1,
+          0,
+          451,
+          300
+        ],
+        "dimensions": [
+          450,
+          300
+        ],
+        "sha256": "9be545e8489e5e0e1d49968cc577372bd43d50e7657a8cbc44c41b973dfc9d39"
+      },
+      {
+        "index": 2,
+        "name": "duplicate",
+        "status": "exported",
+        "file": "596aa1e7cb875eb7-003-duplicate.png",
+        "rect": [
+          450,
+          299,
+          451,
+          300
+        ],
+        "dimensions": [
+          1,
+          1
+        ],
+        "sha256": "56f076c4e45332a543815b0fc318d06a4d6b4da5a299b94c8cc1515c138a4c6e"
+      }
+    ]
+  },
+  {
+    "source_hash": "cc02f8ca188b167c775a7101b5d767d1e71792cf762c33d6fa15a4599b5a8de7",
+    "dimensions": [
+      600,
+      400
+    ],
+    "policy": {
+      "coordinates": "oriented source pixels; integer [left, top, right, bottom), right/bottom exclusive",
+      "color": "8-bit RGBA samples; RGB/gray/palette expanded; ICC ignored (no color management); interpreted as sRGB",
+      "metadata": "all metadata stripped",
+      "resampling": "none",
+      "orientation": "EXIF transposed before coordinates",
+      "formats": "single-frame 8-bit JPEG/PNG only; CMYK, 16-bit, animation rejected"
+    },
+    "complete": true,
+    "results": [
+      {
+        "index": 0,
+        "name": "duplicate",
+        "status": "exported",
+        "file": "cc02f8ca188b167c-001-duplicate.png",
+        "rect": [
+          0,
+          0,
+          320,
+          400
+        ],
+        "dimensions": [
+          320,
+          400
+        ],
+        "sha256": "c837af4f40a645f9ed666dc48b5872156a482fb3d76a09d2e21519dfad151b7e"
+      },
+      {
+        "index": 1,
+        "name": "duplicate",
+        "status": "exported",
+        "file": "cc02f8ca188b167c-002-duplicate.png",
+        "rect": [
+          0,
+          0,
+          600,
+          400
+        ],
+        "dimensions": [
+          600,
+          400
+        ],
+        "sha256": "585a0248a181ca4c556271605e46ec312424cf09ce299f0e62e43b037eadc621"
+      },
+      {
+        "index": 2,
+        "name": "duplicate",
+        "status": "exported",
+        "file": "cc02f8ca188b167c-003-duplicate.png",
+        "rect": [
+          599,
+          399,
+          600,
+          400
+        ],
+        "dimensions": [
+          1,
+          1
+        ],
+        "sha256": "392f09382551b4da0b630a1e0c321c546af7f4e9157a217f49988d5a6ac88c38"
+      }
+    ]
+  },
+  {
+    "source_hash": "3a19c5dd8a927a9334bb1229a6d63711b1c0c767fb27e2286e7c84a3e2c2f5f4",
+    "dimensions": [
+      1000,
+      872
+    ],
+    "policy": {
+      "coordinates": "oriented source pixels; integer [left, top, right, bottom), right/bottom exclusive",
+      "color": "8-bit RGBA samples; RGB/gray/palette expanded; ICC ignored (no color management); interpreted as sRGB",
+      "metadata": "all metadata stripped",
+      "resampling": "none",
+      "orientation": "EXIF transposed before coordinates",
+      "formats": "single-frame 8-bit JPEG/PNG only; CMYK, 16-bit, animation rejected"
+    },
+    "complete": true,
+    "results": [
+      {
+        "index": 0,
+        "name": "duplicate",
+        "status": "exported",
+        "file": "3a19c5dd8a927a93-001-duplicate.png",
+        "rect": [
+          0,
+          0,
+          696,
+          870
+        ],
+        "dimensions": [
+          696,
+          870
+        ],
+        "sha256": "42dd97efc6774bb30ac37c482008c45d184501671ed09f783dd6222f6d4f4b42"
+      },
+      {
+        "index": 1,
+        "name": "duplicate",
+        "status": "exported",
+        "file": "3a19c5dd8a927a93-002-duplicate.png",
+        "rect": [
+          1,
+          206,
+          1000,
+          872
+        ],
+        "dimensions": [
+          999,
+          666
+        ],
+        "sha256": "9faed0bf422a46adbc32e38ca5f6e827e2595bca7cc78361bc86d50ab62a6c8a"
+      },
+      {
+        "index": 2,
+        "name": "duplicate",
+        "status": "exported",
+        "file": "3a19c5dd8a927a93-003-duplicate.png",
+        "rect": [
+          999,
+          871,
+          1000,
+          872
+        ],
+        "dimensions": [
+          1,
+          1
+        ],
+        "sha256": "39fd8e8de864d148717a6d0c608315865a7b4c436fce01aa7f9ae809d4d5cd59"
+      }
+    ]
+  },
+  {
+    "source_hash": "f029226b28b642e80113d86622e9b215ee067a0966feaf5e60604a1e05733955",
+    "dimensions": [
+      400,
+      300
+    ],
+    "policy": {
+      "coordinates": "oriented source pixels; integer [left, top, right, bottom), right/bottom exclusive",
+      "color": "8-bit RGBA samples; RGB/gray/palette expanded; ICC ignored (no color management); interpreted as sRGB",
+      "metadata": "all metadata stripped",
+      "resampling": "none",
+      "orientation": "EXIF transposed before coordinates",
+      "formats": "single-frame 8-bit JPEG/PNG only; CMYK, 16-bit, animation rejected"
+    },
+    "complete": true,
+    "results": [
+      {
+        "index": 0,
+        "name": "duplicate",
+        "status": "exported",
+        "file": "f029226b28b642e8-001-duplicate.png",
+        "rect": [
+          0,
+          0,
+          240,
+          300
+        ],
+        "dimensions": [
+          240,
+          300
+        ],
+        "sha256": "7d9f26836c3681616494dd65c0a6440331fbd0a699983f50fd879248780d4098"
+      },
+      {
+        "index": 1,
+        "name": "duplicate",
+        "status": "exported",
+        "file": "f029226b28b642e8-002-duplicate.png",
+        "rect": [
+          1,
+          34,
+          400,
+          300
+        ],
+        "dimensions": [
+          399,
+          266
+        ],
+        "sha256": "33229247279210affb115965be9c6e1840f09865671c75e804f4d526f64e0ce8"
+      },
+      {
+        "index": 2,
+        "name": "duplicate",
+        "status": "exported",
+        "file": "f029226b28b642e8-003-duplicate.png",
+        "rect": [
+          399,
+          299,
+          400,
+          300
+        ],
+        "dimensions": [
+          1,
+          1
+        ],
+        "sha256": "356e2dfd1fa8caeeb8e0300522f24d9d3543d4930948f6ee6a6696a9f9eeb148"
+      }
+    ]
+  }
+]
