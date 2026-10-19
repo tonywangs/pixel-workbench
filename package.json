@@ -1,0 +1,26 @@
+{
+  "name": "photo-duplicate-review",
+  "version": "1.0.0",
+  "description": "A local photo comparison workbench that distinguishes identical files from visually similar candidates and saves inspectable keep-or-review decisions without modifying originals.",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test tests/core.test.js",
+    "test:browser": "playwright test",
+    "demo:acquire": "node scripts/acquire.js",
+    "evaluate": "node scripts/evaluate.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@playwright/test": "^1.56.1"
+  },
+  "dependencies": {
+    "sharp": "0.35.5"
+  },
+  "private": true,
+  "engines": {
+    "node": ">=22"
+  }
+}

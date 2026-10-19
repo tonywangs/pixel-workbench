@@ -1,0 +1,6 @@
+node_modules/
+.venv/
+test-results/
+playwright-report/
+*.log
+!results/tests.log
