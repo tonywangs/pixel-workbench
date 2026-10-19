@@ -1,0 +1,1330 @@
+{
+  "schema": 1,
+  "engine": {
+    "sharp": "0.35.5",
+    "vips": "8.18.7"
+  },
+  "settings": {
+    "widths": [
+      160,
+      320,
+      480,
+      960
+    ],
+    "quality": 78
+  },
+  "policy": {
+    "orientation": "EXIF 1–8 applied before resize",
+    "enlargement": false,
+    "color": "sRGB; untagged assumed sRGB",
+    "metadata": "EXIF/XMP/IPTC/ICC removed after conversion",
+    "alpha": "preserved in WebP and PNG; JPEG fallback only for opaque sources",
+    "jpegQuality": 85
+  },
+  "sources": [
+    {
+      "sha256": "af0e3486621c210b54932d055294051b5601aa3362af4b84ab97e2831f8163bc",
+      "name": "met-436535.jpg",
+      "outputs": [
+        {
+          "requestedWidth": 160,
+          "format": "webp",
+          "status": "exported",
+          "path": "images/af0e3486621c210b54932d055294051b5601aa3362af4b84ab97e2831f8163bc-160.webp",
+          "width": 160,
+          "height": 127,
+          "bytes": 5224,
+          "sha256": "786762eb67b45d6d5694566cc980a03fd47500ab73037bd85113bf4a64f427db",
+          "largerThanSource": false
+        },
+        {
+          "requestedWidth": 160,
+          "format": "jpeg",
+          "status": "exported",
+          "path": "images/af0e3486621c210b54932d055294051b5601aa3362af4b84ab97e2831f8163bc-160.jpg",
+          "width": 160,
+          "height": 127,
+          "bytes": 9700,
+          "sha256": "32e7d9a8ba5e4436a154a42d27dd5fafeea628d171eaeb2c061e1a9a3fd8a3b7",
+          "largerThanSource": false
+        },
+        {
+          "requestedWidth": 320,
+          "format": "webp",
+          "status": "exported",
+          "path": "images/af0e3486621c210b54932d055294051b5601aa3362af4b84ab97e2831f8163bc-320.webp",
+          "width": 320,
+          "height": 255,
+          "bytes": 23408,
+          "sha256": "c3e4a6d13caf6ec19ddceaa9c7c21c73a80afab97df5e4dc554306b159b4819a",
+          "largerThanSource": false
+        },
+        {
+          "requestedWidth": 320,
+          "format": "jpeg",
+          "status": "exported",
+          "path": "images/af0e3486621c210b54932d055294051b5601aa3362af4b84ab97e2831f8163bc-320.jpg",
+          "width": 320,
+          "height": 255,
+          "bytes": 39506,
+          "sha256": "457734bb043bd0f63cd0e243ba63ebb6dee23548a064bfd824fee679ca236596",
+          "largerThanSource": false
+        },
+        {
+          "requestedWidth": 480,
+          "format": "webp",
+          "status": "exported",
+          "path": "images/af0e3486621c210b54932d055294051b5601aa3362af4b84ab97e2831f8163bc-480.webp",
+          "width": 480,
+          "height": 382,
+          "bytes": 55896,
+          "sha256": "cc4e07dd2bd0ea3bb84b538ab9aeb5b21c58a1862514ca693fb4247dd50e9b24",
+          "largerThanSource": false
+        },
+        {
+          "requestedWidth": 480,
+          "format": "jpeg",
+          "status": "exported",
+          "path": "images/af0e3486621c210b54932d055294051b5601aa3362af4b84ab97e2831f8163bc-480.jpg",
+          "width": 480,
+          "height": 382,
+          "bytes": 95021,
+          "sha256": "71529dfbf9dfa81752c59108068f05999634b23d1448951b484cfeba251c9015",
+          "largerThanSource": false
+        },
+        {
+          "requestedWidth": 960,
+          "format": "webp",
+          "status": "skipped",
+          "reason": "No enlargement: source width is 599px."
+        },
+        {
+          "requestedWidth": 960,
+          "format": "jpeg",
+          "status": "skipped",
+          "reason": "No enlargement: source width is 599px."
+        }
+      ],
+      "bytes": 221383,
+      "width": 599,
+      "height": 477,
+      "rawWidth": 599,
+      "rawHeight": 477,
+      "orientation": 1,
+      "format": "jpeg",
+      "alpha": false,
+      "colorProfile": "untagged: assumed sRGB",
+      "provenance": {
+        "id": "436535",
+        "name": "met-436535.jpg",
+        "title": "Wheat Field with Cypresses",
+        "creator": "Vincent van Gogh",
+        "path": "images/met-436535.jpg",
+        "sourceUrl": "https://www.metmuseum.org/art/collection/search/436535",
+        "downloadUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-42549-001.jpg",
+        "apiUrl": "https://collectionapi.metmuseum.org/public/collection/v1/objects/436535",
+        "license": "CC0-1.0",
+        "licenseUrl": "https://www.metmuseum.org/policies/image-resources",
+        "evidence": "evidence/met-436535.json",
+        "sha256": "af0e3486621c210b54932d055294051b5601aa3362af4b84ab97e2831f8163bc",
+        "bytes": 221383,
+        "kind": "real photograph of artwork"
+      }
+    },
+    {
+      "sha256": "03e6bb58feb2e091dbd56adb601b3fccba17386402d5676c994b806058a797da",
+      "name": "met-436532.jpg",
+      "outputs": [
+        {
+          "requestedWidth": 160,
+          "format": "webp",
+          "status": "exported",
+          "path": "images/03e6bb58feb2e091dbd56adb601b3fccba17386402d5676c994b806058a797da-160.webp",
+          "width": 160,
+          "height": 199,
+          "bytes": 10138,
+          "sha256": "e93e870477bdda50d667d093ffc1af8334c1fb66ea69c84ce21d5096ec710726",
+          "largerThanSource": false
+        },
+        {
+          "requestedWidth": 160,
+          "format": "jpeg",
+          "status": "exported",
+          "path": "images/03e6bb58feb2e091dbd56adb601b3fccba17386402d5676c994b806058a797da-160.jpg",
+          "width": 160,
+          "height": 199,
+          "bytes": 17889,
+          "sha256": "22316959fe2b9017dc224ca70ae2bf6b4f7f97ee7d3602a361aa014b86383fea",
+          "largerThanSource": false
+        },
+        {
+          "requestedWidth": 320,
+          "format": "webp",
+          "status": "exported",
+          "path": "images/03e6bb58feb2e091dbd56adb601b3fccba17386402d5676c994b806058a797da-320.webp",
+          "width": 320,
+          "height": 398,
+          "bytes": 45142,
+          "sha256": "d3dc787b15d7fb6bcc4c54b40ff83abf1147cb7ce53591258837e305c82d0d0a",
+          "largerThanSource": false
+        },
+        {
+          "requestedWidth": 320,
+          "format": "jpeg",
+          "status": "exported",
+          "path": "images/03e6bb58feb2e091dbd56adb601b3fccba17386402d5676c994b806058a797da-320.jpg",
+          "width": 320,
+          "height": 398,
+          "bytes": 80656,
+          "sha256": "8a315126766d942bb2d45cff9e27ec4be601d809dba96c7776b276e65ef4f93c",
+          "largerThanSource": false
+        },
+        {
+          "requestedWidth": 480,
+          "format": "webp",
+          "status": "exported",
+          "path": "images/03e6bb58feb2e091dbd56adb601b3fccba17386402d5676c994b806058a797da-480.webp",
+          "width": 480,
+          "height": 598,
+          "bytes": 108352,
+          "sha256": "9b79d2b6f579206deb4787e2fb86860fe3d9a57a38f7dbb33eb5efa56e2a364c",
+          "largerThanSource": false
+        },
+        {
+          "requestedWidth": 480,
+          "format": "jpeg",
+          "status": "exported",
+          "path": "images/03e6bb58feb2e091dbd56adb601b3fccba17386402d5676c994b806058a797da-480.jpg",
+          "width": 480,
+          "height": 598,
+          "bytes": 193990,
+          "sha256": "05a40461fb428b3166216a758d5434a0ef7e64c306f5da97b33240e56cf8c180",
+          "largerThanSource": false
+        },
+        {
+          "requestedWidth": 960,
+          "format": "webp",
+          "status": "skipped",
+          "reason": "No enlargement: source width is 502px."
+        },
+        {
+          "requestedWidth": 960,
+          "format": "jpeg",
+          "status": "skipped",
+          "reason": "No enlargement: source width is 502px."
+        }
+      ],
+      "bytes": 299280,
+      "width": 502,
+      "height": 625,
+      "rawWidth": 502,
+      "rawHeight": 625,
+      "orientation": 1,
+      "format": "jpeg",
+      "alpha": false,
+      "colorProfile": "untagged: assumed sRGB",
+      "provenance": {
+        "id": "436532",
+        "name": "met-436532.jpg",
+        "title": "Self-Portrait with a Straw Hat (obverse: The Potato Peeler)",
+        "creator": "Vincent van Gogh",
+        "path": "images/met-436532.jpg",
+        "sourceUrl": "https://www.metmuseum.org/art/collection/search/436532",
+        "downloadUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1502_cropped2.jpg",
+        "apiUrl": "https://collectionapi.metmuseum.org/public/collection/v1/objects/436532",
+        "license": "CC0-1.0",
+        "licenseUrl": "https://www.metmuseum.org/policies/image-resources",
+        "evidence": "evidence/met-436532.json",
+        "sha256": "03e6bb58feb2e091dbd56adb601b3fccba17386402d5676c994b806058a797da",
+        "bytes": 299280,
+        "kind": "real photograph of artwork"
+      }
+    },
+    {
+      "sha256": "670ede1be6b7dc145812b2ea1e8a36ead09b475a813be0442e0101a67b42ea02",
+      "name": "met-436533.jpg",
+      "outputs": [
+        {
+          "requestedWidth": 160,
+          "format": "webp",
+          "status": "exported",
+          "path": "images/670ede1be6b7dc145812b2ea1e8a36ead09b475a813be0442e0101a67b42ea02-160.webp",
+          "width": 160,
+          "height": 134,
+          "bytes": 6636,
+          "sha256": "c0a0b04fb0c2d934a6f92ecc2e99c6b9db6b78198f6a41b48f449c6e64110ee0",
+          "largerThanSource": false
+        },
+        {
+          "requestedWidth": 160,
+          "format": "jpeg",
+          "status": "exported",
+          "path": "images/670ede1be6b7dc145812b2ea1e8a36ead09b475a813be0442e0101a67b42ea02-160.jpg",
+          "width": 160,
+          "height": 134,
+          "bytes": 11308,
+          "sha256": "482428c6b9296f78ae666d26d2e182cf91674b812f4c124bc33d908526e80c95",
+          "largerThanSource": false
+        },
+        {
+          "requestedWidth": 320,
+          "format": "webp",
+          "status": "exported",
+          "path": "images/670ede1be6b7dc145812b2ea1e8a36ead09b475a813be0442e0101a67b42ea02-320.webp",
+          "width": 320,
+          "height": 268,
+          "bytes": 26408,
+          "sha256": "9add8fa85261c5f2af89f43aa02b9eb5d4cdd7f41267af554d7bf1c803cb69ef",
+          "largerThanSource": false
+        },
+        {
+          "requestedWidth": 320,
+          "format": "jpeg",
+          "status": "exported",
+          "path": "images/670ede1be6b7dc145812b2ea1e8a36ead09b475a813be0442e0101a67b42ea02-320.jpg",
+          "width": 320,
+          "height": 268,
+          "bytes": 43349,
+          "sha256": "02e232ce4637a326f7f4b31420653fc27685f58afd2efca142efb843662bff36",
+          "largerThanSource": false
+        },
+        {
+          "requestedWidth": 480,
+          "format": "webp",
+          "status": "exported",
+          "path": "images/670ede1be6b7dc145812b2ea1e8a36ead09b475a813be0442e0101a67b42ea02-480.webp",
+          "width": 480,
+          "height": 401,
+          "bytes": 59770,
+          "sha256": "76153815f16a3e94b443c9765e86aa294ec865ed5751ac67db194a686310ea2c",
+          "largerThanSource": false
+        },
+        {
+          "requestedWidth": 480,
+          "format": "jpeg",
+          "status": "exported",
+          "path": "images/670ede1be6b7dc145812b2ea1e8a36ead09b475a813be0442e0101a67b42ea02-480.jpg",
+          "width": 480,
+          "height": 401,
+          "bytes": 94002,
+          "sha256": "6204da6dd9efb7de33c8fb7b26d86fcfca0f4c3d824485772d49ae4a9ce46b4b",
+          "largerThanSource": false
+        },
+        {
+          "requestedWidth": 960,
+          "format": "webp",
+          "status": "skipped",
+          "reason": "No enlargement: source width is 599px."
+        },
+        {
+          "requestedWidth": 960,
+          "format": "jpeg",
+          "status": "skipped",
+          "reason": "No enlargement: source width is 599px."
+        }
+      ],
+      "bytes": 155612,
+      "width": 599,
+      "height": 501,
+      "rawWidth": 599,
+      "rawHeight": 501,
+      "orientation": 1,
+      "format": "jpeg",
+      "alpha": false,
+      "colorProfile": "untagged: assumed sRGB",
+      "provenance": {
+        "id": "436533",
+        "name": "met-436533.jpg",
+        "title": "Shoes",
+        "creator": "Vincent van Gogh",
+        "path": "images/met-436533.jpg",
+        "sourceUrl": "https://www.metmuseum.org/art/collection/search/436533",
+        "downloadUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1947.jpg",
+        "apiUrl": "https://collectionapi.metmuseum.org/public/collection/v1/objects/436533",
+        "license": "CC0-1.0",
+        "licenseUrl": "https://www.metmuseum.org/policies/image-resources",
+        "evidence": "evidence/met-436533.json",
+        "sha256": "670ede1be6b7dc145812b2ea1e8a36ead09b475a813be0442e0101a67b42ea02",
+        "bytes": 155612,
+        "kind": "real photograph of artwork"
+      }
+    },
+    {
+      "sha256": "76e8b89371d4c4cc29abd13cde101bb3c786391cb9ea95ccea9390029f6c2413",
+      "name": "met-436534.jpg",
+      "outputs": [
+        {
+          "requestedWidth": 160,
+          "format": "webp",
+          "status": "exported",
+          "path": "images/76e8b89371d4c4cc29abd13cde101bb3c786391cb9ea95ccea9390029f6c2413-160.webp",
+          "width": 160,
+          "height": 202,
+          "bytes": 6850,
+          "sha256": "4bfe02fcd7c9722a30ea794b6e4e6fa8e403538b9c88ca5e224c8e9a9e9021cd",
+          "largerThanSource": false
+        },
+        {
+          "requestedWidth": 160,
+          "format": "jpeg",
+          "status": "exported",
+          "path": "images/76e8b89371d4c4cc29abd13cde101bb3c786391cb9ea95ccea9390029f6c2413-160.jpg",
+          "width": 160,
+          "height": 202,
+          "bytes": 12925,
+          "sha256": "f60afaed25c0be1ba20c05761492896651125933f46621778b3aacd30bfcd171",
+          "largerThanSource": false
+        },
+        {
+          "requestedWidth": 320,
+          "format": "webp",
+          "status": "exported",
+          "path": "images/76e8b89371d4c4cc29abd13cde101bb3c786391cb9ea95ccea9390029f6c2413-320.webp",
+          "width": 320,
+          "height": 404,
+          "bytes": 28494,
+          "sha256": "03e78f0b537207cd94b31d59b88502ae152b516ac17c9702382c0aaec29df329",
+          "largerThanSource": false
+        },
+        {
+          "requestedWidth": 320,
+          "format": "jpeg",
+          "status": "exported",
+          "path": "images/76e8b89371d4c4cc29abd13cde101bb3c786391cb9ea95ccea9390029f6c2413-320.jpg",
+          "width": 320,
+          "height": 404,
+          "bytes": 49365,
+          "sha256": "c7ce6b94d091ddbdc552531a55384feb786007373e6c2cfd8eed21e7ba0d326e",
+          "largerThanSource": false
+        },
+        {
+          "requestedWidth": 480,
+          "format": "webp",
+          "status": "exported",
+          "path": "images/76e8b89371d4c4cc29abd13cde101bb3c786391cb9ea95ccea9390029f6c2413-480.webp",
+          "width": 480,
+          "height": 606,
+          "bytes": 67656,
+          "sha256": "eea4b29d991a10c6d890808bd859ce4a727c7c71a35b708e19e8df550a0cf90a",
+          "largerThanSource": false
+        },
+        {
+          "requestedWidth": 480,
+          "format": "jpeg",
+          "status": "exported",
+          "path": "images/76e8b89371d4c4cc29abd13cde101bb3c786391cb9ea95ccea9390029f6c2413-480.jpg",
+          "width": 480,
+          "height": 606,
+          "bytes": 110007,
+          "sha256": "4986ca245f5adefa6c369f3b9492e3074867442020a9d8bbf69bbc0bcb45386e",
+          "largerThanSource": false
+        },
+        {
+          "requestedWidth": 960,
+          "format": "webp",
+          "status": "skipped",
+          "reason": "No enlargement: source width is 494px."
+        },
+        {
+          "requestedWidth": 960,
+          "format": "jpeg",
+          "status": "skipped",
+          "reason": "No enlargement: source width is 494px."
+        }
+      ],
+      "bytes": 128833,
+      "width": 494,
+      "height": 624,
+      "rawWidth": 494,
+      "rawHeight": 624,
+      "orientation": 1,
+      "format": "jpeg",
+      "alpha": false,
+      "colorProfile": "untagged: assumed sRGB",
+      "provenance": {
+        "id": "436534",
+        "name": "met-436534.jpg",
+        "title": "Roses",
+        "creator": "Vincent van Gogh",
+        "path": "images/met-436534.jpg",
+        "sourceUrl": "https://www.metmuseum.org/art/collection/search/436534",
+        "downloadUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DP346475.jpg",
+        "apiUrl": "https://collectionapi.metmuseum.org/public/collection/v1/objects/436534",
+        "license": "CC0-1.0",
+        "licenseUrl": "https://www.metmuseum.org/policies/image-resources",
+        "evidence": "evidence/met-436534.json",
+        "sha256": "76e8b89371d4c4cc29abd13cde101bb3c786391cb9ea95ccea9390029f6c2413",
+        "bytes": 128833,
+        "kind": "real photograph of artwork"
+      }
+    },
+    {
+      "sha256": "550fd72d1d630863d393cec1597ffdcfda650c64bb91ca0ce151735cd0989e21",
+      "name": "met-436121.jpg",
+      "outputs": [
+        {
+          "requestedWidth": 160,
+          "format": "webp",
+          "status": "exported",
+          "path": "images/550fd72d1d630863d393cec1597ffdcfda650c64bb91ca0ce151735cd0989e21-160.webp",
+          "width": 160,
+          "height": 130,
+          "bytes": 4124,
+          "sha256": "bda453057c2757e003b35e409f84d450dc779143047aa4e3b5d476c484ac9cd4",
+          "largerThanSource": false
+        },
+        {
+          "requestedWidth": 160,
+          "format": "jpeg",
+          "status": "exported",
+          "path": "images/550fd72d1d630863d393cec1597ffdcfda650c64bb91ca0ce151735cd0989e21-160.jpg",
+          "width": 160,
+          "height": 130,
+          "bytes": 8430,
+          "sha256": "4c39421451a6ec5a72ca4e7217bc39db4001fd2584b04bdf15f8a5f5933a156c",
+          "largerThanSource": false
+        },
+        {
+          "requestedWidth": 320,
+          "format": "webp",
+          "status": "exported",
+          "path": "images/550fd72d1d630863d393cec1597ffdcfda650c64bb91ca0ce151735cd0989e21-320.webp",
+          "width": 320,
+          "height": 260,
+          "bytes": 15040,
+          "sha256": "55f97f7e9d676c21b593ea67ef203f1acd1b9578b7f251ce32a3c5d2a8bf1eef",
+          "largerThanSource": false
+        },
+        {
+          "requestedWidth": 320,
+          "format": "jpeg",
+          "status": "exported",
+          "path": "images/550fd72d1d630863d393cec1597ffdcfda650c64bb91ca0ce151735cd0989e21-320.jpg",
+          "width": 320,
+          "height": 260,
+          "bytes": 29208,
+          "sha256": "7e393835285a4e701e057052c08c16f671ddfdb536aac1ec5cbca829cf10a480",
+          "largerThanSource": false
+        },
+        {
+          "requestedWidth": 480,
+          "format": "webp",
+          "status": "exported",
+          "path": "images/550fd72d1d630863d393cec1597ffdcfda650c64bb91ca0ce151735cd0989e21-480.webp",
+          "width": 480,
+          "height": 390,
+          "bytes": 32228,
+          "sha256": "f7c1b253d166da3f995c700736391564f53e976efac688e8f1fe750658484121",
+          "largerThanSource": false
+        },
+        {
+          "requestedWidth": 480,
+          "format": "jpeg",
+          "status": "exported",
+          "path": "images/550fd72d1d630863d393cec1597ffdcfda650c64bb91ca0ce151735cd0989e21-480.jpg",
+          "width": 480,
+          "height": 390,
+          "bytes": 62943,
+          "sha256": "6094c3702c9aa14a5a5b66d7a922027398fbc16c62937aefad1d12e2063e03ad",
+          "largerThanSource": false
+        },
+        {
+          "requestedWidth": 960,
+          "format": "webp",
+          "status": "skipped",
+          "reason": "No enlargement: source width is 600px."
+        },
+        {
+          "requestedWidth": 960,
+          "format": "jpeg",
+          "status": "skipped",
+          "reason": "No enlargement: source width is 600px."
+        }
+      ],
+      "bytes": 140074,
+      "width": 600,
+      "height": 488,
+      "rawWidth": 600,
+      "rawHeight": 488,
+      "orientation": 1,
+      "format": "jpeg",
+      "alpha": false,
+      "colorProfile": "untagged: assumed sRGB",
+      "provenance": {
+        "id": "436121",
+        "name": "met-436121.jpg",
+        "title": "A Woman Seated beside a Vase of Flowers (Madame Paul Valpinçon?)",
+        "creator": "Edgar Degas",
+        "path": "images/met-436121.jpg",
+        "sourceUrl": "https://www.metmuseum.org/art/collection/search/436121",
+        "downloadUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-25460-001.jpg",
+        "apiUrl": "https://collectionapi.metmuseum.org/public/collection/v1/objects/436121",
+        "license": "CC0-1.0",
+        "licenseUrl": "https://www.metmuseum.org/policies/image-resources",
+        "evidence": "evidence/met-436121.json",
+        "sha256": "550fd72d1d630863d393cec1597ffdcfda650c64bb91ca0ce151735cd0989e21",
+        "bytes": 140074,
+        "kind": "real photograph of artwork"
+      }
+    },
+    {
+      "sha256": "7d8d840424e3747c14b203b67192fff726c897bb05cf9d3f7fa227e1ee4510de",
+      "name": "met-436105.jpg",
+      "outputs": [
+        {
+          "requestedWidth": 160,
+          "format": "webp",
+          "status": "exported",
+          "path": "images/7d8d840424e3747c14b203b67192fff726c897bb05cf9d3f7fa227e1ee4510de-160.webp",
+          "width": 160,
+          "height": 106,
+          "bytes": 2108,
+          "sha256": "c8a33907faacaaf0cfb3807cf6bddd7bf1d8ac7b458b0cdc79fd8050bb77b749",
+          "largerThanSource": false
+        },
+        {
+          "requestedWidth": 160,
+          "format": "jpeg",
+          "status": "exported",
+          "path": "images/7d8d840424e3747c14b203b67192fff726c897bb05cf9d3f7fa227e1ee4510de-160.jpg",
+          "width": 160,
+          "height": 106,
+          "bytes": 4996,
+          "sha256": "19fbc084c3b9ce579f06d635a1f0ad7480c8eb252ffa0a30bc3f4ddc628c5303",
+          "largerThanSource": false
+        },
+        {
+          "requestedWidth": 320,
+          "format": "webp",
+          "status": "exported",
+          "path": "images/7d8d840424e3747c14b203b67192fff726c897bb05cf9d3f7fa227e1ee4510de-320.webp",
+          "width": 320,
+          "height": 213,
+          "bytes": 6732,
+          "sha256": "bdeed48eb558c3d696e29c656e4ac019d4e9aa1d9a8114d584a01b615c08e323",
+          "largerThanSource": false
+        },
+        {
+          "requestedWidth": 320,
+          "format": "jpeg",
+          "status": "exported",
+          "path": "images/7d8d840424e3747c14b203b67192fff726c897bb05cf9d3f7fa227e1ee4510de-320.jpg",
+          "width": 320,
+          "height": 213,
+          "bytes": 16343,
+          "sha256": "5e37af2dbe51f1aed627041fa98fff5cc33d1ef490fdd820cb327a020112211c",
+          "largerThanSource": false
+        },
+        {
+          "requestedWidth": 480,
+          "format": "webp",
+          "status": "exported",
+          "path": "images/7d8d840424e3747c14b203b67192fff726c897bb05cf9d3f7fa227e1ee4510de-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 13310,
+          "sha256": "8e68eb37e2d05dc37aef2e7309eb5f13139c8cb9e68dad357a41ebc15f8efec7",
+          "largerThanSource": false
+        },
+        {
+          "requestedWidth": 480,
+          "format": "jpeg",
+          "status": "exported",
+          "path": "images/7d8d840424e3747c14b203b67192fff726c897bb05cf9d3f7fa227e1ee4510de-480.jpg",
+          "width": 480,
+          "height": 320,
+          "bytes": 33142,
+          "sha256": "9908f57d4ed8cf01298c95d51f2cc848b60dcf32085f784be620a4e8f7c9905e",
+          "largerThanSource": false
+        },
+        {
+          "requestedWidth": 960,
+          "format": "webp",
+          "status": "skipped",
+          "reason": "No enlargement: source width is 599px."
+        },
+        {
+          "requestedWidth": 960,
+          "format": "jpeg",
+          "status": "skipped",
+          "reason": "No enlargement: source width is 599px."
+        }
+      ],
+      "bytes": 71388,
+      "width": 599,
+      "height": 399,
+      "rawWidth": 599,
+      "rawHeight": 399,
+      "orientation": 1,
+      "format": "jpeg",
+      "alpha": false,
+      "colorProfile": "untagged: assumed sRGB",
+      "provenance": {
+        "id": "436105",
+        "name": "met-436105.jpg",
+        "title": "The Death of Socrates",
+        "creator": "Jacques Louis David",
+        "path": "images/met-436105.jpg",
+        "sourceUrl": "https://www.metmuseum.org/art/collection/search/436105",
+        "downloadUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-13139-001.jpg",
+        "apiUrl": "https://collectionapi.metmuseum.org/public/collection/v1/objects/436105",
+        "license": "CC0-1.0",
+        "licenseUrl": "https://www.metmuseum.org/policies/image-resources",
+        "evidence": "evidence/met-436105.json",
+        "sha256": "7d8d840424e3747c14b203b67192fff726c897bb05cf9d3f7fa227e1ee4510de",
+        "bytes": 71388,
+        "kind": "real photograph of artwork"
+      }
+    },
+    {
+      "sha256": "cd98cf10c3cd480c1d19ad14f9913e5212bb8ce8910722bb248c391994d4c0b7",
+      "name": "met-436095.jpg",
+      "outputs": [
+        {
+          "requestedWidth": 160,
+          "format": "webp",
+          "status": "exported",
+          "path": "images/cd98cf10c3cd480c1d19ad14f9913e5212bb8ce8910722bb248c391994d4c0b7-160.webp",
+          "width": 160,
+          "height": 116,
+          "bytes": 2622,
+          "sha256": "04b6b823c83af8e758eea7589ee62f747d1d5a6e718b03b840f5a3ce2ed311a6",
+          "largerThanSource": false
+        },
+        {
+          "requestedWidth": 160,
+          "format": "jpeg",
+          "status": "exported",
+          "path": "images/cd98cf10c3cd480c1d19ad14f9913e5212bb8ce8910722bb248c391994d4c0b7-160.jpg",
+          "width": 160,
+          "height": 116,
+          "bytes": 6256,
+          "sha256": "b2d22461ea018fb604ad8fb641f3129992065033442a27f43f14b0dd602523b6",
+          "largerThanSource": false
+        },
+        {
+          "requestedWidth": 320,
+          "format": "webp",
+          "status": "exported",
+          "path": "images/cd98cf10c3cd480c1d19ad14f9913e5212bb8ce8910722bb248c391994d4c0b7-320.webp",
+          "width": 320,
+          "height": 233,
+          "bytes": 8862,
+          "sha256": "27e32e4c481761f6f28aeeabfec739e16e90eba5ba913cb5a77cfac8b1f19f92",
+          "largerThanSource": false
+        },
+        {
+          "requestedWidth": 320,
+          "format": "jpeg",
+          "status": "exported",
+          "path": "images/cd98cf10c3cd480c1d19ad14f9913e5212bb8ce8910722bb248c391994d4c0b7-320.jpg",
+          "width": 320,
+          "height": 233,
+          "bytes": 21379,
+          "sha256": "b2edc2238961ee6cdaea78948e6cff9900bbaa360f650df7925938c4c23b3165",
+          "largerThanSource": false
+        },
+        {
+          "requestedWidth": 480,
+          "format": "webp",
+          "status": "exported",
+          "path": "images/cd98cf10c3cd480c1d19ad14f9913e5212bb8ce8910722bb248c391994d4c0b7-480.webp",
+          "width": 480,
+          "height": 350,
+          "bytes": 18386,
+          "sha256": "e50619793a8f7a8b1d9303cf3dff05c44ff75f25eec79b8b3e79383cc48c415f",
+          "largerThanSource": false
+        },
+        {
+          "requestedWidth": 480,
+          "format": "jpeg",
+          "status": "exported",
+          "path": "images/cd98cf10c3cd480c1d19ad14f9913e5212bb8ce8910722bb248c391994d4c0b7-480.jpg",
+          "width": 480,
+          "height": 350,
+          "bytes": 46581,
+          "sha256": "73fd528119a05b0d3c568554b2bd853085e143e5ae043acd8b7b715e2a808717",
+          "largerThanSource": false
+        },
+        {
+          "requestedWidth": 960,
+          "format": "webp",
+          "status": "skipped",
+          "reason": "No enlargement: source width is 600px."
+        },
+        {
+          "requestedWidth": 960,
+          "format": "jpeg",
+          "status": "skipped",
+          "reason": "No enlargement: source width is 600px."
+        }
+      ],
+      "bytes": 106853,
+      "width": 600,
+      "height": 437,
+      "rawWidth": 600,
+      "rawHeight": 437,
+      "orientation": 1,
+      "format": "jpeg",
+      "alpha": false,
+      "colorProfile": "untagged: assumed sRGB",
+      "provenance": {
+        "id": "436095",
+        "name": "met-436095.jpg",
+        "title": "The Third-Class Carriage",
+        "creator": "Honoré Daumier",
+        "path": "images/met-436095.jpg",
+        "sourceUrl": "https://www.metmuseum.org/art/collection/search/436095",
+        "downloadUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-21027-001.jpg",
+        "apiUrl": "https://collectionapi.metmuseum.org/public/collection/v1/objects/436095",
+        "license": "CC0-1.0",
+        "licenseUrl": "https://www.metmuseum.org/policies/image-resources",
+        "evidence": "evidence/met-436095.json",
+        "sha256": "cd98cf10c3cd480c1d19ad14f9913e5212bb8ce8910722bb248c391994d4c0b7",
+        "bytes": 106853,
+        "kind": "real photograph of artwork"
+      }
+    },
+    {
+      "sha256": "48751a95d8457ac865ffd2a74d1f93c60634118c1c50065997f71a7974c150fd",
+      "name": "met-436090.jpg",
+      "outputs": [
+        {
+          "requestedWidth": 160,
+          "format": "webp",
+          "status": "exported",
+          "path": "images/48751a95d8457ac865ffd2a74d1f93c60634118c1c50065997f71a7974c150fd-160.webp",
+          "width": 160,
+          "height": 211,
+          "bytes": 6314,
+          "sha256": "af28cf647b42ac1fbc7f63616fbec658dce35fac35b6a3220306c1812b69feec",
+          "largerThanSource": false
+        },
+        {
+          "requestedWidth": 160,
+          "format": "jpeg",
+          "status": "exported",
+          "path": "images/48751a95d8457ac865ffd2a74d1f93c60634118c1c50065997f71a7974c150fd-160.jpg",
+          "width": 160,
+          "height": 211,
+          "bytes": 12118,
+          "sha256": "27bd8d2bab5de70e773dc1ff456265a9781ece2504a6701b232b24506cf685bf",
+          "largerThanSource": false
+        },
+        {
+          "requestedWidth": 320,
+          "format": "webp",
+          "status": "exported",
+          "path": "images/48751a95d8457ac865ffd2a74d1f93c60634118c1c50065997f71a7974c150fd-320.webp",
+          "width": 320,
+          "height": 422,
+          "bytes": 26940,
+          "sha256": "5aa4bfcc892b63e8e531ed9c2248239fa9438d2f66549058677663dae5812c2b",
+          "largerThanSource": false
+        },
+        {
+          "requestedWidth": 320,
+          "format": "jpeg",
+          "status": "exported",
+          "path": "images/48751a95d8457ac865ffd2a74d1f93c60634118c1c50065997f71a7974c150fd-320.jpg",
+          "width": 320,
+          "height": 422,
+          "bytes": 48478,
+          "sha256": "f402adca4edd4385d5b317d708fe340726bcbf55f233341056cc46ebcbbcf15c",
+          "largerThanSource": false
+        },
+        {
+          "requestedWidth": 480,
+          "format": "webp",
+          "status": "skipped",
+          "reason": "No enlargement: source width is 473px."
+        },
+        {
+          "requestedWidth": 480,
+          "format": "jpeg",
+          "status": "skipped",
+          "reason": "No enlargement: source width is 473px."
+        },
+        {
+          "requestedWidth": 960,
+          "format": "webp",
+          "status": "skipped",
+          "reason": "No enlargement: source width is 473px."
+        },
+        {
+          "requestedWidth": 960,
+          "format": "jpeg",
+          "status": "skipped",
+          "reason": "No enlargement: source width is 473px."
+        }
+      ],
+      "bytes": 162350,
+      "width": 473,
+      "height": 624,
+      "rawWidth": 473,
+      "rawHeight": 624,
+      "orientation": 1,
+      "format": "jpeg",
+      "alpha": false,
+      "colorProfile": "untagged: assumed sRGB",
+      "provenance": {
+        "id": "436090",
+        "name": "met-436090.jpg",
+        "title": "Landscape with a Sunlit Stream",
+        "creator": "Charles-François Daubigny",
+        "path": "images/met-436090.jpg",
+        "sourceUrl": "https://www.metmuseum.org/art/collection/search/436090",
+        "downloadUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-23369-001.jpg",
+        "apiUrl": "https://collectionapi.metmuseum.org/public/collection/v1/objects/436090",
+        "license": "CC0-1.0",
+        "licenseUrl": "https://www.metmuseum.org/policies/image-resources",
+        "evidence": "evidence/met-436090.json",
+        "sha256": "48751a95d8457ac865ffd2a74d1f93c60634118c1c50065997f71a7974c150fd",
+        "bytes": 162350,
+        "kind": "real photograph of artwork"
+      }
+    },
+    {
+      "sha256": "99c2305bc9fd2f0cd416bb9e14550c944cb2201e7bae89478896b16bc6d2f9ca",
+      "name": "met-436002.jpg",
+      "outputs": [
+        {
+          "requestedWidth": 160,
+          "format": "webp",
+          "status": "exported",
+          "path": "images/99c2305bc9fd2f0cd416bb9e14550c944cb2201e7bae89478896b16bc6d2f9ca-160.webp",
+          "width": 160,
+          "height": 108,
+          "bytes": 2608,
+          "sha256": "ea05d3d7fdc4071ceefbcd0f0fb9e807255dfcd5bfd9e0da55cad49bb9199d05",
+          "largerThanSource": false
+        },
+        {
+          "requestedWidth": 160,
+          "format": "jpeg",
+          "status": "exported",
+          "path": "images/99c2305bc9fd2f0cd416bb9e14550c944cb2201e7bae89478896b16bc6d2f9ca-160.jpg",
+          "width": 160,
+          "height": 108,
+          "bytes": 5692,
+          "sha256": "0d950fbeaecbb0d4a7ab9b0446fd7287dd9075c8bfb6c80c87884a1eb926c570",
+          "largerThanSource": false
+        },
+        {
+          "requestedWidth": 320,
+          "format": "webp",
+          "status": "exported",
+          "path": "images/99c2305bc9fd2f0cd416bb9e14550c944cb2201e7bae89478896b16bc6d2f9ca-320.webp",
+          "width": 320,
+          "height": 215,
+          "bytes": 7850,
+          "sha256": "881f174add9c7940b0333886f474aae120e621a5b402c3b5ea063c6204d61898",
+          "largerThanSource": false
+        },
+        {
+          "requestedWidth": 320,
+          "format": "jpeg",
+          "status": "exported",
+          "path": "images/99c2305bc9fd2f0cd416bb9e14550c944cb2201e7bae89478896b16bc6d2f9ca-320.jpg",
+          "width": 320,
+          "height": 215,
+          "bytes": 18374,
+          "sha256": "70d33bca7ca6cde3286424e6808770965b5f2600e2ec13f45d52b8d11c3d26b9",
+          "largerThanSource": false
+        },
+        {
+          "requestedWidth": 480,
+          "format": "webp",
+          "status": "exported",
+          "path": "images/99c2305bc9fd2f0cd416bb9e14550c944cb2201e7bae89478896b16bc6d2f9ca-480.webp",
+          "width": 480,
+          "height": 323,
+          "bytes": 15318,
+          "sha256": "f534a3a4a34ae36000a681003ed4547f72638f96281704c098178180b28691f2",
+          "largerThanSource": false
+        },
+        {
+          "requestedWidth": 480,
+          "format": "jpeg",
+          "status": "exported",
+          "path": "images/99c2305bc9fd2f0cd416bb9e14550c944cb2201e7bae89478896b16bc6d2f9ca-480.jpg",
+          "width": 480,
+          "height": 323,
+          "bytes": 37958,
+          "sha256": "b0f135a8b845cf6d8a21d8ec63f25c6435ab74114dfc409226a253af3b5dd0c6",
+          "largerThanSource": false
+        },
+        {
+          "requestedWidth": 960,
+          "format": "webp",
+          "status": "skipped",
+          "reason": "No enlargement: source width is 599px."
+        },
+        {
+          "requestedWidth": 960,
+          "format": "jpeg",
+          "status": "skipped",
+          "reason": "No enlargement: source width is 599px."
+        }
+      ],
+      "bytes": 79556,
+      "width": 599,
+      "height": 403,
+      "rawWidth": 599,
+      "rawHeight": 403,
+      "orientation": 1,
+      "format": "jpeg",
+      "alpha": false,
+      "colorProfile": "untagged: assumed sRGB",
+      "provenance": {
+        "id": "436002",
+        "name": "met-436002.jpg",
+        "title": "Woman with a Parrot",
+        "creator": "Gustave Courbet",
+        "path": "images/met-436002.jpg",
+        "sourceUrl": "https://www.metmuseum.org/art/collection/search/436002",
+        "downloadUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-17680-001.jpg",
+        "apiUrl": "https://collectionapi.metmuseum.org/public/collection/v1/objects/436002",
+        "license": "CC0-1.0",
+        "licenseUrl": "https://www.metmuseum.org/policies/image-resources",
+        "evidence": "evidence/met-436002.json",
+        "sha256": "99c2305bc9fd2f0cd416bb9e14550c944cb2201e7bae89478896b16bc6d2f9ca",
+        "bytes": 79556,
+        "kind": "real photograph of artwork"
+      }
+    },
+    {
+      "sha256": "6f1c4b129cc7302098a4bfc3c835e5b932c3b0fa8566544bdb54a694ab4c7656",
+      "name": "met-437853.jpg",
+      "outputs": [
+        {
+          "requestedWidth": 160,
+          "format": "webp",
+          "status": "exported",
+          "path": "images/6f1c4b129cc7302098a4bfc3c835e5b932c3b0fa8566544bdb54a694ab4c7656-160.webp",
+          "width": 160,
+          "height": 119,
+          "bytes": 3804,
+          "sha256": "5bf8aa072c937fcca4e8bebb5ef5ade387fb51d7c8f09691db6397bb5ca2611b",
+          "largerThanSource": false
+        },
+        {
+          "requestedWidth": 160,
+          "format": "jpeg",
+          "status": "exported",
+          "path": "images/6f1c4b129cc7302098a4bfc3c835e5b932c3b0fa8566544bdb54a694ab4c7656-160.jpg",
+          "width": 160,
+          "height": 119,
+          "bytes": 7536,
+          "sha256": "f138841959682ce565df499d1e062f5af412924730dc1d117dee5bf94826bb5c",
+          "largerThanSource": false
+        },
+        {
+          "requestedWidth": 320,
+          "format": "webp",
+          "status": "exported",
+          "path": "images/6f1c4b129cc7302098a4bfc3c835e5b932c3b0fa8566544bdb54a694ab4c7656-320.webp",
+          "width": 320,
+          "height": 239,
+          "bytes": 13468,
+          "sha256": "af7cec12938555a905fbac8ea818bddafd74805a906b64e900703aacdacfa492",
+          "largerThanSource": false
+        },
+        {
+          "requestedWidth": 320,
+          "format": "jpeg",
+          "status": "exported",
+          "path": "images/6f1c4b129cc7302098a4bfc3c835e5b932c3b0fa8566544bdb54a694ab4c7656-320.jpg",
+          "width": 320,
+          "height": 239,
+          "bytes": 26454,
+          "sha256": "10753aa22823c3de72de618e99cc710665eb65b703fb24d8d775b57e8b5a0e18",
+          "largerThanSource": false
+        },
+        {
+          "requestedWidth": 480,
+          "format": "webp",
+          "status": "exported",
+          "path": "images/6f1c4b129cc7302098a4bfc3c835e5b932c3b0fa8566544bdb54a694ab4c7656-480.webp",
+          "width": 480,
+          "height": 358,
+          "bytes": 30552,
+          "sha256": "a691bdacce0b17974643ec5a6c5e1b8168f6e252b7c6c22b0df1c7badb36d094",
+          "largerThanSource": false
+        },
+        {
+          "requestedWidth": 480,
+          "format": "jpeg",
+          "status": "exported",
+          "path": "images/6f1c4b129cc7302098a4bfc3c835e5b932c3b0fa8566544bdb54a694ab4c7656-480.jpg",
+          "width": 480,
+          "height": 358,
+          "bytes": 56918,
+          "sha256": "88b479b0fdba5d0abb6ecef02920e85ef10ccb21327f01ddca717de65fbc5746",
+          "largerThanSource": false
+        },
+        {
+          "requestedWidth": 960,
+          "format": "webp",
+          "status": "skipped",
+          "reason": "No enlargement: source width is 599px."
+        },
+        {
+          "requestedWidth": 960,
+          "format": "jpeg",
+          "status": "skipped",
+          "reason": "No enlargement: source width is 599px."
+        }
+      ],
+      "bytes": 250496,
+      "width": 599,
+      "height": 447,
+      "rawWidth": 599,
+      "rawHeight": 447,
+      "orientation": 1,
+      "format": "jpeg",
+      "alpha": false,
+      "colorProfile": "untagged: assumed sRGB",
+      "provenance": {
+        "id": "437853",
+        "name": "met-437853.jpg",
+        "title": "Venice, from the Porch of Madonna della Salute",
+        "creator": "Joseph Mallord William Turner",
+        "path": "images/met-437853.jpg",
+        "sourceUrl": "https://www.metmuseum.org/art/collection/search/437853",
+        "downloadUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DP169568.jpg",
+        "apiUrl": "https://collectionapi.metmuseum.org/public/collection/v1/objects/437853",
+        "license": "CC0-1.0",
+        "licenseUrl": "https://www.metmuseum.org/policies/image-resources",
+        "evidence": "evidence/met-437853.json",
+        "sha256": "6f1c4b129cc7302098a4bfc3c835e5b932c3b0fa8566544bdb54a694ab4c7656",
+        "bytes": 250496,
+        "kind": "real photograph of artwork"
+      }
+    },
+    {
+      "sha256": "13120aa067755f1f50d2b900417807ef9da3f8b2b63a1bbea428fe3f2d8d00a9",
+      "name": "met-437881.jpg",
+      "outputs": [
+        {
+          "requestedWidth": 160,
+          "format": "webp",
+          "status": "exported",
+          "path": "images/13120aa067755f1f50d2b900417807ef9da3f8b2b63a1bbea428fe3f2d8d00a9-160.webp",
+          "width": 160,
+          "height": 180,
+          "bytes": 3804,
+          "sha256": "786c2ead0cfbef14a42c37da10b0d339c7af90e7ed5271ca5016041e350071e8",
+          "largerThanSource": false
+        },
+        {
+          "requestedWidth": 160,
+          "format": "jpeg",
+          "status": "exported",
+          "path": "images/13120aa067755f1f50d2b900417807ef9da3f8b2b63a1bbea428fe3f2d8d00a9-160.jpg",
+          "width": 160,
+          "height": 180,
+          "bytes": 9222,
+          "sha256": "1a6564d9de2959460ea4aa033c332630ba7198889c3ce06ff324588c55ea2852",
+          "largerThanSource": false
+        },
+        {
+          "requestedWidth": 320,
+          "format": "webp",
+          "status": "exported",
+          "path": "images/13120aa067755f1f50d2b900417807ef9da3f8b2b63a1bbea428fe3f2d8d00a9-320.webp",
+          "width": 320,
+          "height": 360,
+          "bytes": 12112,
+          "sha256": "9ba28a09ba32cd31f78d228526b05f45a70db5f2fa07ce3ab41f9541cb594b61",
+          "largerThanSource": false
+        },
+        {
+          "requestedWidth": 320,
+          "format": "jpeg",
+          "status": "exported",
+          "path": "images/13120aa067755f1f50d2b900417807ef9da3f8b2b63a1bbea428fe3f2d8d00a9-320.jpg",
+          "width": 320,
+          "height": 360,
+          "bytes": 29713,
+          "sha256": "7f8150666d221dcb7e8e5be6e3ec23ac8c458db6d3371edd1c371079c7a701ad",
+          "largerThanSource": false
+        },
+        {
+          "requestedWidth": 480,
+          "format": "webp",
+          "status": "exported",
+          "path": "images/13120aa067755f1f50d2b900417807ef9da3f8b2b63a1bbea428fe3f2d8d00a9-480.webp",
+          "width": 480,
+          "height": 540,
+          "bytes": 23682,
+          "sha256": "3e35a682d8d0087269ad00a97825423ee6b2607928dadf45e6131f6553f1dd59",
+          "largerThanSource": false
+        },
+        {
+          "requestedWidth": 480,
+          "format": "jpeg",
+          "status": "exported",
+          "path": "images/13120aa067755f1f50d2b900417807ef9da3f8b2b63a1bbea428fe3f2d8d00a9-480.jpg",
+          "width": 480,
+          "height": 540,
+          "bytes": 60977,
+          "sha256": "a2c4c1ef28b1e38530b5c6e8207a1d056aff47c7f5089fd81c26e4815ad34c7c",
+          "largerThanSource": false
+        },
+        {
+          "requestedWidth": 960,
+          "format": "webp",
+          "status": "skipped",
+          "reason": "No enlargement: source width is 555px."
+        },
+        {
+          "requestedWidth": 960,
+          "format": "jpeg",
+          "status": "skipped",
+          "reason": "No enlargement: source width is 555px."
+        }
+      ],
+      "bytes": 82797,
+      "width": 555,
+      "height": 624,
+      "rawWidth": 555,
+      "rawHeight": 624,
+      "orientation": 1,
+      "format": "jpeg",
+      "alpha": false,
+      "colorProfile": "untagged: assumed sRGB",
+      "provenance": {
+        "id": "437881",
+        "name": "met-437881.jpg",
+        "title": "Young Woman with a Water Pitcher",
+        "creator": "Johannes Vermeer",
+        "path": "images/met-437881.jpg",
+        "sourceUrl": "https://www.metmuseum.org/art/collection/search/437881",
+        "downloadUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DP353257.jpg",
+        "apiUrl": "https://collectionapi.metmuseum.org/public/collection/v1/objects/437881",
+        "license": "CC0-1.0",
+        "licenseUrl": "https://www.metmuseum.org/policies/image-resources",
+        "evidence": "evidence/met-437881.json",
+        "sha256": "13120aa067755f1f50d2b900417807ef9da3f8b2b63a1bbea428fe3f2d8d00a9",
+        "bytes": 82797,
+        "kind": "real photograph of artwork"
+      }
+    },
+    {
+      "sha256": "a66d679a68ce68b0919bd20183830f6aaaabdf86ebbc4671fed08647774a3ada",
+      "name": "met-437854.jpg",
+      "outputs": [
+        {
+          "requestedWidth": 160,
+          "format": "webp",
+          "status": "exported",
+          "path": "images/a66d679a68ce68b0919bd20183830f6aaaabdf86ebbc4671fed08647774a3ada-160.webp",
+          "width": 160,
+          "height": 120,
+          "bytes": 2002,
+          "sha256": "802d292849843f408f998273ad124a4356d7524fde29c5172bd8a1cec45fff10",
+          "largerThanSource": false
+        },
+        {
+          "requestedWidth": 160,
+          "format": "jpeg",
+          "status": "exported",
+          "path": "images/a66d679a68ce68b0919bd20183830f6aaaabdf86ebbc4671fed08647774a3ada-160.jpg",
+          "width": 160,
+          "height": 120,
+          "bytes": 4963,
+          "sha256": "24888b6ad05863864b018c924667aa7a457a08e1c0ac4e34d5373c6abddd9109",
+          "largerThanSource": false
+        },
+        {
+          "requestedWidth": 320,
+          "format": "webp",
+          "status": "exported",
+          "path": "images/a66d679a68ce68b0919bd20183830f6aaaabdf86ebbc4671fed08647774a3ada-320.webp",
+          "width": 320,
+          "height": 240,
+          "bytes": 7420,
+          "sha256": "b68404fd8b215930049c3e82c1e8e7b45624519d1760e08f5dab81e164bdae06",
+          "largerThanSource": false
+        },
+        {
+          "requestedWidth": 320,
+          "format": "jpeg",
+          "status": "exported",
+          "path": "images/a66d679a68ce68b0919bd20183830f6aaaabdf86ebbc4671fed08647774a3ada-320.jpg",
+          "width": 320,
+          "height": 240,
+          "bytes": 18283,
+          "sha256": "94f81ce8a5d64a354830716a75b96ff85d254a831da92a816cf1aa8400134cbc",
+          "largerThanSource": false
+        },
+        {
+          "requestedWidth": 480,
+          "format": "webp",
+          "status": "exported",
+          "path": "images/a66d679a68ce68b0919bd20183830f6aaaabdf86ebbc4671fed08647774a3ada-480.webp",
+          "width": 480,
+          "height": 360,
+          "bytes": 18358,
+          "sha256": "a857ac9d76a08f7c7e2360cd307b8b4cd7d9927ef2aee9295441209935d54be1",
+          "largerThanSource": false
+        },
+        {
+          "requestedWidth": 480,
+          "format": "jpeg",
+          "status": "exported",
+          "path": "images/a66d679a68ce68b0919bd20183830f6aaaabdf86ebbc4671fed08647774a3ada-480.jpg",
+          "width": 480,
+          "height": 360,
+          "bytes": 41611,
+          "sha256": "2f1974e337be37a80e8c6948329c199d67e12be5146c8856ce110045218419f5",
+          "largerThanSource": false
+        },
+        {
+          "requestedWidth": 960,
+          "format": "webp",
+          "status": "skipped",
+          "reason": "No enlargement: source width is 599px."
+        },
+        {
+          "requestedWidth": 960,
+          "format": "jpeg",
+          "status": "skipped",
+          "reason": "No enlargement: source width is 599px."
+        }
+      ],
+      "bytes": 100713,
+      "width": 599,
+      "height": 449,
+      "rawWidth": 599,
+      "rawHeight": 449,
+      "orientation": 1,
+      "format": "jpeg",
+      "alpha": false,
+      "colorProfile": "untagged: assumed sRGB",
+      "provenance": {
+        "id": "437854",
+        "name": "met-437854.jpg",
+        "title": "Whalers",
+        "creator": "Joseph Mallord William Turner",
+        "path": "images/met-437854.jpg",
+        "sourceUrl": "https://www.metmuseum.org/art/collection/search/437854",
+        "downloadUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-13360-001.jpg",
+        "apiUrl": "https://collectionapi.metmuseum.org/public/collection/v1/objects/437854",
+        "license": "CC0-1.0",
+        "licenseUrl": "https://www.metmuseum.org/policies/image-resources",
+        "evidence": "evidence/met-437854.json",
+        "sha256": "a66d679a68ce68b0919bd20183830f6aaaabdf86ebbc4671fed08647774a3ada",
+        "bytes": 100713,
+        "kind": "real photograph of artwork"
+      }
+    }
+  ],
+  "counts": {
+    "exported": 70,
+    "skipped": 26,
+    "failed": 0
+  },
+  "outputBytes": 2086911
+}

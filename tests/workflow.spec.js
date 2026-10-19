@@ -1,0 +1,58 @@
+const {test,expect}=require('@playwright/test');
+const fs=require('node:fs/promises'),path=require('node:path'),crypto=require('node:crypto'),sharp=require('sharp');
+const root=path.resolve(__dirname,'..');
+const digest=b=>crypto.createHash('sha256').update(b).digest('hex');
+const sources=require('../demo/sources.json');
+async function pixels(page,url){return page.evaluate(async url=>{const b=await(await fetch(url)).blob(),image=await createImageBitmap(b),c=document.createElement('canvas');c.width=32;c.height=32;const ctx=c.getContext('2d');ctx.drawImage(image,0,0,32,32);const p=Array.from(ctx.getImageData(0,0,32,32).data);return {width:image.width,height:image.height,p};},url);}
+const distance=(a,b)=>a.reduce((sum,v,i)=>sum+(i%4===3?0:Math.abs(v-b[i])),0)/(a.length/4*3);
+test('real batch: import, inspect, settings, reload, save/open recovery, export and reopen',async({page,context})=>{
+ await page.goto('/');await page.locator('#demo').click();await expect(page.locator('#count')).toHaveText('12');await expect(page.locator('#status')).toContainText('12 imported');
+ await page.locator('#preview').click();await expect(page.locator('#status')).toContainText('Preview ready');await expect(page.locator('#output')).toHaveJSProperty('naturalWidth',160);
+ await page.locator('#widths').fill('160, 320, 480, 960');await page.locator('#widths').blur();await page.locator('#quality').fill('67');await page.locator('#quality').dispatchEvent('change');await page.locator('#preview-width').selectOption('320');await page.locator('#preview').click();await expect(page.locator('#output')).toHaveJSProperty('naturalWidth',320);await page.locator('#zoom').check();await expect(page.locator('#comparison')).toHaveClass('zoom');
+ await page.locator('#list input').first().uncheck();await page.reload();await expect(page.locator('#quality')).toHaveValue('67');await expect(page.locator('#list input').first()).not.toBeChecked();
+ const downloadPromise=page.waitForEvent('download');await page.locator('#save').click();const dl=await downloadPromise;const saved=JSON.parse(await fs.readFile(await dl.path(),'utf8'));expect(saved.settings.quality).toBe(67);expect(saved.images[0].selected).toBe(false);
+ await page.locator('#reset').click();await expect(page.locator('#count')).toHaveText('0');await page.locator('#open').setInputFiles({name:'project.json',mimeType:'application/json',buffer:Buffer.from(JSON.stringify(saved))});await expect(page.locator('#count')).toHaveText('12');await expect(page.locator('#status')).toContainText('12 connected');
+ await page.locator('#all').click();await page.locator('#export').click();await expect(page.locator('#export-result')).toBeVisible();await expect(page.locator('#export-result')).toContainText('0 failed');
+ const href=await page.getByRole('link',{name:'Open local specimen'}).getAttribute('href');const zip=await page.getByRole('link',{name:'Download package.zip'}).getAttribute('href');const response=await page.request.get(zip);expect(response.ok()).toBeTruthy();const archive=require('fflate').unzipSync(await response.body());expect(Object.keys(archive)).toContain('index.html');const packedManifest=JSON.parse(Buffer.from(archive['manifest.json']).toString());for(const entry of packedManifest.sources)for(const output of entry.outputs.filter(o=>o.status==='exported')){expect(archive[output.path].length).toBe(output.bytes);expect(digest(archive[output.path])).toBe(output.sha256);}expect(Object.keys(archive).length).toBe(packedManifest.counts.exported+3);
+ const specimen=await context.newPage();await specimen.goto(href);await expect(specimen.locator('picture')).toHaveCount(12);await specimen.locator('img').evaluateAll(async imgs=>{await Promise.all(imgs.map(i=>i.decode()));});
+ await page.locator('#preview').click();await expect(page.locator('#status')).toContainText('Preview ready');await page.screenshot({path:'results/workbench.png',fullPage:true});
+ // Simulate loss of a stored source; an unrelated same-name file must not reconnect it.
+ const missing=saved.images[0],sourceFile=path.join(root,'.work/browser-tests/sources',missing.sha256),original=await fs.readFile(sourceFile);await fs.writeFile(sourceFile,await fs.readFile(path.join(root,'demo',sources[1].path)));
+ await page.reload();await expect(page.locator('#status')).toContainText('1 missing originals');const corruptState=await page.evaluate(()=>JSON.parse(localStorage.getItem('image-desk-project-v1')));expect(corruptState.images[0].sha256).toBe(missing.sha256);
+ await page.locator('#files').setInputFiles({name:missing.name,mimeType:'image/jpeg',buffer:original});await expect(page.locator('#status')).toContainText('1 imported');await page.locator('#preview').click();await expect(page.locator('#status')).toContainText('Preview ready');expect(digest(await fs.readFile(sourceFile))).toBe(missing.sha256);await fs.unlink(sourceFile);
+ await page.reload();await expect(page.locator('#status')).toContainText('1 missing originals');
+ const wrong=await sharp({create:{width:12,height:8,channels:3,background:'#123456'}}).jpeg().toBuffer();await page.locator('#files').setInputFiles({name:missing.name,mimeType:'image/jpeg',buffer:wrong});await expect(page.locator('#status')).toContainText('1 imported');
+ const state=await page.evaluate(()=>JSON.parse(localStorage.getItem('image-desk-project-v1')));expect(state.images.find(i=>i.sha256===missing.sha256).connected).toBe(false);
+ await page.locator('#files').setInputFiles({name:missing.name,mimeType:'image/jpeg',buffer:original});await expect(page.locator('#status')).toContainText('1 imported');expect((await page.evaluate(()=>JSON.parse(localStorage.getItem('image-desk-project-v1')))).images.find(i=>i.sha256===missing.sha256).connected).toBe(true);
+ await page.locator('#files').setInputFiles({name:'bad.jpg',mimeType:'image/jpeg',buffer:Buffer.from('invalid')});await expect(page.locator('#status')).toContainText('1 rejected');
+});
+test('independent Chromium decoder verifies every real output, identity, hashes, aspect ratio and unchanged sources',async({page})=>{
+ await page.goto('/');const manifest=require('../demo/sample/manifest.json');expect(manifest.sources).toHaveLength(12);let verified=0,increases=0,skipped=0;const originals=[];
+ for(const s of sources){const b=await fs.readFile(path.join(root,'demo',s.path));expect(digest(b)).toBe(s.sha256);const p=await pixels(page,'/demo/'+s.path);originals.push({...p,id:s.sha256});}
+ for(const s of manifest.sources){const original=originals.find(o=>o.id===s.sha256);expect([s.width,s.height]).toEqual([original.width,original.height]);expect(s.outputs).toHaveLength(manifest.settings.widths.length*2);
+  for(const o of s.outputs){if(o.status==='skipped'){expect(o.requestedWidth).toBeGreaterThan(original.width);expect(o.reason).toContain('No enlargement');skipped++;continue;}expect(o.status).toBe('exported');const b=await fs.readFile(path.join(root,'demo/sample',o.path));expect(b.length).toBe(o.bytes);expect(digest(b)).toBe(o.sha256);if(o.format==='webp'){expect(b.subarray(0,4).toString()).toBe('RIFF');expect(b.subarray(8,12).toString()).toBe('WEBP');}else{expect(b[0]).toBe(255);expect(b[1]).toBe(216);}
+   const decoded=await pixels(page,'/demo/sample/'+o.path);expect([decoded.width,decoded.height]).toEqual([o.width,o.height]);expect(o.width).toBe(o.requestedWidth);expect(Math.abs(o.height-o.width*original.height/original.width)).toBeLessThanOrEqual(1);
+   const matches=originals.map(src=>({id:src.id,error:distance(src.p,decoded.p)})).sort((a,b)=>a.error-b.error);expect(matches[0].id).toBe(s.sha256);expect(matches[0].error).toBeLessThan(22);expect(o.largerThanSource).toBe(o.bytes>s.bytes);if(o.largerThanSource)increases++;verified++;
+  }
+ }
+ expect(verified).toBe(manifest.counts.exported);expect(skipped).toBe(manifest.counts.skipped);expect(manifest.counts.failed).toBe(0);
+ for(const s of sources)expect(digest(await fs.readFile(path.join(root,'demo',s.path)))).toBe(s.sha256);
+ console.log(`Independently decoded ${verified} real outputs; ${skipped} justified skips; ${increases} size increases. Every output matched its own source best among 12 originals.`);
+});
+for(const width of [375,800,1440])for(const dpr of [1,2])test(`fresh specimen ${width}px @${dpr}x chooses declared local resources`,async({browser})=>{
+ const context=await browser.newContext({viewport:{width,height:900},deviceScaleFactor:dpr});const page=await context.newPage(),requests=[];page.on('request',r=>requests.push(r.url()));await page.goto('http://127.0.0.1:4174/demo/sample/index.html');
+ const result=await page.locator('img').evaluateAll(async imgs=>Promise.all(imgs.map(async img=>{await img.decode();const sets=[img.getAttribute('srcset'),...Array.from(img.parentElement.querySelectorAll('source')).map(s=>s.getAttribute('srcset'))];const candidates=sets.filter(Boolean).flatMap(s=>s.split(',').map(c=>new URL(c.trim().split(/\s+/)[0],location.href).href));return{loaded:img.complete&&img.naturalWidth>0,current:img.currentSrc,candidates};})));
+ expect(result).toHaveLength(12);for(const r of result){expect(r.loaded).toBe(true);expect(r.candidates).toContain(r.current);}expect(requests.every(u=>new URL(u).origin==='http://127.0.0.1:4174')).toBe(true);await context.close();
+});
+test('labeled synthetic controls: EXIF 1–8, alpha, duplicate names and small source',async({page,request})=>{
+ await page.goto('/');const raw=Buffer.alloc(80*40*3);for(let y=0;y<40;y++)for(let x=0;x<80;x++){const color=y<20?(x<40?[240,20,20]:[20,240,20]):(x<40?[20,20,240]:[240,240,20]);for(let c=0;c<3;c++)raw[(y*80+x)*3+c]=color[c];}
+ const entries=[];
+ for(let orientation=1;orientation<=8;orientation++){const b=await sharp(raw,{raw:{width:80,height:40,channels:3}}).jpeg({quality:100,chromaSubsampling:'4:4:4'}).withMetadata({orientation}).toBuffer();const r=await request.post('/api/import',{multipart:{file:{name:'same.jpg',mimeType:'image/jpeg',buffer:b}}});expect(r.ok()).toBeTruthy();entries.push(await r.json());}
+ const alpha=await sharp({create:{width:48,height:32,channels:4,background:{r:120,g:40,b:200,alpha:.4}}}).png().toBuffer();const ar=await request.post('/api/import',{multipart:{file:{name:'same.jpg',mimeType:'image/png',buffer:alpha}}});entries.push(await ar.json());
+ const exported=await request.post('/api/export',{data:{entries,settings:{widths:[32,100],quality:90}}});expect(exported.ok()).toBeTruthy();const result=await exported.json();expect(result.manifest.counts).toEqual({exported:18,skipped:18,failed:0});const paths=result.manifest.sources.flatMap(s=>s.outputs.filter(o=>o.status==='exported').map(o=>o.path));expect(new Set(paths).size).toBe(18);
+ for(let idx=0;idx<entries.length;idx++){const src=result.manifest.sources[idx], original=await pixels(page,'/api/original/'+src.sha256);for(const o of src.outputs.filter(o=>o.status==='exported')){const decoded=await pixels(page,`/packages/${result.id}/${o.path}`);expect(distance(decoded.p,original.p)).toBeLessThan(15);expect(decoded.width).toBe(32);expect(decoded.height).toBe(idx<4?16:idx<8?64:21);if(idx===8){expect(['png','webp']).toContain(o.format);for(let i=3;i<decoded.p.length;i+=4)expect(Math.abs(decoded.p[i]-102)).toBeLessThanOrEqual(1);}}}
+});
+
+test('sample specimen works directly from local file without a server',async({browser})=>{
+ const context=await browser.newContext();const page=await context.newPage(),remote=[];page.on('request',r=>{if(/^https?:/.test(r.url()))remote.push(r.url());});await page.goto(require('node:url').pathToFileURL(path.join(root,'demo/sample/index.html')).href);await page.locator('img').evaluateAll(async imgs=>Promise.all(imgs.map(i=>i.decode())));await expect(page.locator('img')).toHaveCount(12);expect(remote).toEqual([]);await context.close();
+});
