@@ -1,0 +1,107 @@
+{
+  "browser": "145.0.7632.6",
+  "method": "Chromium canvas sRGB RGBA pixel SHA-256, exact equality; automated UI and downloaded archive assertions",
+  "evidence": [
+    "Real demo: inspect metadata and orientation-aware previews, deselect unsupported MPF, export two selected photos",
+    "Reopened cleaned outputs through in-app output inspection",
+    "Mixed batch accounts for all four selections; same-name inputs become distinct neutral output names; private audit downloaded separately",
+    "All eight orientation previews correct; full 10-file desk exports and reopens successfully",
+    "Downloaded JPEG reopened through normal file import; removed fields absent",
+    {
+      "source": "data/iguana.jpg",
+      "output": "data/browser-real/clean-001.jpg",
+      "browserCanvasExact": true,
+      "width": 3342,
+      "height": 2277,
+      "sha256": "551f0cc7cfe28b22c85edb60aabe98362dc0a8cd7c97e430c814bc9f1eabd561"
+    },
+    {
+      "source": "data/anolis.jpg",
+      "output": "data/browser-real/clean-002.jpg",
+      "browserCanvasExact": true,
+      "width": 100,
+      "height": 77,
+      "sha256": "e53d8396a4b42db5eb087ed2290d013daa9da9e96cbac18f0b2dea3491556cef"
+    },
+    {
+      "source": "data/controls/orientation-1.jpg",
+      "output": "data/browser-controls/clean-001.jpg",
+      "browserCanvasExact": true,
+      "width": 80,
+      "height": 48,
+      "sha256": "e371fca5dceb78d0e3f1331b05507d6aa90fcb1380cef2e6e4e2454e29a60240"
+    },
+    {
+      "source": "data/controls/orientation-2.jpg",
+      "output": "data/browser-controls/clean-002.jpg",
+      "browserCanvasExact": true,
+      "width": 80,
+      "height": 48,
+      "sha256": "31f151b0528d96e9d38b787697047b797ce0841d13db18c2a36ba4f9c04edd6b"
+    },
+    {
+      "source": "data/controls/orientation-3.jpg",
+      "output": "data/browser-controls/clean-003.jpg",
+      "browserCanvasExact": true,
+      "width": 80,
+      "height": 48,
+      "sha256": "6a7f730bea6a55d0212445904ed023b61d4618fc819a08f8a1c3e80a06d768f4"
+    },
+    {
+      "source": "data/controls/orientation-4.jpg",
+      "output": "data/browser-controls/clean-004.jpg",
+      "browserCanvasExact": true,
+      "width": 80,
+      "height": 48,
+      "sha256": "e795f914ed558dea21b5e5566f951c5b05a48a1bb0d1e888437af084eb29d3a7"
+    },
+    {
+      "source": "data/controls/orientation-5.jpg",
+      "output": "data/browser-controls/clean-005.jpg",
+      "browserCanvasExact": true,
+      "width": 48,
+      "height": 80,
+      "sha256": "b6791e45020eb8a21581cdc5133716212b5e6c228b998be3535d7228d8cf2446"
+    },
+    {
+      "source": "data/controls/orientation-6.jpg",
+      "output": "data/browser-controls/clean-006.jpg",
+      "browserCanvasExact": true,
+      "width": 48,
+      "height": 80,
+      "sha256": "6d9a663defdaafd4ee79b275c68d2ecf0de8aaa43484807da35eedb90c92bedf"
+    },
+    {
+      "source": "data/controls/orientation-7.jpg",
+      "output": "data/browser-controls/clean-007.jpg",
+      "browserCanvasExact": true,
+      "width": 48,
+      "height": 80,
+      "sha256": "6f0f216fd835d2791f865ed1ca005e76da668efb66f4fa167c8c14e3671a1ead"
+    },
+    {
+      "source": "data/controls/orientation-8.jpg",
+      "output": "data/browser-controls/clean-008.jpg",
+      "browserCanvasExact": true,
+      "width": 48,
+      "height": 80,
+      "sha256": "cd40caabfcb0baa6d90bc36707f43b59084738cf19c7b9701f5937ef8ce76f31"
+    },
+    {
+      "source": "data/controls/duplicates.jpg",
+      "output": "data/browser-controls/clean-009.jpg",
+      "browserCanvasExact": true,
+      "width": 48,
+      "height": 80,
+      "sha256": "6d9a663defdaafd4ee79b275c68d2ecf0de8aaa43484807da35eedb90c92bedf"
+    },
+    {
+      "source": "data/controls/duplicate-tags.jpg",
+      "output": "data/browser-controls/clean-010.jpg",
+      "browserCanvasExact": true,
+      "width": 48,
+      "height": 80,
+      "sha256": "6d9a663defdaafd4ee79b275c68d2ecf0de8aaa43484807da35eedb90c92bedf"
+    }
+  ]
+}
