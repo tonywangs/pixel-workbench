@@ -1,0 +1,168 @@
+{
+  "protocol": "Frozen before running similarity evaluation on expanded six-image collection. Labels assigned by the implementation agent through visual inspection of source previews, not by a human participant or an independent annotator. Positive means sufficiently similar content to merit redundancy review, not interchangeable files. No threshold tuning. All 15 real pairs and six original-to-control pairs included.",
+  "threshold": 8,
+  "pairs": [
+    {
+      "a": "coffee.png",
+      "b": "astronaut.png",
+      "candidateExpected": false,
+      "sameEvent": false,
+      "retentionSuggestion": "keep-both",
+      "reason": "Different subjects and composition."
+    },
+    {
+      "a": "coffee.png",
+      "b": "launch-1.jpg",
+      "candidateExpected": false,
+      "sameEvent": false,
+      "retentionSuggestion": "keep-both",
+      "reason": "Different subjects and composition."
+    },
+    {
+      "a": "coffee.png",
+      "b": "launch-2.jpg",
+      "candidateExpected": false,
+      "sameEvent": false,
+      "retentionSuggestion": "keep-both",
+      "reason": "Different subjects and composition."
+    },
+    {
+      "a": "coffee.png",
+      "b": "launch-3.jpg",
+      "candidateExpected": false,
+      "sameEvent": false,
+      "retentionSuggestion": "keep-both",
+      "reason": "Different subjects and composition."
+    },
+    {
+      "a": "coffee.png",
+      "b": "launch-4.jpg",
+      "candidateExpected": false,
+      "sameEvent": false,
+      "retentionSuggestion": "keep-both",
+      "reason": "Different subjects and composition."
+    },
+    {
+      "a": "astronaut.png",
+      "b": "launch-1.jpg",
+      "candidateExpected": false,
+      "sameEvent": false,
+      "retentionSuggestion": "keep-both",
+      "reason": "Different subjects and composition."
+    },
+    {
+      "a": "astronaut.png",
+      "b": "launch-2.jpg",
+      "candidateExpected": false,
+      "sameEvent": false,
+      "retentionSuggestion": "keep-both",
+      "reason": "Different subjects and composition."
+    },
+    {
+      "a": "astronaut.png",
+      "b": "launch-3.jpg",
+      "candidateExpected": false,
+      "sameEvent": false,
+      "retentionSuggestion": "keep-both",
+      "reason": "Different subjects and composition."
+    },
+    {
+      "a": "astronaut.png",
+      "b": "launch-4.jpg",
+      "candidateExpected": false,
+      "sameEvent": false,
+      "retentionSuggestion": "keep-both",
+      "reason": "Different subjects and composition."
+    },
+    {
+      "a": "launch-1.jpg",
+      "b": "launch-2.jpg",
+      "candidateExpected": false,
+      "sameEvent": true,
+      "retentionSuggestion": "keep-both",
+      "reason": "Same event but substantially different viewpoint, scale or composition; not redundant."
+    },
+    {
+      "a": "launch-1.jpg",
+      "b": "launch-3.jpg",
+      "candidateExpected": false,
+      "sameEvent": true,
+      "retentionSuggestion": "keep-both",
+      "reason": "Same event but substantially different viewpoint, scale or composition; not redundant."
+    },
+    {
+      "a": "launch-1.jpg",
+      "b": "launch-4.jpg",
+      "candidateExpected": false,
+      "sameEvent": true,
+      "retentionSuggestion": "keep-both",
+      "reason": "Same event but substantially different viewpoint, scale or composition; not redundant."
+    },
+    {
+      "a": "launch-2.jpg",
+      "b": "launch-3.jpg",
+      "candidateExpected": false,
+      "sameEvent": true,
+      "retentionSuggestion": "keep-both",
+      "reason": "Same event but substantially different viewpoint, scale or composition; not redundant."
+    },
+    {
+      "a": "launch-2.jpg",
+      "b": "launch-4.jpg",
+      "candidateExpected": true,
+      "sameEvent": true,
+      "retentionSuggestion": "unresolved",
+      "reason": "Closely related front/side launch frames with changed position and framing; compare for retention, never assert identical."
+    },
+    {
+      "a": "launch-3.jpg",
+      "b": "launch-4.jpg",
+      "candidateExpected": false,
+      "sameEvent": true,
+      "retentionSuggestion": "keep-both",
+      "reason": "Same event but substantially different viewpoint, scale or composition; not redundant."
+    },
+    {
+      "a": "astronaut.png",
+      "b": "control-byte-copy.png",
+      "candidateExpected": true,
+      "kind": "control",
+      "reason": "Same source content; explicit generated transformation, not a natural duplicate."
+    },
+    {
+      "a": "astronaut.png",
+      "b": "control-pixel-copy.png",
+      "candidateExpected": true,
+      "kind": "control",
+      "reason": "Same source content; explicit generated transformation, not a natural duplicate."
+    },
+    {
+      "a": "astronaut.png",
+      "b": "control-resize.jpg",
+      "candidateExpected": true,
+      "kind": "control",
+      "reason": "Same source content; explicit generated transformation, not a natural duplicate."
+    },
+    {
+      "a": "astronaut.png",
+      "b": "control-recompress.jpg",
+      "candidateExpected": true,
+      "kind": "control",
+      "reason": "Same source content; explicit generated transformation, not a natural duplicate."
+    },
+    {
+      "a": "astronaut.png",
+      "b": "control-orientation.png",
+      "candidateExpected": true,
+      "kind": "control",
+      "reason": "Same source content; explicit generated transformation, not a natural duplicate."
+    },
+    {
+      "a": "astronaut.png",
+      "b": "control-rotation.png",
+      "candidateExpected": true,
+      "kind": "control",
+      "reason": "Same source content; rotation without metadata tests a known orientation limitation."
+    }
+  ]
+}

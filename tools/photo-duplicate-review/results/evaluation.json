@@ -1,0 +1,262 @@
+{
+  "algorithm": {
+    "version": 1,
+    "decoder": "sharp 0.35.5 / vips 8.18.7",
+    "pixels": "EXIF-oriented 8-bit sRGB RGBA; dimensions included; transparent RGB retained",
+    "similarity": "64-bit horizontal dHash; white alpha flatten; grayscale; 9x8 Lanczos3; Hamming distance <= 8",
+    "threshold": 8
+  },
+  "labelSetSHA256": "d00581dc1c0dc8aaf61ba19850882a51e751f8afc4157be13a57b8cefed17e02",
+  "protocol": "Frozen before running similarity evaluation on expanded six-image collection. Labels assigned by the implementation agent through visual inspection of source previews, not by a human participant or an independent annotator. Positive means sufficiently similar content to merit redundancy review, not interchangeable files. No threshold tuning. All 15 real pairs and six original-to-control pairs included.",
+  "real": {
+    "tp": 0,
+    "fp": 0,
+    "tn": 14,
+    "fn": 1
+  },
+  "controls": {
+    "tp": 5,
+    "fp": 0,
+    "tn": 0,
+    "fn": 1
+  },
+  "exactOnlyBaseline": {
+    "tp": 3,
+    "fp": 0,
+    "tn": 14,
+    "fn": 4
+  },
+  "pairs": [
+    {
+      "a": "coffee.png",
+      "b": "astronaut.png",
+      "candidateExpected": false,
+      "sameEvent": false,
+      "retentionSuggestion": "keep-both",
+      "reason": "Different subjects and composition.",
+      "type": "noncandidate",
+      "distance": 33,
+      "outcome": "tn"
+    },
+    {
+      "a": "coffee.png",
+      "b": "launch-1.jpg",
+      "candidateExpected": false,
+      "sameEvent": false,
+      "retentionSuggestion": "keep-both",
+      "reason": "Different subjects and composition.",
+      "type": "noncandidate",
+      "distance": 34,
+      "outcome": "tn"
+    },
+    {
+      "a": "coffee.png",
+      "b": "launch-2.jpg",
+      "candidateExpected": false,
+      "sameEvent": false,
+      "retentionSuggestion": "keep-both",
+      "reason": "Different subjects and composition.",
+      "type": "noncandidate",
+      "distance": 35,
+      "outcome": "tn"
+    },
+    {
+      "a": "coffee.png",
+      "b": "launch-3.jpg",
+      "candidateExpected": false,
+      "sameEvent": false,
+      "retentionSuggestion": "keep-both",
+      "reason": "Different subjects and composition.",
+      "type": "noncandidate",
+      "distance": 37,
+      "outcome": "tn"
+    },
+    {
+      "a": "coffee.png",
+      "b": "launch-4.jpg",
+      "candidateExpected": false,
+      "sameEvent": false,
+      "retentionSuggestion": "keep-both",
+      "reason": "Different subjects and composition.",
+      "type": "noncandidate",
+      "distance": 30,
+      "outcome": "tn"
+    },
+    {
+      "a": "astronaut.png",
+      "b": "launch-1.jpg",
+      "candidateExpected": false,
+      "sameEvent": false,
+      "retentionSuggestion": "keep-both",
+      "reason": "Different subjects and composition.",
+      "type": "noncandidate",
+      "distance": 33,
+      "outcome": "tn"
+    },
+    {
+      "a": "astronaut.png",
+      "b": "launch-2.jpg",
+      "candidateExpected": false,
+      "sameEvent": false,
+      "retentionSuggestion": "keep-both",
+      "reason": "Different subjects and composition.",
+      "type": "noncandidate",
+      "distance": 30,
+      "outcome": "tn"
+    },
+    {
+      "a": "astronaut.png",
+      "b": "launch-3.jpg",
+      "candidateExpected": false,
+      "sameEvent": false,
+      "retentionSuggestion": "keep-both",
+      "reason": "Different subjects and composition.",
+      "type": "noncandidate",
+      "distance": 32,
+      "outcome": "tn"
+    },
+    {
+      "a": "astronaut.png",
+      "b": "launch-4.jpg",
+      "candidateExpected": false,
+      "sameEvent": false,
+      "retentionSuggestion": "keep-both",
+      "reason": "Different subjects and composition.",
+      "type": "noncandidate",
+      "distance": 25,
+      "outcome": "tn"
+    },
+    {
+      "a": "launch-1.jpg",
+      "b": "launch-2.jpg",
+      "candidateExpected": false,
+      "sameEvent": true,
+      "retentionSuggestion": "keep-both",
+      "reason": "Same event but substantially different viewpoint, scale or composition; not redundant.",
+      "type": "noncandidate",
+      "distance": 33,
+      "outcome": "tn"
+    },
+    {
+      "a": "launch-1.jpg",
+      "b": "launch-3.jpg",
+      "candidateExpected": false,
+      "sameEvent": true,
+      "retentionSuggestion": "keep-both",
+      "reason": "Same event but substantially different viewpoint, scale or composition; not redundant.",
+      "type": "noncandidate",
+      "distance": 33,
+      "outcome": "tn"
+    },
+    {
+      "a": "launch-1.jpg",
+      "b": "launch-4.jpg",
+      "candidateExpected": false,
+      "sameEvent": true,
+      "retentionSuggestion": "keep-both",
+      "reason": "Same event but substantially different viewpoint, scale or composition; not redundant.",
+      "type": "noncandidate",
+      "distance": 32,
+      "outcome": "tn"
+    },
+    {
+      "a": "launch-2.jpg",
+      "b": "launch-3.jpg",
+      "candidateExpected": false,
+      "sameEvent": true,
+      "retentionSuggestion": "keep-both",
+      "reason": "Same event but substantially different viewpoint, scale or composition; not redundant.",
+      "type": "noncandidate",
+      "distance": 30,
+      "outcome": "tn"
+    },
+    {
+      "a": "launch-2.jpg",
+      "b": "launch-4.jpg",
+      "candidateExpected": true,
+      "sameEvent": true,
+      "retentionSuggestion": "unresolved",
+      "reason": "Closely related front/side launch frames with changed position and framing; compare for retention, never assert identical.",
+      "type": "noncandidate",
+      "distance": 25,
+      "outcome": "fn"
+    },
+    {
+      "a": "launch-3.jpg",
+      "b": "launch-4.jpg",
+      "candidateExpected": false,
+      "sameEvent": true,
+      "retentionSuggestion": "keep-both",
+      "reason": "Same event but substantially different viewpoint, scale or composition; not redundant.",
+      "type": "noncandidate",
+      "distance": 29,
+      "outcome": "tn"
+    },
+    {
+      "a": "astronaut.png",
+      "b": "control-byte-copy.png",
+      "candidateExpected": true,
+      "kind": "control",
+      "reason": "Same source content; explicit generated transformation, not a natural duplicate.",
+      "type": "bytes",
+      "distance": 0,
+      "outcome": "tp"
+    },
+    {
+      "a": "astronaut.png",
+      "b": "control-pixel-copy.png",
+      "candidateExpected": true,
+      "kind": "control",
+      "reason": "Same source content; explicit generated transformation, not a natural duplicate.",
+      "type": "pixels",
+      "distance": 0,
+      "outcome": "tp"
+    },
+    {
+      "a": "astronaut.png",
+      "b": "control-resize.jpg",
+      "candidateExpected": true,
+      "kind": "control",
+      "reason": "Same source content; explicit generated transformation, not a natural duplicate.",
+      "type": "similar",
+      "distance": 0,
+      "outcome": "tp"
+    },
+    {
+      "a": "astronaut.png",
+      "b": "control-recompress.jpg",
+      "candidateExpected": true,
+      "kind": "control",
+      "reason": "Same source content; explicit generated transformation, not a natural duplicate.",
+      "type": "similar",
+      "distance": 0,
+      "outcome": "tp"
+    },
+    {
+      "a": "astronaut.png",
+      "b": "control-orientation.png",
+      "candidateExpected": true,
+      "kind": "control",
+      "reason": "Same source content; explicit generated transformation, not a natural duplicate.",
+      "type": "pixels",
+      "distance": 0,
+      "outcome": "tp"
+    },
+    {
+      "a": "astronaut.png",
+      "b": "control-rotation.png",
+      "candidateExpected": true,
+      "kind": "control",
+      "reason": "Same source content; rotation without metadata tests a known orientation limitation.",
+      "type": "noncandidate",
+      "distance": 29,
+      "outcome": "fn"
+    }
+  ],
+  "limitations": [
+    "Six real photographs, four from one event; not representative of personal libraries.",
+    "Agent visual labels are subjective and have no independent human agreement estimate.",
+    "Sharp is also used by direct-array tests: independent comparison logic, not an independent decoder.",
+    "Similarity scores are Hamming distances, never probabilities. False negatives are preserved."
+  ]
+}
