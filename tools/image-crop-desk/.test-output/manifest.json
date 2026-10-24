@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "complete": true,
+  "sources": [
+    {
+      "source_hash": "88431cd9653ccd539741b555fb0a46b61558b301d4110412b5bc28b5e3ea6cb5",
+      "dimensions": [
+        512,
+        512
+      ],
+      "policy": {
+        "coordinates": "oriented source pixels; integer [left, top, right, bottom), right/bottom exclusive",
+        "color": "8-bit RGBA samples; RGB/gray/palette expanded; ICC ignored (no color management); interpreted as sRGB",
+        "metadata": "all metadata stripped",
+        "resampling": "none",
+        "orientation": "EXIF transposed before coordinates",
+        "formats": "single-frame 8-bit JPEG/PNG only; CMYK, 16-bit, animation rejected"
+      },
+      "complete": true,
+      "results": [
+        {
+          "index": 0,
+          "name": "Portrait",
+          "status": "exported",
+          "file": "88431cd9653ccd53-001-Portrait.png",
+          "rect": [
+            20,
+            30,
+            220,
+            330
+          ],
+          "dimensions": [
+            200,
+            300
+          ],
+          "sha256": "d90cbe2af36f28ff1311409fd2c87eaaba81eeae955dab644c2feee1c8f38879"
+        },
+        {
+          "index": 1,
+          "name": "Portrait",
+          "status": "exported",
+          "file": "88431cd9653ccd53-002-Portrait.png",
+          "rect": [
+            0,
+            0,
+            510,
+            340
+          ],
+          "dimensions": [
+            510,
+            340
+          ],
+          "sha256": "f9caf784ce4cda2f10fa03438b6c1ec44297365269a9c70657bd946febcb553a"
+        }
+      ]
+    }
+  ],
+  "requested": 2,
+  "exported": 2,
+  "failed": 0
+}

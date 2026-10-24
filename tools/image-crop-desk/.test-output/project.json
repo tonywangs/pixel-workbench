@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "hash": "88431cd9653ccd539741b555fb0a46b61558b301d4110412b5bc28b5e3ea6cb5",
+      "name": "astronaut.png",
+      "width": 512,
+      "height": 512,
+      "crops": [
+        {
+          "name": "Portrait",
+          "aspect": "free",
+          "rect": [
+            20,
+            30,
+            220,
+            330
+          ]
+        },
+        {
+          "name": "Portrait",
+          "aspect": "3:2",
+          "rect": [
+            0,
+            0,
+            510,
+            340
+          ]
+        }
+      ]
+    }
+  ]
+}

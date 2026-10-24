@@ -1,0 +1,321 @@
+{
+  "version": 1,
+  "complete": true,
+  "sources": [
+    {
+      "source_hash": "88431cd9653ccd539741b555fb0a46b61558b301d4110412b5bc28b5e3ea6cb5",
+      "dimensions": [
+        512,
+        512
+      ],
+      "policy": {
+        "coordinates": "oriented source pixels; integer [left, top, right, bottom), right/bottom exclusive",
+        "color": "8-bit RGBA samples; RGB/gray/palette expanded; ICC ignored (no color management); interpreted as sRGB",
+        "metadata": "all metadata stripped",
+        "resampling": "none",
+        "orientation": "EXIF transposed before coordinates",
+        "formats": "single-frame 8-bit JPEG/PNG only; CMYK, 16-bit, animation rejected"
+      },
+      "complete": true,
+      "results": [
+        {
+          "index": 0,
+          "name": "Portrait",
+          "status": "exported",
+          "file": "88431cd9653ccd53-001-Portrait.png",
+          "rect": [
+            20,
+            30,
+            220,
+            330
+          ],
+          "dimensions": [
+            200,
+            300
+          ],
+          "sha256": "d90cbe2af36f28ff1311409fd2c87eaaba81eeae955dab644c2feee1c8f38879"
+        },
+        {
+          "index": 1,
+          "name": "Portrait",
+          "status": "exported",
+          "file": "88431cd9653ccd53-002-Portrait.png",
+          "rect": [
+            0,
+            0,
+            510,
+            340
+          ],
+          "dimensions": [
+            510,
+            340
+          ],
+          "sha256": "f9caf784ce4cda2f10fa03438b6c1ec44297365269a9c70657bd946febcb553a"
+        }
+      ]
+    },
+    {
+      "source_hash": "b0793d2adda0fa6ae899c03989482bff9a42d3d5690fc7e3648f2795d730c23a",
+      "dimensions": [
+        512,
+        512
+      ],
+      "policy": {
+        "coordinates": "oriented source pixels; integer [left, top, right, bottom), right/bottom exclusive",
+        "color": "8-bit RGBA samples; RGB/gray/palette expanded; ICC ignored (no color management); interpreted as sRGB",
+        "metadata": "all metadata stripped",
+        "resampling": "none",
+        "orientation": "EXIF transposed before coordinates",
+        "formats": "single-frame 8-bit JPEG/PNG only; CMYK, 16-bit, animation rejected"
+      },
+      "complete": true,
+      "results": [
+        {
+          "index": 0,
+          "name": "Portrait",
+          "status": "exported",
+          "file": "b0793d2adda0fa6a-001-Portrait.png",
+          "rect": [
+            0,
+            0,
+            408,
+            510
+          ],
+          "dimensions": [
+            408,
+            510
+          ],
+          "sha256": "50fc7ee1d909dfd596817828b9505ee2c6b1bbb0eef30047afebce019d989f6e"
+        },
+        {
+          "index": 1,
+          "name": "Landscape",
+          "status": "exported",
+          "file": "b0793d2adda0fa6a-002-Landscape.png",
+          "rect": [
+            0,
+            0,
+            510,
+            340
+          ],
+          "dimensions": [
+            510,
+            340
+          ],
+          "sha256": "a32c723e4fb93375ef75822327e9f24ff4f2042920271f5bc0f17b6c108a7cf8"
+        }
+      ]
+    },
+    {
+      "source_hash": "596aa1e7cb875eb79f437e310381d26b338a81c2da23439704a73c4651e8c4bb",
+      "dimensions": [
+        451,
+        300
+      ],
+      "policy": {
+        "coordinates": "oriented source pixels; integer [left, top, right, bottom), right/bottom exclusive",
+        "color": "8-bit RGBA samples; RGB/gray/palette expanded; ICC ignored (no color management); interpreted as sRGB",
+        "metadata": "all metadata stripped",
+        "resampling": "none",
+        "orientation": "EXIF transposed before coordinates",
+        "formats": "single-frame 8-bit JPEG/PNG only; CMYK, 16-bit, animation rejected"
+      },
+      "complete": true,
+      "results": [
+        {
+          "index": 0,
+          "name": "Portrait",
+          "status": "exported",
+          "file": "596aa1e7cb875eb7-001-Portrait.png",
+          "rect": [
+            0,
+            0,
+            240,
+            300
+          ],
+          "dimensions": [
+            240,
+            300
+          ],
+          "sha256": "63057f2c2d29cd6d571d92e93fd435556543c9bd9385fd738c581cea5b223a03"
+        },
+        {
+          "index": 1,
+          "name": "Landscape",
+          "status": "exported",
+          "file": "596aa1e7cb875eb7-002-Landscape.png",
+          "rect": [
+            0,
+            0,
+            450,
+            300
+          ],
+          "dimensions": [
+            450,
+            300
+          ],
+          "sha256": "300ae1289f1571381155779197d65eb4a366ab5126a54b723a4017de1b54462d"
+        }
+      ]
+    },
+    {
+      "source_hash": "cc02f8ca188b167c775a7101b5d767d1e71792cf762c33d6fa15a4599b5a8de7",
+      "dimensions": [
+        600,
+        400
+      ],
+      "policy": {
+        "coordinates": "oriented source pixels; integer [left, top, right, bottom), right/bottom exclusive",
+        "color": "8-bit RGBA samples; RGB/gray/palette expanded; ICC ignored (no color management); interpreted as sRGB",
+        "metadata": "all metadata stripped",
+        "resampling": "none",
+        "orientation": "EXIF transposed before coordinates",
+        "formats": "single-frame 8-bit JPEG/PNG only; CMYK, 16-bit, animation rejected"
+      },
+      "complete": true,
+      "results": [
+        {
+          "index": 0,
+          "name": "Portrait",
+          "status": "exported",
+          "file": "cc02f8ca188b167c-001-Portrait.png",
+          "rect": [
+            0,
+            0,
+            320,
+            400
+          ],
+          "dimensions": [
+            320,
+            400
+          ],
+          "sha256": "c837af4f40a645f9ed666dc48b5872156a482fb3d76a09d2e21519dfad151b7e"
+        },
+        {
+          "index": 1,
+          "name": "Landscape",
+          "status": "exported",
+          "file": "cc02f8ca188b167c-002-Landscape.png",
+          "rect": [
+            0,
+            0,
+            600,
+            400
+          ],
+          "dimensions": [
+            600,
+            400
+          ],
+          "sha256": "585a0248a181ca4c556271605e46ec312424cf09ce299f0e62e43b037eadc621"
+        }
+      ]
+    },
+    {
+      "source_hash": "3a19c5dd8a927a9334bb1229a6d63711b1c0c767fb27e2286e7c84a3e2c2f5f4",
+      "dimensions": [
+        1000,
+        872
+      ],
+      "policy": {
+        "coordinates": "oriented source pixels; integer [left, top, right, bottom), right/bottom exclusive",
+        "color": "8-bit RGBA samples; RGB/gray/palette expanded; ICC ignored (no color management); interpreted as sRGB",
+        "metadata": "all metadata stripped",
+        "resampling": "none",
+        "orientation": "EXIF transposed before coordinates",
+        "formats": "single-frame 8-bit JPEG/PNG only; CMYK, 16-bit, animation rejected"
+      },
+      "complete": true,
+      "results": [
+        {
+          "index": 0,
+          "name": "Portrait",
+          "status": "exported",
+          "file": "3a19c5dd8a927a93-001-Portrait.png",
+          "rect": [
+            0,
+            0,
+            696,
+            870
+          ],
+          "dimensions": [
+            696,
+            870
+          ],
+          "sha256": "42dd97efc6774bb30ac37c482008c45d184501671ed09f783dd6222f6d4f4b42"
+        },
+        {
+          "index": 1,
+          "name": "Landscape",
+          "status": "exported",
+          "file": "3a19c5dd8a927a93-002-Landscape.png",
+          "rect": [
+            0,
+            0,
+            999,
+            666
+          ],
+          "dimensions": [
+            999,
+            666
+          ],
+          "sha256": "b5f9d9a40b2e6e184cd22c319dd9de79ee5db8022a1491fc460bd459bcd3a0c9"
+        }
+      ]
+    },
+    {
+      "source_hash": "f029226b28b642e80113d86622e9b215ee067a0966feaf5e60604a1e05733955",
+      "dimensions": [
+        400,
+        300
+      ],
+      "policy": {
+        "coordinates": "oriented source pixels; integer [left, top, right, bottom), right/bottom exclusive",
+        "color": "8-bit RGBA samples; RGB/gray/palette expanded; ICC ignored (no color management); interpreted as sRGB",
+        "metadata": "all metadata stripped",
+        "resampling": "none",
+        "orientation": "EXIF transposed before coordinates",
+        "formats": "single-frame 8-bit JPEG/PNG only; CMYK, 16-bit, animation rejected"
+      },
+      "complete": true,
+      "results": [
+        {
+          "index": 0,
+          "name": "Portrait",
+          "status": "exported",
+          "file": "f029226b28b642e8-001-Portrait.png",
+          "rect": [
+            0,
+            0,
+            240,
+            300
+          ],
+          "dimensions": [
+            240,
+            300
+          ],
+          "sha256": "7d9f26836c3681616494dd65c0a6440331fbd0a699983f50fd879248780d4098"
+        },
+        {
+          "index": 1,
+          "name": "Landscape",
+          "status": "exported",
+          "file": "f029226b28b642e8-002-Landscape.png",
+          "rect": [
+            0,
+            0,
+            399,
+            266
+          ],
+          "dimensions": [
+            399,
+            266
+          ],
+          "sha256": "478550dbdc2722a0fb52ad7b4de5f6cf4a6f1030aed899d9f75ac9918c915c78"
+        }
+      ]
+    }
+  ],
+  "requested": 12,
+  "exported": 12,
+  "failed": 0
+}
