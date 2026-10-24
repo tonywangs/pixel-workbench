@@ -1,0 +1,80 @@
+[
+  {
+    "file": "astronaut.png",
+    "url": "https://raw.githubusercontent.com/scikit-image/scikit-image/v0.25.2/skimage/data/astronaut.png",
+    "revision": "v0.25.2",
+    "author": "NASA",
+    "license": "Public domain",
+    "sha256": "88431cd9653ccd539741b555fb0a46b61558b301d4110412b5bc28b5e3ea6cb5",
+    "dimensions": [
+      512,
+      512
+    ],
+    "license_evidence": "https://raw.githubusercontent.com/scikit-image/scikit-image/v0.25.2/skimage/data/_fetchers.py"
+  },
+  {
+    "file": "camera.png",
+    "url": "https://raw.githubusercontent.com/scikit-image/scikit-image/v0.25.2/skimage/data/camera.png",
+    "revision": "v0.25.2",
+    "author": "Lav Varshney",
+    "license": "CC0",
+    "sha256": "b0793d2adda0fa6ae899c03989482bff9a42d3d5690fc7e3648f2795d730c23a",
+    "dimensions": [
+      512,
+      512
+    ],
+    "license_evidence": "https://raw.githubusercontent.com/scikit-image/scikit-image/v0.25.2/skimage/data/_fetchers.py"
+  },
+  {
+    "file": "chelsea.png",
+    "url": "https://raw.githubusercontent.com/scikit-image/scikit-image/v0.25.2/skimage/data/chelsea.png",
+    "revision": "v0.25.2",
+    "author": "Stefan van der Walt",
+    "license": "CC0",
+    "sha256": "596aa1e7cb875eb79f437e310381d26b338a81c2da23439704a73c4651e8c4bb",
+    "dimensions": [
+      451,
+      300
+    ],
+    "license_evidence": "https://raw.githubusercontent.com/scikit-image/scikit-image/v0.25.2/skimage/data/_fetchers.py"
+  },
+  {
+    "file": "coffee.png",
+    "url": "https://raw.githubusercontent.com/scikit-image/scikit-image/v0.25.2/skimage/data/coffee.png",
+    "revision": "v0.25.2",
+    "author": "Rachel Michetti",
+    "license": "CC0",
+    "sha256": "cc02f8ca188b167c775a7101b5d767d1e71792cf762c33d6fa15a4599b5a8de7",
+    "dimensions": [
+      600,
+      400
+    ],
+    "license_evidence": "https://raw.githubusercontent.com/scikit-image/scikit-image/v0.25.2/skimage/data/_fetchers.py"
+  },
+  {
+    "file": "hubble_deep_field.jpg",
+    "url": "https://raw.githubusercontent.com/scikit-image/scikit-image/v0.25.2/skimage/data/hubble_deep_field.jpg",
+    "revision": "v0.25.2",
+    "author": "NASA",
+    "license": "Public domain",
+    "sha256": "3a19c5dd8a927a9334bb1229a6d63711b1c0c767fb27e2286e7c84a3e2c2f5f4",
+    "dimensions": [
+      1000,
+      872
+    ],
+    "license_evidence": "https://raw.githubusercontent.com/scikit-image/scikit-image/v0.25.2/skimage/data/_fetchers.py"
+  },
+  {
+    "file": "clock_motion.png",
+    "url": "https://raw.githubusercontent.com/scikit-image/scikit-image/v0.25.2/skimage/data/clock_motion.png",
+    "revision": "v0.25.2",
+    "author": "Stefan van der Walt",
+    "license": "Public domain",
+    "sha256": "f029226b28b642e80113d86622e9b215ee067a0966feaf5e60604a1e05733955",
+    "dimensions": [
+      400,
+      300
+    ],
+    "license_evidence": "https://raw.githubusercontent.com/scikit-image/scikit-image/v0.25.2/skimage/data/_fetchers.py"
+  }
+]

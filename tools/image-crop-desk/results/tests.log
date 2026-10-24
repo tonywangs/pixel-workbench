@@ -1,0 +1,15 @@
+...libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+...
+----------------------------------------------------------------------
+Ran 6 tests in 4.777s
+
+OK
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+PASS: Chromium import, pointer move/resize, numeric edit/rejection, aspect, undo, zoom, project save/import, reload/hash recovery, partial export, 12 real-demo crops independently decoded, output viewer
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+PASS: Chromium import, pointer move/resize, numeric edit/rejection, aspect, undo, zoom, project save/import, reload/hash recovery, partial export, 12 real-demo crops independently decoded, output viewer
