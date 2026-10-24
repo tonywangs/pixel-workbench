@@ -1,0 +1,18 @@
+{
+  "name": "photo-metadata-desk",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "python3 scripts/start.py",
+    "test": "node --test tests/core.test.js && node tests/browser.js && node scripts/verify.js"
+  },
+  "dependencies": {
+    "exifreader": "4.50.0"
+  },
+  "devDependencies": {
+    "exiftool-vendored": "39.0.1",
+    "playwright": "1.58.2",
+    "sharp": "0.35.5"
+  }
+}
