@@ -1,0 +1,480 @@
+{
+  "schema": 1,
+  "engine": {
+    "sharp": "0.35.5",
+    "vips": "8.18.7"
+  },
+  "settings": {
+    "widths": [
+      32,
+      100
+    ],
+    "quality": 90
+  },
+  "policy": {
+    "orientation": "EXIF 1–8 applied before resize",
+    "enlargement": false,
+    "color": "sRGB; untagged assumed sRGB",
+    "metadata": "EXIF/XMP/IPTC/ICC removed after conversion",
+    "alpha": "preserved in WebP and PNG; JPEG fallback only for opaque sources",
+    "jpegQuality": 85
+  },
+  "sources": [
+    {
+      "sha256": "34311a9634e232ba3033f40ab33f271a6e3afd5eac9e9b52ed4a5e49861c8ae7",
+      "name": "same.jpg",
+      "outputs": [
+        {
+          "requestedWidth": 32,
+          "format": "webp",
+          "status": "exported",
+          "path": "images/34311a9634e232ba3033f40ab33f271a6e3afd5eac9e9b52ed4a5e49861c8ae7-32.webp",
+          "width": 32,
+          "height": 16,
+          "bytes": 122,
+          "sha256": "4216d9a65c17fe94ef7015d461f77e648cc274c47fa6bc1831a693caf4796802",
+          "largerThanSource": false
+        },
+        {
+          "requestedWidth": 32,
+          "format": "jpeg",
+          "status": "exported",
+          "path": "images/34311a9634e232ba3033f40ab33f271a6e3afd5eac9e9b52ed4a5e49861c8ae7-32.jpg",
+          "width": 32,
+          "height": 16,
+          "bytes": 384,
+          "sha256": "9460ae5109054c27dfbab388c7416aaa0cf40c11a96d866851a29cfc770edd45",
+          "largerThanSource": false
+        },
+        {
+          "requestedWidth": 100,
+          "format": "webp",
+          "status": "skipped",
+          "reason": "No enlargement: source width is 80px."
+        },
+        {
+          "requestedWidth": 100,
+          "format": "jpeg",
+          "status": "skipped",
+          "reason": "No enlargement: source width is 80px."
+        }
+      ],
+      "bytes": 1222,
+      "width": 80,
+      "height": 40,
+      "rawWidth": 80,
+      "rawHeight": 40,
+      "orientation": 1,
+      "format": "jpeg",
+      "alpha": false,
+      "colorProfile": "embedded ICC converted to sRGB",
+      "provenance": null
+    },
+    {
+      "sha256": "3de4d89319873b3f72668afb60ff4aa000a23cb8bb27088c35e243d63c24e46d",
+      "name": "same.jpg",
+      "outputs": [
+        {
+          "requestedWidth": 32,
+          "format": "webp",
+          "status": "exported",
+          "path": "images/3de4d89319873b3f72668afb60ff4aa000a23cb8bb27088c35e243d63c24e46d-32.webp",
+          "width": 32,
+          "height": 16,
+          "bytes": 126,
+          "sha256": "66daa1b4222f8c4f11cefad1c58224075367721b26068113fe2fe2706ffd6d28",
+          "largerThanSource": false
+        },
+        {
+          "requestedWidth": 32,
+          "format": "jpeg",
+          "status": "exported",
+          "path": "images/3de4d89319873b3f72668afb60ff4aa000a23cb8bb27088c35e243d63c24e46d-32.jpg",
+          "width": 32,
+          "height": 16,
+          "bytes": 386,
+          "sha256": "3b4182310e3e47abf7e558cb2ae0ac96e13275a214d5dc89665426e622d520fd",
+          "largerThanSource": false
+        },
+        {
+          "requestedWidth": 100,
+          "format": "webp",
+          "status": "skipped",
+          "reason": "No enlargement: source width is 80px."
+        },
+        {
+          "requestedWidth": 100,
+          "format": "jpeg",
+          "status": "skipped",
+          "reason": "No enlargement: source width is 80px."
+        }
+      ],
+      "bytes": 1222,
+      "width": 80,
+      "height": 40,
+      "rawWidth": 80,
+      "rawHeight": 40,
+      "orientation": 2,
+      "format": "jpeg",
+      "alpha": false,
+      "colorProfile": "embedded ICC converted to sRGB",
+      "provenance": null
+    },
+    {
+      "sha256": "a40b58df4478b734484ced7d9154c5d8f553502e7cd2f108d40903aeb528967b",
+      "name": "same.jpg",
+      "outputs": [
+        {
+          "requestedWidth": 32,
+          "format": "webp",
+          "status": "exported",
+          "path": "images/a40b58df4478b734484ced7d9154c5d8f553502e7cd2f108d40903aeb528967b-32.webp",
+          "width": 32,
+          "height": 16,
+          "bytes": 130,
+          "sha256": "3328e1c95c31439f891d8d415c8b227d170a1a87dd7935535b3676cffbafe20d",
+          "largerThanSource": false
+        },
+        {
+          "requestedWidth": 32,
+          "format": "jpeg",
+          "status": "exported",
+          "path": "images/a40b58df4478b734484ced7d9154c5d8f553502e7cd2f108d40903aeb528967b-32.jpg",
+          "width": 32,
+          "height": 16,
+          "bytes": 386,
+          "sha256": "74df2325c90df5ee24962e5646b36dcdcc9c9426705c8f722bc7c0f401006b45",
+          "largerThanSource": false
+        },
+        {
+          "requestedWidth": 100,
+          "format": "webp",
+          "status": "skipped",
+          "reason": "No enlargement: source width is 80px."
+        },
+        {
+          "requestedWidth": 100,
+          "format": "jpeg",
+          "status": "skipped",
+          "reason": "No enlargement: source width is 80px."
+        }
+      ],
+      "bytes": 1222,
+      "width": 80,
+      "height": 40,
+      "rawWidth": 80,
+      "rawHeight": 40,
+      "orientation": 3,
+      "format": "jpeg",
+      "alpha": false,
+      "colorProfile": "embedded ICC converted to sRGB",
+      "provenance": null
+    },
+    {
+      "sha256": "a1331cdda514925b96e2e330700a0651681d1df4a8fb341be043e0f87bcc53e1",
+      "name": "same.jpg",
+      "outputs": [
+        {
+          "requestedWidth": 32,
+          "format": "webp",
+          "status": "exported",
+          "path": "images/a1331cdda514925b96e2e330700a0651681d1df4a8fb341be043e0f87bcc53e1-32.webp",
+          "width": 32,
+          "height": 16,
+          "bytes": 126,
+          "sha256": "8bae12614ef0b66be7c40f7a333c90c93497b91f62cd7a19b9e73b80c2e38b2e",
+          "largerThanSource": false
+        },
+        {
+          "requestedWidth": 32,
+          "format": "jpeg",
+          "status": "exported",
+          "path": "images/a1331cdda514925b96e2e330700a0651681d1df4a8fb341be043e0f87bcc53e1-32.jpg",
+          "width": 32,
+          "height": 16,
+          "bytes": 386,
+          "sha256": "1907e4fe369cb748933022b102956035c47d4d133c632494af63b357a153996d",
+          "largerThanSource": false
+        },
+        {
+          "requestedWidth": 100,
+          "format": "webp",
+          "status": "skipped",
+          "reason": "No enlargement: source width is 80px."
+        },
+        {
+          "requestedWidth": 100,
+          "format": "jpeg",
+          "status": "skipped",
+          "reason": "No enlargement: source width is 80px."
+        }
+      ],
+      "bytes": 1222,
+      "width": 80,
+      "height": 40,
+      "rawWidth": 80,
+      "rawHeight": 40,
+      "orientation": 4,
+      "format": "jpeg",
+      "alpha": false,
+      "colorProfile": "embedded ICC converted to sRGB",
+      "provenance": null
+    },
+    {
+      "sha256": "8aef69b411b3cf12c50af86723891cfdf4001b948335e7d66b40940f549a51f3",
+      "name": "same.jpg",
+      "outputs": [
+        {
+          "requestedWidth": 32,
+          "format": "webp",
+          "status": "exported",
+          "path": "images/8aef69b411b3cf12c50af86723891cfdf4001b948335e7d66b40940f549a51f3-32.webp",
+          "width": 32,
+          "height": 64,
+          "bytes": 154,
+          "sha256": "703ee404502e1ffc5f82324289781090e3153d13438bddd3e4965b190137fcdf",
+          "largerThanSource": false
+        },
+        {
+          "requestedWidth": 32,
+          "format": "jpeg",
+          "status": "exported",
+          "path": "images/8aef69b411b3cf12c50af86723891cfdf4001b948335e7d66b40940f549a51f3-32.jpg",
+          "width": 32,
+          "height": 64,
+          "bytes": 432,
+          "sha256": "28bba92f982704cf482d010e7668d8bde5c1b2083d6b39d11f0b10e7581268b6",
+          "largerThanSource": false
+        },
+        {
+          "requestedWidth": 100,
+          "format": "webp",
+          "status": "skipped",
+          "reason": "No enlargement: source width is 40px."
+        },
+        {
+          "requestedWidth": 100,
+          "format": "jpeg",
+          "status": "skipped",
+          "reason": "No enlargement: source width is 40px."
+        }
+      ],
+      "bytes": 1222,
+      "width": 40,
+      "height": 80,
+      "rawWidth": 80,
+      "rawHeight": 40,
+      "orientation": 5,
+      "format": "jpeg",
+      "alpha": false,
+      "colorProfile": "embedded ICC converted to sRGB",
+      "provenance": null
+    },
+    {
+      "sha256": "b92bd0dbdda6a2029c755fe767833c82bca9774b27ebc88881b4ef23acba8616",
+      "name": "same.jpg",
+      "outputs": [
+        {
+          "requestedWidth": 32,
+          "format": "webp",
+          "status": "exported",
+          "path": "images/b92bd0dbdda6a2029c755fe767833c82bca9774b27ebc88881b4ef23acba8616-32.webp",
+          "width": 32,
+          "height": 64,
+          "bytes": 150,
+          "sha256": "4b4e4e3439837cbb87aa02184d938d11eaa917ea1a14730436f79b5f3d7b21ce",
+          "largerThanSource": false
+        },
+        {
+          "requestedWidth": 32,
+          "format": "jpeg",
+          "status": "exported",
+          "path": "images/b92bd0dbdda6a2029c755fe767833c82bca9774b27ebc88881b4ef23acba8616-32.jpg",
+          "width": 32,
+          "height": 64,
+          "bytes": 432,
+          "sha256": "d6d5f0f7fb9e8967515872dbc05860aad859f73400c6cda7d61af02b1810f07e",
+          "largerThanSource": false
+        },
+        {
+          "requestedWidth": 100,
+          "format": "webp",
+          "status": "skipped",
+          "reason": "No enlargement: source width is 40px."
+        },
+        {
+          "requestedWidth": 100,
+          "format": "jpeg",
+          "status": "skipped",
+          "reason": "No enlargement: source width is 40px."
+        }
+      ],
+      "bytes": 1222,
+      "width": 40,
+      "height": 80,
+      "rawWidth": 80,
+      "rawHeight": 40,
+      "orientation": 6,
+      "format": "jpeg",
+      "alpha": false,
+      "colorProfile": "embedded ICC converted to sRGB",
+      "provenance": null
+    },
+    {
+      "sha256": "a24959aaa4fb3d8c6c99cc870e839427b5e2867a75c4ae761fb33972c30ff4ba",
+      "name": "same.jpg",
+      "outputs": [
+        {
+          "requestedWidth": 32,
+          "format": "webp",
+          "status": "exported",
+          "path": "images/a24959aaa4fb3d8c6c99cc870e839427b5e2867a75c4ae761fb33972c30ff4ba-32.webp",
+          "width": 32,
+          "height": 64,
+          "bytes": 158,
+          "sha256": "e39b2057e403de6d6a72aea5b59f1930c2ff8b212bc289e781eff40715fdc9fe",
+          "largerThanSource": false
+        },
+        {
+          "requestedWidth": 32,
+          "format": "jpeg",
+          "status": "exported",
+          "path": "images/a24959aaa4fb3d8c6c99cc870e839427b5e2867a75c4ae761fb33972c30ff4ba-32.jpg",
+          "width": 32,
+          "height": 64,
+          "bytes": 433,
+          "sha256": "7490b0a385ae073c200e9a962c8cc7ba9d2257da5bef5f17ac0ffb978e5c422f",
+          "largerThanSource": false
+        },
+        {
+          "requestedWidth": 100,
+          "format": "webp",
+          "status": "skipped",
+          "reason": "No enlargement: source width is 40px."
+        },
+        {
+          "requestedWidth": 100,
+          "format": "jpeg",
+          "status": "skipped",
+          "reason": "No enlargement: source width is 40px."
+        }
+      ],
+      "bytes": 1222,
+      "width": 40,
+      "height": 80,
+      "rawWidth": 80,
+      "rawHeight": 40,
+      "orientation": 7,
+      "format": "jpeg",
+      "alpha": false,
+      "colorProfile": "embedded ICC converted to sRGB",
+      "provenance": null
+    },
+    {
+      "sha256": "00790dc220a796751d83f3d9ee490d97f3eecd0ce04758cdc58bdd219b62d1d9",
+      "name": "same.jpg",
+      "outputs": [
+        {
+          "requestedWidth": 32,
+          "format": "webp",
+          "status": "exported",
+          "path": "images/00790dc220a796751d83f3d9ee490d97f3eecd0ce04758cdc58bdd219b62d1d9-32.webp",
+          "width": 32,
+          "height": 64,
+          "bytes": 156,
+          "sha256": "371c7838ac9abd8cac77128553e0a538b117c4f8ec7b7128ccc12d02e2e599aa",
+          "largerThanSource": false
+        },
+        {
+          "requestedWidth": 32,
+          "format": "jpeg",
+          "status": "exported",
+          "path": "images/00790dc220a796751d83f3d9ee490d97f3eecd0ce04758cdc58bdd219b62d1d9-32.jpg",
+          "width": 32,
+          "height": 64,
+          "bytes": 432,
+          "sha256": "e8d56b4fa08fbd97ce1cc0ea4fb29afa2cf7ab18d6c3db660e8d51674a064ae7",
+          "largerThanSource": false
+        },
+        {
+          "requestedWidth": 100,
+          "format": "webp",
+          "status": "skipped",
+          "reason": "No enlargement: source width is 40px."
+        },
+        {
+          "requestedWidth": 100,
+          "format": "jpeg",
+          "status": "skipped",
+          "reason": "No enlargement: source width is 40px."
+        }
+      ],
+      "bytes": 1222,
+      "width": 40,
+      "height": 80,
+      "rawWidth": 80,
+      "rawHeight": 40,
+      "orientation": 8,
+      "format": "jpeg",
+      "alpha": false,
+      "colorProfile": "embedded ICC converted to sRGB",
+      "provenance": null
+    },
+    {
+      "sha256": "a60ba473b5c804ac4833028d83cda42a70807caf7a80d02ae45b1dfaf9a56c97",
+      "name": "same.jpg",
+      "outputs": [
+        {
+          "requestedWidth": 32,
+          "format": "webp",
+          "status": "exported",
+          "path": "images/a60ba473b5c804ac4833028d83cda42a70807caf7a80d02ae45b1dfaf9a56c97-32.webp",
+          "width": 32,
+          "height": 21,
+          "bytes": 122,
+          "sha256": "e9bf75adbfbf049685cd964cf6700198a8ffc1caad1008d45e2d3bcbeb3f72f4",
+          "largerThanSource": false
+        },
+        {
+          "requestedWidth": 32,
+          "format": "png",
+          "status": "exported",
+          "path": "images/a60ba473b5c804ac4833028d83cda42a70807caf7a80d02ae45b1dfaf9a56c97-32.png",
+          "width": 32,
+          "height": 21,
+          "bytes": 118,
+          "sha256": "9a2c5d6084d73426be430002dafd22a672a49f0ebf37420b5623afc15f91dfa4",
+          "largerThanSource": false
+        },
+        {
+          "requestedWidth": 100,
+          "format": "webp",
+          "status": "skipped",
+          "reason": "No enlargement: source width is 48px."
+        },
+        {
+          "requestedWidth": 100,
+          "format": "png",
+          "status": "skipped",
+          "reason": "No enlargement: source width is 48px."
+        }
+      ],
+      "bytes": 178,
+      "width": 48,
+      "height": 32,
+      "rawWidth": 48,
+      "rawHeight": 32,
+      "orientation": 1,
+      "format": "png",
+      "alpha": true,
+      "colorProfile": "untagged: assumed sRGB",
+      "provenance": null
+    }
+  ],
+  "counts": {
+    "exported": 18,
+    "skipped": 18,
+    "failed": 0
+  },
+  "outputBytes": 4633
+}
