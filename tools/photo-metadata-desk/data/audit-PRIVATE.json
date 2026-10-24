@@ -1,0 +1,749 @@
+{
+  "policy": "jpeg-allowlist-v1",
+  "note": "PRIVATE: original names and metadata. Not proof of anonymity. ICC and visible content retained; filesystem timestamps outside scope.",
+  "files": [
+    {
+      "source": "iguana.jpg",
+      "sourceSHA256": "9cdbc92f7a8b9a48ba88794ff3d6b40a70de5956da2de4d3b8c6c38f5fa785e9",
+      "before": {
+        "file": {
+          "Bits Per Sample": "8",
+          "Image Height": "2277px",
+          "Image Width": "3342px",
+          "Color Components": "3",
+          "Subsampling": "YCbCr4:4:4 (1 1)",
+          "FileType": "JPEG"
+        },
+        "jfif": {
+          "JFIF Version": "1.2",
+          "Resolution Unit": "inches",
+          "XResolution": "72",
+          "YResolution": "72",
+          "JFIF Thumbnail Width": "0px",
+          "JFIF Thumbnail Height": "0px"
+        },
+        "exif": {
+          "Make": "Canon",
+          "Model": "Canon EOS 40D",
+          "Orientation": "top-left",
+          "XResolution": "72",
+          "YResolution": "72",
+          "ResolutionUnit": "inches",
+          "Software": "Adobe Photoshop CS2 Windows",
+          "DateTime": "2008:05:31 20:29:12",
+          "YCbCrPositioning": "co-sited",
+          "Exif IFD Pointer": "232",
+          "GPS Info IFD Pointer": "1000",
+          "ExposureTime": "1/160",
+          "FNumber": "f/7.1",
+          "ExposureProgram": "Manual",
+          "ISOSpeedRatings": "100",
+          "ExifVersion": "0221",
+          "DateTimeOriginal": "2008:05:30 15:56:01",
+          "DateTimeDigitized": "2008:05:30 15:56:01",
+          "ComponentsConfiguration": "YCbCr",
+          "ShutterSpeedValue": "1/166",
+          "ApertureValue": "7.03",
+          "ExposureBiasValue": "0",
+          "MeteringMode": "Pattern",
+          "Flash": "Flash fired, compulsory flash mode",
+          "FocalLength": "135 mm",
+          "UserComment": "[Undefined encoding]",
+          "SubSecTime": "00",
+          "SubSecTimeOriginal": "00",
+          "SubSecTimeDigitized": "00",
+          "FlashpixVersion": "0100",
+          "ColorSpace": "sRGB",
+          "PixelXDimension": "3342",
+          "PixelYDimension": "2277",
+          "Interoperability IFD Pointer": "968",
+          "FocalPlaneXResolution": "4438.356164383562",
+          "FocalPlaneYResolution": "4445.969125214408",
+          "FocalPlaneResolutionUnit": "inches",
+          "CustomRendered": "Normal process",
+          "ExposureMode": "Manual exposure",
+          "WhiteBalance": "Auto white balance",
+          "SceneCaptureType": "Standard",
+          "GPSVersionID": "Version 2.2",
+          "InteroperabilityIndex": "R98",
+          "InteroperabilityVersion": "0100"
+        },
+        "iptc": {},
+        "xmp": {
+          "_raw": "\"<?xpacket begin=\\\"﻿\\\" id=\\\"W5M0MpCehiHzreSzNTczkc9d\\\"?>\\n<x:xmpmeta xmlns:x=\\\"adobe:ns:meta/\\\" x:xmptk=\\\"3.1.1-111\\\">\\n   <rdf:RDF xmlns:rdf=\\\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\\\">\\n      <rdf:Description rdf:about=\\\"\\\"\\n            xmlns:tiff=\\\"http://ns.adobe.com/tiff/1.0/\\\">\\n         <tiff:Orientation>1</tiff:Orientation>\\n         <tiff:YCbCrPositioning>2</tiff:YCbCrPositioning>\\n         <tiff:XResolution>720000/10000</tiff:XResolution>\\n         <tiff:YResolution>720000/10000</tiff:YResolution>\\n         <tiff:ResolutionUnit>2</tiff:ResolutionUnit>\\n         <tiff:Make>Canon</tiff:Make>\\n         <tiff:Model>Canon EOS 40D</tiff:Model>\\n         <tiff:NativeDigest>256,257,258,259,262,274,277,284,530,531,282,283,296,301,318,319,529,532,306,270,271,272,305,315,33432;BAF6A94AC4EE79FFE0894F4697F2A27E</tiff:NativeDigest>\\n      </rdf:Description>\\n      <rdf:Description rdf:about=\\\"\\\"\\n            xmlns:xap=\\\"http://ns.adobe.com/xap/1.0/\\\">\\n         <xap:ModifyDate>2008-05-31T20:29:12-04:00</xap:ModifyDate>\\n         <xap:CreateDate>2008-05-31T20:29:12-04:00</xap:CreateDate>\\n         <xap:MetadataDate>2008-05-31T20:29:12-04:00</xap:MetadataDate>\\n         <xap:CreatorTool>Adobe Photoshop CS2 Windows</xap:CreatorTool>\\n      </rdf:Description>\\n      <rdf:Description rdf:about=\\\"\\\"\\n            xmlns:exif=\\\"http://ns.adobe.com/exif/1.0/\\\">\\n         <exif:ExifVersion>0221</exif:ExifVersion>\\n         <exif:FlashpixVersion>0100</exif:FlashpixVersion>\\n         <exi",
+          "about": "",
+          "Orientation": "Horizontal (normal)",
+          "YCbCrPositioning": "2",
+          "XResolution": "72",
+          "YResolution": "72",
+          "ResolutionUnit": "inches",
+          "Make": "Canon",
+          "Model": "Canon EOS 40D",
+          "NativeDigest": "36864,40960,40961,37121,37122,40962,40963,37510,40964,36867,36868,33434,33437,34850,34852,34855,34856,37377,37378,37379,37380,37381,37382,37383,37384,37385,37386,37396,41483,41484,41486,41487,41488,41492,41493,41495,41728,41729,41730,41985,41986,41987,41988,41989,41990,41991,41992,41993,41994,41995,41996,42016,0,2,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,20,22,23,24,25,26,27,28,30;95FEB63911E013932DF845552EC61F7E",
+          "ModifyDate": "2008-05-31T20:29:12-04:00",
+          "CreateDate": "2008-05-31T20:29:12-04:00",
+          "MetadataDate": "2008-05-31T20:29:12-04:00",
+          "CreatorTool": "Adobe Photoshop CS2 Windows",
+          "ExifVersion": "0221",
+          "FlashpixVersion": "0100",
+          "ColorSpace": "sRGB",
+          "PixelXDimension": "3342",
+          "PixelYDimension": "2277",
+          "DateTimeOriginal": "2008-05-30T15:56:01-04:00",
+          "DateTimeDigitized": "2008-05-30T15:56:01-04:00",
+          "ExposureTime": "1/160",
+          "FNumber": "f/7.1",
+          "ExposureProgram": "Manual",
+          "ISOSpeedRatings": "100",
+          "ShutterSpeedValue": "1/166",
+          "ApertureValue": "7.03",
+          "ExposureBiasValue": "0/1",
+          "MeteringMode": "Pattern",
+          "Flash": "Fired: True; Return: 0; Mode: 1; Function: False; RedEyeMode: False",
+          "FocalLength": "135 mm",
+          "FocalPlaneXResolution": "3888000/876",
+          "FocalPlaneYResolution": "2592000/583",
+          "FocalPlaneResolutionUnit": "inches",
+          "CustomRendered": "Normal process",
+          "ExposureMode": "Manual exposure",
+          "WhiteBalance": "Auto white balance",
+          "SceneCaptureType": "Standard",
+          "GPSVersionID": "2.2.0.0",
+          "DocumentID": "uuid:480A0D91712FDD118CB7A9EE80CBE877",
+          "InstanceID": "uuid:490A0D91712FDD118CB7A9EE80CBE877",
+          "DerivedFrom": "instanceID: uuid:4DA8563B662FDD118CB7A9EE80CBE877; documentID: uuid:4DA8563B662FDD118CB7A9EE80CBE877",
+          "format": "image/jpeg",
+          "ColorMode": "3",
+          "ICCProfile": "sRGB IEC61966-2.1",
+          "History": ""
+        },
+        "icc": {
+          "Preferred CMM type": "Lino",
+          "Profile Version": "2.1.0",
+          "Profile/Device class": "Display Device profile",
+          "Color Space": "RGB ",
+          "Connection Space": "XYZ ",
+          "ICC Profile Date": "1998-02-09T06:49:00.000Z",
+          "ICC Signature": "acsp",
+          "Primary Platform": "Microsoft",
+          "Device Manufacturer": "IEC ",
+          "Device Model Number": "sRGB",
+          "Rendering Intent": "Perceptual",
+          "Profile Creator": "HP  ",
+          "ICC Copyright": "Copyright (c) 1998 Hewlett-Packard Company",
+          "ICC Description": "sRGB IEC61966-2.1",
+          "ICC Device Manufacturer for Display": "IEC http://www.iec.ch",
+          "ICC Device Model Description": "IEC 61966-2.1 Default RGB colour space - sRGB",
+          "ICC Viewing Conditions Description": "Reference Viewing Condition in IEC61966-2.1",
+          "Technology": "CRT "
+        },
+        "composite": {
+          "FocalLength35efl": "252.54389195673127 mm",
+          "ScaleFactorTo35mmEquivalent": "1.9",
+          "FieldOfView": "8.2 deg"
+        },
+        "Thumbnail": {
+          "Compression": "6",
+          "XResolution": "72",
+          "YResolution": "72",
+          "ResolutionUnit": "inches",
+          "JPEGInterchangeFormat": "1114",
+          "JPEGInterchangeFormatLength": "6927",
+          "type": "\"image/jpeg\""
+        }
+      },
+      "output": "clean-001.jpg",
+      "outputSHA256": "74d23fd2c50fa2c51cd104d05f85b04046accca9fd68807ed9e309227a56f568",
+      "sourceUnchanged": true,
+      "status": "exported",
+      "containers": [
+        {
+          "marker": "0xe0",
+          "kind": "JFIF density/version (thumbnail removed)",
+          "bytes": 18,
+          "action": "normalize"
+        },
+        {
+          "marker": "0xe1",
+          "kind": "EXIF (personal fields, GPS, thumbnail)",
+          "bytes": 8051,
+          "action": "replace"
+        },
+        {
+          "marker": "0xed",
+          "kind": "Photoshop / IPTC",
+          "bytes": 8418,
+          "action": "remove"
+        },
+        {
+          "marker": "0xe1",
+          "kind": "XMP",
+          "bytes": 16837,
+          "action": "remove"
+        },
+        {
+          "marker": "0xe2",
+          "kind": "ICC profile (may identify device/author)",
+          "bytes": 3162,
+          "action": "retain"
+        },
+        {
+          "marker": "0xee",
+          "kind": "Adobe color transform",
+          "bytes": 16,
+          "action": "retain"
+        },
+        {
+          "marker": "0xdb",
+          "kind": "Structure",
+          "bytes": 134,
+          "action": "retain"
+        },
+        {
+          "marker": "0xc0",
+          "kind": "Structure",
+          "bytes": 19,
+          "action": "retain"
+        },
+        {
+          "marker": "0xdd",
+          "kind": "Structure",
+          "bytes": 6,
+          "action": "retain"
+        },
+        {
+          "marker": "0xc4",
+          "kind": "Structure",
+          "bytes": 211,
+          "action": "retain"
+        },
+        {
+          "marker": "0xda",
+          "kind": "Structure",
+          "bytes": 14,
+          "action": "retain"
+        }
+      ],
+      "after": {
+        "file": {
+          "Bits Per Sample": "8",
+          "Image Height": "2277px",
+          "Image Width": "3342px",
+          "Color Components": "3",
+          "Subsampling": "YCbCr4:4:4 (1 1)",
+          "FileType": "JPEG"
+        },
+        "jfif": {
+          "JFIF Version": "1.2",
+          "Resolution Unit": "inches",
+          "XResolution": "72",
+          "YResolution": "72",
+          "JFIF Thumbnail Width": "0px",
+          "JFIF Thumbnail Height": "0px"
+        },
+        "exif": {
+          "Orientation": "top-left",
+          "YCbCrPositioning": "co-sited",
+          "Exif IFD Pointer": "50",
+          "ColorSpace": "sRGB"
+        },
+        "icc": {
+          "Preferred CMM type": "Lino",
+          "Profile Version": "2.1.0",
+          "Profile/Device class": "Display Device profile",
+          "Color Space": "RGB ",
+          "Connection Space": "XYZ ",
+          "ICC Profile Date": "1998-02-09T06:49:00.000Z",
+          "ICC Signature": "acsp",
+          "Primary Platform": "Microsoft",
+          "Device Manufacturer": "IEC ",
+          "Device Model Number": "sRGB",
+          "Rendering Intent": "Perceptual",
+          "Profile Creator": "HP  ",
+          "ICC Copyright": "Copyright (c) 1998 Hewlett-Packard Company",
+          "ICC Description": "sRGB IEC61966-2.1",
+          "ICC Device Manufacturer for Display": "IEC http://www.iec.ch",
+          "ICC Device Model Description": "IEC 61966-2.1 Default RGB colour space - sRGB",
+          "ICC Viewing Conditions Description": "Reference Viewing Condition in IEC61966-2.1",
+          "Technology": "CRT "
+        }
+      },
+      "warnings": [
+        "XMP orientation removed; retained EXIF orientation is authoritative. XMP-aware renderers are unverified."
+      ]
+    },
+    {
+      "source": "anolis.jpg",
+      "sourceSHA256": "40a7aa2cc28d8544b31408e6d54c568e6b749a8faf239c7a6234b315e953b9d5",
+      "before": {
+        "file": {
+          "Bits Per Sample": "8",
+          "Image Height": "77px",
+          "Image Width": "100px",
+          "Color Components": "3",
+          "Subsampling": "YCbCr4:4:4 (1 1)",
+          "FileType": "JPEG"
+        },
+        "jfif": {
+          "JFIF Version": "1.1",
+          "Resolution Unit": "inches",
+          "XResolution": "300",
+          "YResolution": "300",
+          "JFIF Thumbnail Width": "0px",
+          "JFIF Thumbnail Height": "0px"
+        },
+        "exif": {
+          "Orientation": "top-left",
+          "XResolution": "300",
+          "YResolution": "300",
+          "ResolutionUnit": "inches",
+          "Software": "GIMP 2.4.5",
+          "DateTime": "2008:07:31 10:05:49",
+          "Exif IFD Pointer": "146",
+          "ColorSpace": "sRGB",
+          "PixelXDimension": "100",
+          "PixelYDimension": "77"
+        },
+        "icc": {
+          "Preferred CMM type": "Lino",
+          "Profile Version": "2.1.0",
+          "Profile/Device class": "Display Device profile",
+          "Color Space": "RGB ",
+          "Connection Space": "XYZ ",
+          "ICC Profile Date": "1998-02-09T06:49:00.000Z",
+          "ICC Signature": "acsp",
+          "Primary Platform": "Microsoft",
+          "Device Manufacturer": "IEC ",
+          "Device Model Number": "sRGB",
+          "Rendering Intent": "Relative Colorimetric",
+          "Profile Creator": "HP  ",
+          "ICC Copyright": "Copyright (c) 1998 Hewlett-Packard Company",
+          "ICC Description": "sRGB IEC61966-2.1",
+          "ICC Device Manufacturer for Display": "IEC http://www.iec.ch",
+          "ICC Device Model Description": "IEC 61966-2.1 Default RGB colour space - sRGB",
+          "ICC Viewing Conditions Description": "Reference Viewing Condition in IEC61966-2.1",
+          "Technology": "CRT "
+        },
+        "Thumbnail": {
+          "Compression": "6",
+          "XResolution": "72",
+          "YResolution": "72",
+          "ResolutionUnit": "inches",
+          "JPEGInterchangeFormat": "282",
+          "JPEGInterchangeFormatLength": "2022",
+          "type": "\"image/jpeg\""
+        }
+      },
+      "output": "clean-002.jpg",
+      "outputSHA256": "09482c20daf1ed1b46fcf56d8d61cb87b10e5ea28a1dabed639ee2546cc1875a",
+      "sourceUnchanged": true,
+      "status": "exported",
+      "containers": [
+        {
+          "marker": "0xe0",
+          "kind": "JFIF density/version (thumbnail removed)",
+          "bytes": 18,
+          "action": "normalize"
+        },
+        {
+          "marker": "0xe1",
+          "kind": "EXIF (personal fields, GPS, thumbnail)",
+          "bytes": 2314,
+          "action": "replace"
+        },
+        {
+          "marker": "0xe2",
+          "kind": "ICC profile (may identify device/author)",
+          "bytes": 3162,
+          "action": "retain"
+        },
+        {
+          "marker": "0xdb",
+          "kind": "Structure",
+          "bytes": 69,
+          "action": "retain"
+        },
+        {
+          "marker": "0xdb",
+          "kind": "Structure",
+          "bytes": 69,
+          "action": "retain"
+        },
+        {
+          "marker": "0xc0",
+          "kind": "Structure",
+          "bytes": 19,
+          "action": "retain"
+        },
+        {
+          "marker": "0xc4",
+          "kind": "Structure",
+          "bytes": 29,
+          "action": "retain"
+        },
+        {
+          "marker": "0xc4",
+          "kind": "Structure",
+          "bytes": 55,
+          "action": "retain"
+        },
+        {
+          "marker": "0xc4",
+          "kind": "Structure",
+          "bytes": 28,
+          "action": "retain"
+        },
+        {
+          "marker": "0xc4",
+          "kind": "Structure",
+          "bytes": 48,
+          "action": "retain"
+        },
+        {
+          "marker": "0xda",
+          "kind": "Structure",
+          "bytes": 14,
+          "action": "retain"
+        }
+      ],
+      "after": {
+        "file": {
+          "Bits Per Sample": "8",
+          "Image Height": "77px",
+          "Image Width": "100px",
+          "Color Components": "3",
+          "Subsampling": "YCbCr4:4:4 (1 1)",
+          "FileType": "JPEG"
+        },
+        "jfif": {
+          "JFIF Version": "1.1",
+          "Resolution Unit": "inches",
+          "XResolution": "300",
+          "YResolution": "300",
+          "JFIF Thumbnail Width": "0px",
+          "JFIF Thumbnail Height": "0px"
+        },
+        "exif": {
+          "Orientation": "top-left",
+          "YCbCrPositioning": "centered",
+          "Exif IFD Pointer": "50",
+          "ColorSpace": "sRGB"
+        },
+        "icc": {
+          "Preferred CMM type": "Lino",
+          "Profile Version": "2.1.0",
+          "Profile/Device class": "Display Device profile",
+          "Color Space": "RGB ",
+          "Connection Space": "XYZ ",
+          "ICC Profile Date": "1998-02-09T06:49:00.000Z",
+          "ICC Signature": "acsp",
+          "Primary Platform": "Microsoft",
+          "Device Manufacturer": "IEC ",
+          "Device Model Number": "sRGB",
+          "Rendering Intent": "Relative Colorimetric",
+          "Profile Creator": "HP  ",
+          "ICC Copyright": "Copyright (c) 1998 Hewlett-Packard Company",
+          "ICC Description": "sRGB IEC61966-2.1",
+          "ICC Device Manufacturer for Display": "IEC http://www.iec.ch",
+          "ICC Device Model Description": "IEC 61966-2.1 Default RGB colour space - sRGB",
+          "ICC Viewing Conditions Description": "Reference Viewing Condition in IEC61966-2.1",
+          "Technology": "CRT "
+        }
+      },
+      "warnings": []
+    },
+    {
+      "source": "gps.jpg",
+      "sourceSHA256": "dfbb8f411582becb00e38d8b283ddb62953c12e1cad1706454cb312fdeef73f3",
+      "before": {
+        "file": {
+          "Bits Per Sample": "8",
+          "Image Height": "3000px",
+          "Image Width": "4000px",
+          "Color Components": "3",
+          "Subsampling": "YCbCr4:2:2 (2 1)",
+          "FileType": "JPEG"
+        },
+        "exif": {
+          "ImageDescription": "Exif_JPEG_PICTURE                                              ",
+          "Make": "RICOH      ",
+          "Model": "G700 SE        ",
+          "Orientation": "top-left",
+          "XResolution": "72",
+          "YResolution": "72",
+          "ResolutionUnit": "inches",
+          "Software": "G700SE Firmware",
+          "DateTime": "2012:10:24 09:13:42",
+          "YCbCrPositioning": "co-sited",
+          "Copyright": "                         ",
+          "Exif IFD Pointer": "564",
+          "GPS Info IFD Pointer": "1650",
+          "PrintIM": "80, 114, 105, 110, 116, 73, 77, 0, 48, 51, 48, 48, 0, 0, 0, 14, 0, 1, 0, 20, 0, 20, 0, 2, 1, 0, 0, 0, 0, 3, 0, 0, 0, 100, 0, 7, 0, 0, 0, 0, 0, 8, 0, 0, 0, 0, 0, 9, 0, 0, 0, 0, 0, 10, 0, 0, 0, 0, 0, 11, 0, 0, 0, 172, 0, 12, 0, 0, 0, 0, 0, 13, 0, 0, 0, 0, 0, 14, 0, 0, 0, 196, 1, 0, 2, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 16, 129, 0, 0, 0, 0, 0, 17, 9, 0, 0, 39, 16, 0, 0, 15, 11, 0, 0, 39, 16, 0, 0, 5, 151, 0, 0, 39, 16, 0, 0, 8, 176, 0, 0, 39, 16, 0, 0, 28, 1, 0, 0, 39, 16, 0, 0, 2, 94, 0, 0, 39, 16, 0, 0, 0, 139, 0, 0, 39, 16, 0, 0, 3, 203, 0, 0, 39, 16, 0, 0, 27, 229, 0, 0, 39, 16, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0",
+          "ExposureTime": "1/656",
+          "FNumber": "f/5.4",
+          "ExposureProgram": "Normal program",
+          "ISOSpeedRatings": "64",
+          "ExifVersion": "0221",
+          "DateTimeOriginal": "2012:10:24 09:13:43",
+          "DateTimeDigitized": "2012:10:24 09:13:43",
+          "ComponentsConfiguration": "YCbCr",
+          "CompressedBitsPerPixel": "1.84",
+          "ApertureValue": "1.18",
+          "BrightnessValue": "9.2",
+          "ExposureBiasValue": "0",
+          "MaxApertureValue": "3.49",
+          "MeteringMode": "Pattern",
+          "LightSource": "Unknown",
+          "Flash": "Flash did not fire, compulsory flash mode",
+          "FocalLength": "10.5 mm",
+          "MakerNote": "[Raw maker note data]",
+          "UserComment": "GP1\u0000,-12,0                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              ",
+          "FlashpixVersion": "0100",
+          "ColorSpace": "sRGB",
+          "PixelXDimension": "4000",
+          "PixelYDimension": "3000",
+          "Interoperability IFD Pointer": "2432",
+          "ExposureMode": "Auto exposure",
+          "WhiteBalance": "Auto white balance",
+          "SceneCaptureType": "Standard",
+          "Sharpness": "Normal",
+          "GPSVersionID": "Version 2.2",
+          "GPSLatitudeRef": "North latitude",
+          "GPSLatitude": "28.514431666666667",
+          "GPSLongitudeRef": "West longitude",
+          "GPSLongitude": "96.99092666666667",
+          "GPSAltitudeRef": "Sea level reference (negative value)",
+          "GPSAltitude": "42949624.76 m",
+          "GPSTimeStamp": "15:13:38",
+          "GPSSatellites": "17,28,08,04,26,07,20,11,15,01,,,                                                         ",
+          "GPSStatus": "Measurement in progress",
+          "GPSMeasureMode": "3-dimensional measurement",
+          "GPSDOP": "0.8",
+          "GPSSpeedRef": "Kilometers per hour",
+          "GPSSpeed": "0",
+          "GPSTrackRef": "True direction",
+          "GPSTrack": "185.86",
+          "GPSImgDirectionRef": "True direction",
+          "GPSImgDirection": "6.5",
+          "GPSMapDatum": "WGS-84                         ",
+          "GPSDestLatitudeRef": "Unknown",
+          "GPSDestLatitude": "NaN",
+          "GPSDestLongitudeRef": "Unknown",
+          "GPSDestLongitude": "NaN",
+          "GPSDestBearingRef": "True direction",
+          "GPSDestBearing": "6.5",
+          "GPSDestDistanceRef": "Kilometers",
+          "GPSDestDistance": "0",
+          "GPSProcessingMethod": "Undefined",
+          "GPSAreaInformation": "Undefined",
+          "GPSDateStamp": "2012:10:24",
+          "GPSDifferential": "Measurement without differential correction",
+          "InteroperabilityIndex": "R98",
+          "InteroperabilityVersion": "0100"
+        },
+        "mpf": {
+          "MPFVersion": "0100",
+          "NumberOfImages": "2",
+          "MPEntry": "160, 3, 0, 0, 0, 37, 148, 174, 0, 0, 0, 0, 0, 2, 0, 0, 64, 1, 0, 1, 0, 0, 207, 240, 0, 37, 148, 174, 0, 0, 0, 0",
+          "Images": "[{\"ImageFlags\":{\"value\":[1,0,1],\"description\":\"Dependent Parent Image, Representative Image\"},\"ImageFormat\":{\"value\":0,\"description\":\"JPEG\"},\"ImageType\":{\"value\":196608,\"description\":\"Baseline MP Primary Image\"},\"ImageSize\":{\"value\":2462894,\"description\":\"2462894\"},\"ImageOffset\":{\"value\":0,\"description\":\"0\"},\"DependentImage1EntryNumber\":{\"value\":2,\"description\":\"2\"},\"DependentImage2EntryNumber\":{\"value\":0,\"description\":\"0\"},\"image\":{},\"base64\":\"/9j/4VhFRXhpZgAATU0AKgAAAAgADgEOAAIAAABAAAAAtgEPAAIAAAAMAAAA9gEQAAIAAAAQAAABAgESAAMAAAABAAEAAAEaAAUAAAABAAABEgEbAAUAAAABAAABGgEoAAMAAAABAAIAAAExAAIAAAAQAAABIgEyAAIAAAAUAAABMgITAAMAAAABAAIAAIKYAAIAAAAaAAABRodpAAQAAAABAAACNIglAAQAAAABAAAGcsSlAAcAAADUAAABYAAACSJFeGlmX0pQRUdfUElDVFVSRSAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAAUklDT0ggICAgICAARzcwMCBTRSAgICAgICAgAAAAAEgAAAABAAAASAAAAAFHNzAwU0UgRmlybXdhcmUAMjAxMjoxMDoyNCAwOToxMzo0MgAgICAgICAgICAgICAgICAgICAgICAgICAgAFByaW50SU0AMDMwMAAAAA4AAQAUABQAAgEAAAAAAwAAAGQABwAAAAAACAAAAAAACQAAAAAACgAAAAAACwAAAKwADAAAAAAADQAAAAAADgAAAMQBAAIAAAABAQEAAAABEIEAAAAAABEJAAAnEAAADwsAACcQAAAFlwAAJxAAAAiwAAAnEAAAHAEAACcQAAACXgAAJxAAAACLAAAnEAAAA8sAACcQAAAb5QAAJxAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAByCmgAFAAAAAQAAA4qCnQAFAAAAAQAAA5KIIgADAAAAAQACAACIJwADAAAAAQBAAACQAAAHAAAABDAyMjGQAwACAAAAFAAAA5qQBAACAAAAFAAAA66RAQAHAAAABAECAwCRAgAFAAAAAQAAA8KSAgAFAAAAAQAAA8qSAwAKAAAAAQAAA9KSBAAKAAAAAQAAA9qSBQAFAAAAAQAAA+KSBwADAAAAAQAFAACSCAADAAAAAQAAAACSCQADAAAAAQAQAACSCgAFAAAAAQAAA+qSfAAHAAA"
+        },
+        "gps": {
+          "Latitude": "28.514431666666667",
+          "Longitude": "-96.99092666666667",
+          "Altitude": "-42949624.76"
+        },
+        "Thumbnail": {
+          "Compression": "6",
+          "XResolution": "72",
+          "YResolution": "72",
+          "ResolutionUnit": "inches",
+          "JPEGInterchangeFormat": "12276",
+          "JPEGInterchangeFormatLength": "3610",
+          "type": "\"image/jpeg\""
+        }
+      },
+      "status": "failed",
+      "reason": "APP2 MPF multi-picture JPEG unsupported; export refused"
+    },
+    {
+      "source": "iguana.jpg",
+      "sourceSHA256": "40a7aa2cc28d8544b31408e6d54c568e6b749a8faf239c7a6234b315e953b9d5",
+      "before": {
+        "file": {
+          "Bits Per Sample": "8",
+          "Image Height": "77px",
+          "Image Width": "100px",
+          "Color Components": "3",
+          "Subsampling": "YCbCr4:4:4 (1 1)",
+          "FileType": "JPEG"
+        },
+        "jfif": {
+          "JFIF Version": "1.1",
+          "Resolution Unit": "inches",
+          "XResolution": "300",
+          "YResolution": "300",
+          "JFIF Thumbnail Width": "0px",
+          "JFIF Thumbnail Height": "0px"
+        },
+        "exif": {
+          "Orientation": "top-left",
+          "XResolution": "300",
+          "YResolution": "300",
+          "ResolutionUnit": "inches",
+          "Software": "GIMP 2.4.5",
+          "DateTime": "2008:07:31 10:05:49",
+          "Exif IFD Pointer": "146",
+          "ColorSpace": "sRGB",
+          "PixelXDimension": "100",
+          "PixelYDimension": "77"
+        },
+        "icc": {
+          "Preferred CMM type": "Lino",
+          "Profile Version": "2.1.0",
+          "Profile/Device class": "Display Device profile",
+          "Color Space": "RGB ",
+          "Connection Space": "XYZ ",
+          "ICC Profile Date": "1998-02-09T06:49:00.000Z",
+          "ICC Signature": "acsp",
+          "Primary Platform": "Microsoft",
+          "Device Manufacturer": "IEC ",
+          "Device Model Number": "sRGB",
+          "Rendering Intent": "Relative Colorimetric",
+          "Profile Creator": "HP  ",
+          "ICC Copyright": "Copyright (c) 1998 Hewlett-Packard Company",
+          "ICC Description": "sRGB IEC61966-2.1",
+          "ICC Device Manufacturer for Display": "IEC http://www.iec.ch",
+          "ICC Device Model Description": "IEC 61966-2.1 Default RGB colour space - sRGB",
+          "ICC Viewing Conditions Description": "Reference Viewing Condition in IEC61966-2.1",
+          "Technology": "CRT "
+        },
+        "Thumbnail": {
+          "Compression": "6",
+          "XResolution": "72",
+          "YResolution": "72",
+          "ResolutionUnit": "inches",
+          "JPEGInterchangeFormat": "282",
+          "JPEGInterchangeFormatLength": "2022",
+          "type": "\"image/jpeg\""
+        }
+      },
+      "output": "clean-003.jpg",
+      "outputSHA256": "09482c20daf1ed1b46fcf56d8d61cb87b10e5ea28a1dabed639ee2546cc1875a",
+      "sourceUnchanged": true,
+      "status": "exported",
+      "containers": [
+        {
+          "marker": "0xe0",
+          "kind": "JFIF density/version (thumbnail removed)",
+          "bytes": 18,
+          "action": "normalize"
+        },
+        {
+          "marker": "0xe1",
+          "kind": "EXIF (personal fields, GPS, thumbnail)",
+          "bytes": 2314,
+          "action": "replace"
+        },
+        {
+          "marker": "0xe2",
+          "kind": "ICC profile (may identify device/author)",
+          "bytes": 3162,
+          "action": "retain"
+        },
+        {
+          "marker": "0xdb",
+          "kind": "Structure",
+          "bytes": 69,
+          "action": "retain"
+        },
+        {
+          "marker": "0xdb",
+          "kind": "Structure",
+          "bytes": 69,
+          "action": "retain"
+        },
+        {
+          "marker": "0xc0",
+          "kind": "Structure",
+          "bytes": 19,
+          "action": "retain"
+        },
+        {
+          "marker": "0xc4",
+          "kind": "Structure",
+          "bytes": 29,
+          "action": "retain"
+        },
+        {
+          "marker": "0xc4",
+          "kind": "Structure",
+          "bytes": 55,
+          "action": "retain"
+        },
+        {
+          "marker": "0xc4",
+          "kind": "Structure",
+          "bytes": 28,
+          "action": "retain"
+        },
+        {
+          "marker": "0xc4",
+          "kind": "Structure",
+          "bytes": 48,
+          "action": "retain"
+        },
+        {
+          "marker": "0xda",
+          "kind": "Structure",
+          "bytes": 14,
+          "action": "retain"
+        }
+      ],
+      "after": {
+        "file": {
+          "Bits Per Sample": "8",
+          "Image Height": "77px",
+          "Image Width": "100px",
+          "Color Components": "3",
+          "Subsampling": "YCbCr4:4:4 (1 1)",
+          "FileType": "JPEG"
+        },
+        "jfif": {
+          "JFIF Version": "1.1",
+          "Resolution Unit": "inches",
+          "XResolution": "300",
+          "YResolution": "300",
+          "JFIF Thumbnail Width": "0px",
+          "JFIF Thumbnail Height": "0px"
+        },
+        "exif": {
+          "Orientation": "top-left",
+          "YCbCrPositioning": "centered",
+          "Exif IFD Pointer": "50",
+          "ColorSpace": "sRGB"
+        },
+        "icc": {
+          "Preferred CMM type": "Lino",
+          "Profile Version": "2.1.0",
+          "Profile/Device class": "Display Device profile",
+          "Color Space": "RGB ",
+          "Connection Space": "XYZ ",
+          "ICC Profile Date": "1998-02-09T06:49:00.000Z",
+          "ICC Signature": "acsp",
+          "Primary Platform": "Microsoft",
+          "Device Manufacturer": "IEC ",
+          "Device Model Number": "sRGB",
+          "Rendering Intent": "Relative Colorimetric",
+          "Profile Creator": "HP  ",
+          "ICC Copyright": "Copyright (c) 1998 Hewlett-Packard Company",
+          "ICC Description": "sRGB IEC61966-2.1",
+          "ICC Device Manufacturer for Display": "IEC http://www.iec.ch",
+          "ICC Device Model Description": "IEC 61966-2.1 Default RGB colour space - sRGB",
+          "ICC Viewing Conditions Description": "Reference Viewing Condition in IEC61966-2.1",
+          "Technology": "CRT "
+        }
+      },
+      "warnings": []
+    }
+  ]
+}
