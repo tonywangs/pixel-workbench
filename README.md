@@ -1,4 +1,4 @@
-# Aperture
+# pixel-workbench
 
 Image composition, metadata, animation, and export.
 
