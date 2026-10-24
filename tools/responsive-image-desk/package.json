@@ -1,0 +1,29 @@
+{
+  "name": "responsive-image-desk",
+  "version": "1.0.0",
+  "description": "A local workbench for preparing responsive image packages, comparing compression results, and exporting verified images with usable HTML.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test tests/core.test.js",
+    "test:browser": "playwright test",
+    "demo:build": "node scripts/build-demo.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.1.0",
+    "fflate": "0.8.3",
+    "multer": "2.4.0",
+    "sharp": "0.35.5"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.58.2"
+  },
+  "private": true,
+  "engines": {
+    "node": ">=22"
+  }
+}
