@@ -1,0 +1,281 @@
+{
+  "version": 1,
+  "status": "encoded",
+  "width": 64,
+  "height": 64,
+  "loop": 0,
+  "totalDuration": 1700,
+  "policy": {
+    "canvas": "Maximum oriented width and height; transparent top-left padding, no scaling",
+    "orientation": "Apply EXIF orientation once",
+    "color": "Convert embedded profiles to sRGB; untagged RGB assumed sRGB; reject non-RGB/grayscale and >8-bit inputs",
+    "alpha": "Straight RGBA; fully transparent RGB canonicalized to zero; lossless visible pixels",
+    "timing": "Integer milliseconds, 1..60000 per occurrence; browser scheduling is approximate",
+    "loop": "0 = infinite; 1..65535 = total plays",
+    "metadata": "Source bytes preserved; exported image metadata removed"
+  },
+  "encoder": {
+    "container": "animation-frame-desk/1 full-canvas ANMF",
+    "sharp": {
+      "aom": "3.15.1",
+      "archive": "3.8.9",
+      "cairo": "1.18.6",
+      "cgif": "0.5.4",
+      "exif": "0.6.26",
+      "expat": "2.8.5",
+      "ffi": "3.8.0",
+      "fontconfig": "2.18.3",
+      "freetype": "2.14.3",
+      "fribidi": "1.0.17",
+      "glib": "2.90.0",
+      "harfbuzz": "14.5.0",
+      "heif": "1.23.5",
+      "highway": "1.4.0",
+      "imagequant": "2.4.1",
+      "lcms": "2.19.1",
+      "mozjpeg": "0826579",
+      "pango": "1.58.2",
+      "pixman": "0.46.4",
+      "png": "1.6.58",
+      "proxy-libintl": "0.5",
+      "rsvg": "2.63.2",
+      "tiff": "4.7.2",
+      "uhdr": "2.0.2",
+      "vips": "8.18.7",
+      "webp": "1.6.0",
+      "xml2": "2.15.4",
+      "zlib-ng": "2.3.3",
+      "sharp": "0.35.5"
+    }
+  },
+  "outputs": {
+    "animation.webp": "2f6723ba476e59a232d2dccc27e602b16fe8b62be0c76acc2a77249ca7fc1b03",
+    "playback.html": "f43b009cba1e5b23d05890ea5861251e1f796cfaaed5d7d31348832f15cffccd"
+  },
+  "frames": [
+    {
+      "id": "sample-1",
+      "sourceHash": "86b7f0c980806a91dc90c9f16728644d0bca888b4408411b21fc89009299c201",
+      "duration": 80,
+      "sourceWidth": 64,
+      "sourceHeight": 64,
+      "orientationApplied": 1,
+      "color": "assumed sRGB",
+      "placement": {
+        "x": 0,
+        "y": 0
+      },
+      "normalizedRgbaHash": "bee696b4cba20641045a9653e3cc0cb573f7b7e0b1f8121b8675b478d915b231"
+    },
+    {
+      "id": "sample-2",
+      "sourceHash": "fed6384ea7395c26888614518a8aa5139dc24176d8377bfc4780ea3ad6a15619",
+      "duration": 80,
+      "sourceWidth": 64,
+      "sourceHeight": 64,
+      "orientationApplied": 1,
+      "color": "assumed sRGB",
+      "placement": {
+        "x": 0,
+        "y": 0
+      },
+      "normalizedRgbaHash": "aca9302b44a65b730a495563333c0cad309c8d940744ab8df81885a3ae7bedae"
+    },
+    {
+      "id": "sample-3",
+      "sourceHash": "8da1e6adf52eab13699418b52ed7d75933d6366154ae8753bd46e786308d866b",
+      "duration": 80,
+      "sourceWidth": 64,
+      "sourceHeight": 64,
+      "orientationApplied": 1,
+      "color": "assumed sRGB",
+      "placement": {
+        "x": 0,
+        "y": 0
+      },
+      "normalizedRgbaHash": "85d2d5ef525842dcf4110296e3052d8ea90abf402bdd701133427e2530fbc339"
+    },
+    {
+      "id": "sample-4",
+      "sourceHash": "dbe71b501d57708bc150e168b40fbfa56537c0b81905087e96b24ac513df560b",
+      "duration": 80,
+      "sourceWidth": 64,
+      "sourceHeight": 64,
+      "orientationApplied": 1,
+      "color": "assumed sRGB",
+      "placement": {
+        "x": 0,
+        "y": 0
+      },
+      "normalizedRgbaHash": "78662aedc2cee574e8957554653b34e4f2fba9c6fc069fdd639da9a814f59113"
+    },
+    {
+      "id": "sample-5",
+      "sourceHash": "9a9a5ea674a6e33791f4768bf48d04e2751835f320f779fcf70295d3233a116d",
+      "duration": 80,
+      "sourceWidth": 64,
+      "sourceHeight": 64,
+      "orientationApplied": 1,
+      "color": "assumed sRGB",
+      "placement": {
+        "x": 0,
+        "y": 0
+      },
+      "normalizedRgbaHash": "599ec63d6b94b87611d6f542a8eba23f282411e7bd3ac05766168d80d13130c0"
+    },
+    {
+      "id": "sample-6",
+      "sourceHash": "d018f2f3d4da10884db5ad509ea34fe118ffdf12e99749ff10811a5f1b0df71f",
+      "duration": 80,
+      "sourceWidth": 64,
+      "sourceHeight": 64,
+      "orientationApplied": 1,
+      "color": "assumed sRGB",
+      "placement": {
+        "x": 0,
+        "y": 0
+      },
+      "normalizedRgbaHash": "49fae40e5838e9b961b403bd6f946ec2bcc6a575a9f18fa7063e8b8eaa1a8532"
+    },
+    {
+      "id": "sample-7",
+      "sourceHash": "3d57582022a5edc099839068127b1fa32d220b9c0dd0d041458843cf2b0122f4",
+      "duration": 80,
+      "sourceWidth": 64,
+      "sourceHeight": 64,
+      "orientationApplied": 1,
+      "color": "assumed sRGB",
+      "placement": {
+        "x": 0,
+        "y": 0
+      },
+      "normalizedRgbaHash": "39bf0c66086ed1e1980daf366c1a0f6ab0bdb6f6e6d11515cb8a02e3555beb7b"
+    },
+    {
+      "id": "sample-8",
+      "sourceHash": "c856535f7861ad4587b14ccbeb90fcd053a2cf122ad539e53168a61411dea93d",
+      "duration": 80,
+      "sourceWidth": 64,
+      "sourceHeight": 64,
+      "orientationApplied": 1,
+      "color": "assumed sRGB",
+      "placement": {
+        "x": 0,
+        "y": 0
+      },
+      "normalizedRgbaHash": "91550d2d2e5a287f5f3a699e81ac67273b3a892ee53cb3f7ceff60f913c8205a"
+    },
+    {
+      "id": "sample-9",
+      "sourceHash": "2a2a80528f5ca5f3c1fa3e852deca54c8e1bb582a026858c8db9ced2873b9aab",
+      "duration": 80,
+      "sourceWidth": 64,
+      "sourceHeight": 64,
+      "orientationApplied": 1,
+      "color": "assumed sRGB",
+      "placement": {
+        "x": 0,
+        "y": 0
+      },
+      "normalizedRgbaHash": "cd14ac612efa071e04f680206123dffc3a66d3cc22ac26bdc55938bcf46cce43"
+    },
+    {
+      "id": "sample-10",
+      "sourceHash": "8585b66a2c86eda9f1650e63601ff72e3475dba23176eef7414c3b988a69294a",
+      "duration": 80,
+      "sourceWidth": 64,
+      "sourceHeight": 64,
+      "orientationApplied": 1,
+      "color": "assumed sRGB",
+      "placement": {
+        "x": 0,
+        "y": 0
+      },
+      "normalizedRgbaHash": "c8e701ff5b9394912e065642f6c7b6dd65168db070eb43fc1421b03d0706e490"
+    },
+    {
+      "id": "sample-11",
+      "sourceHash": "b31fdabed5360c5e75c07fd2afae6ee34892fdcb39822aaacd644379188870ef",
+      "duration": 80,
+      "sourceWidth": 64,
+      "sourceHeight": 64,
+      "orientationApplied": 1,
+      "color": "assumed sRGB",
+      "placement": {
+        "x": 0,
+        "y": 0
+      },
+      "normalizedRgbaHash": "3d7b9ffa2069d96d5b3cc64caf4cef102ef3cb1ba971bed9e2bc1e51f68aafa6"
+    },
+    {
+      "id": "sample-12",
+      "sourceHash": "90f5675e6238013384a6c9556dc07ee45b1897c4b740425cb6c068a148576ba5",
+      "duration": 80,
+      "sourceWidth": 64,
+      "sourceHeight": 64,
+      "orientationApplied": 1,
+      "color": "assumed sRGB",
+      "placement": {
+        "x": 0,
+        "y": 0
+      },
+      "normalizedRgbaHash": "9d80c83765be1c44e291479faf8dd3f1d3c78db0b87b2ea171e06bc3f34d7a96"
+    },
+    {
+      "id": "sample-13",
+      "sourceHash": "20ec8d25fdeef15a36e287c7cf86506618c3f91e5551b2bd5662acf114ff3634",
+      "duration": 80,
+      "sourceWidth": 64,
+      "sourceHeight": 64,
+      "orientationApplied": 1,
+      "color": "assumed sRGB",
+      "placement": {
+        "x": 0,
+        "y": 0
+      },
+      "normalizedRgbaHash": "79d26fbc2d79e31eeea6ceb10b72d2900a14941f8b31894376e8ee01cf659bbc"
+    },
+    {
+      "id": "sample-14",
+      "sourceHash": "265543066be09667bb39123ce8e50c58a93aabb400c4edfb63e1b0b12870102a",
+      "duration": 80,
+      "sourceWidth": 64,
+      "sourceHeight": 64,
+      "orientationApplied": 1,
+      "color": "assumed sRGB",
+      "placement": {
+        "x": 0,
+        "y": 0
+      },
+      "normalizedRgbaHash": "c0fdfdc6c1a5a579bb5651873b2fe74229c2fcd9518a6a79c4f1548e988a1fd7"
+    },
+    {
+      "id": "sample-15",
+      "sourceHash": "d79ad2e8744f3c5e66666ac9b1904081d8df9594d29f6985ed0cf62233b20ab0",
+      "duration": 80,
+      "sourceWidth": 64,
+      "sourceHeight": 64,
+      "orientationApplied": 1,
+      "color": "assumed sRGB",
+      "placement": {
+        "x": 0,
+        "y": 0
+      },
+      "normalizedRgbaHash": "92b147892799d23c18b6aa8c3a5874ae3aa040af3401f39e76cad9428aae0ba6"
+    },
+    {
+      "id": "sample-16",
+      "sourceHash": "128a586a06552ff15978886678081a48d8c2f8dfbd6ad66d57d8c7300647efae",
+      "duration": 500,
+      "sourceWidth": 64,
+      "sourceHeight": 64,
+      "orientationApplied": 1,
+      "color": "assumed sRGB",
+      "placement": {
+        "x": 0,
+        "y": 0
+      },
+      "normalizedRgbaHash": "ec9527b5cf9f4286015c7cd418d79a07df5488422d6c07722fb0e415799f23e6"
+    }
+  ]
+}

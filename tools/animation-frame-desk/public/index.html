@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Animation Frame Desk</title><link rel="stylesheet" href="/style.css"><script src="/app.js" type="module"></script></head>
+<body>
+<header><div><p class="eyebrow">LOCAL MOTION WORKBENCH</p><h1>Animation Frame Desk<span>●</span></h1><p>Arrange a sequence. Find its rhythm. Keep every original.</p></div><span class="badge">LOCAL ONLY · LOSSLESS WEBP</span></header>
+<main>
+<section class="toolbar" aria-label="Project tools">
+<label class="button primary">Import frames<input id="import" type="file" accept="image/png,image/jpeg" multiple></label>
+<button id="sample">Load real artwork demo</button>
+<label class="button">Open project<input id="open" type="file" accept=".json,application/json"></label>
+<button id="save">Save portable project</button><button id="references">Save source references</button>
+<label class="button">Reconnect originals<input id="reconnect" type="file" accept="image/png,image/jpeg" multiple></label>
+<button id="new">New project</button>
+</section>
+<p id="status" role="status" aria-live="polite">Starting local desk…</p>
+<div class="workspace">
+<section class="viewer" aria-label="Animation preview">
+<div class="sectionhead"><h2>Preview</h2><span id="dimensions">No frames</span></div>
+<div class="stage"><canvas id="canvas" width="320" height="240" aria-label="Selected animation frame"></canvas><p id="empty">Your next animation starts here.<br><small>Import PNG / JPEG frames, or load the licensed demo.</small></p></div>
+<div class="transport"><button id="previous" aria-label="Previous frame">←</button><button id="play" class="primary">Play</button><button id="pause">Pause</button><button id="next" aria-label="Next frame">→</button><output id="position">0 / 0</output></div>
+<p class="hint">Preview uses a wall-clock timeline. Browsers may skip or delay frames; encoded durations are exact integer milliseconds.</p>
+<div class="settings"><label>Total plays <input id="loop" type="number" min="0" max="65535" step="1" value="0"></label><span>0 = forever · 1 = once</span><strong id="total">0 ms / play</strong></div>
+<button id="export" class="primary wide">Export lossless WebP + specimen + manifest</button>
+<div id="downloads" aria-label="Export downloads"></div>
+<details><summary>Canvas & color policy</summary><p>Frames are oriented using EXIF, converted to 8-bit sRGB RGBA, and padded at top left to the largest frame width and height. No scaling. Transparency is retained; hidden RGB under zero alpha is cleared. Original bytes are kept unchanged in portable projects.</p><p>Up to 120 occurrences, 2048 px per side, 32 million total canvas pixels, 8 MiB per source and 24 MiB of unique originals. PNG and JPEG only; animated, CMYK and high-bit-depth inputs are rejected.</p></details>
+</section>
+<section class="sequence" aria-label="Frame sequence"><div class="sectionhead"><div><h2>Sequence</h2><p>Click a frame to inspect. Order is always explicit.</p></div><button id="undo">Undo</button></div><ol id="frames"></ol></section>
+</div>
+<footer>Demo artwork: <a href="https://opengameart.org/content/explosion" target="_blank" rel="noreferrer">“explosion” by Cuzco · CC0</a> · 16 frames extracted from a 4×4 sheet. <a href="/demo.html" target="_blank">Open standalone sample</a><p>Autosave stays in this browser profile. Save a portable project for a durable backup. One editor tab at a time.</p></footer>
+</main></body></html>

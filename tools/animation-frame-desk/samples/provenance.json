@@ -1,0 +1,207 @@
+{
+  "title": "explosion",
+  "author": "Cuzco",
+  "page": "https://opengameart.org/content/explosion",
+  "published": "2010-12-02",
+  "license": "CC0-1.0",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "sourceUrl": "https://opengameart.org/sites/default/files/exp2_0.png",
+  "sourceFile": "source/exp2_0.png",
+  "sourceSha256": "f4144fb0839d070a608d44c1a12a4e62529a158386ec2db29921608c06fd7cdb",
+  "revision": "Content-addressed source revision sha256:f4144fb0839d070a608d44c1a12a4e62529a158386ec2db29921608c06fd7cdb; upstream does not expose an immutable revision URL",
+  "acquired": "2026-10-22",
+  "extraction": "Explicit sprite-sheet extraction: 256×256 sheet, sixteen 64×64 tiles in row-major order. Embedded profile converted to sRGB by sharp; PNG metadata stripped. No generated frames.",
+  "extractionEncoder": {
+    "aom": "3.15.1",
+    "archive": "3.8.9",
+    "cairo": "1.18.6",
+    "cgif": "0.5.4",
+    "exif": "0.6.26",
+    "expat": "2.8.5",
+    "ffi": "3.8.0",
+    "fontconfig": "2.18.3",
+    "freetype": "2.14.3",
+    "fribidi": "1.0.17",
+    "glib": "2.90.0",
+    "harfbuzz": "14.5.0",
+    "heif": "1.23.5",
+    "highway": "1.4.0",
+    "imagequant": "2.4.1",
+    "lcms": "2.19.1",
+    "mozjpeg": "0826579",
+    "pango": "1.58.2",
+    "pixman": "0.46.4",
+    "png": "1.6.58",
+    "proxy-libintl": "0.5",
+    "rsvg": "2.63.2",
+    "tiff": "4.7.2",
+    "uhdr": "2.0.2",
+    "vips": "8.18.7",
+    "webp": "1.6.0",
+    "xml2": "2.15.4",
+    "zlib-ng": "2.3.3",
+    "sharp": "0.35.5"
+  },
+  "files": [
+    {
+      "file": "frames/01.png",
+      "sha256": "86b7f0c980806a91dc90c9f16728644d0bca888b4408411b21fc89009299c201",
+      "rectangle": {
+        "left": 0,
+        "top": 0,
+        "width": 64,
+        "height": 64
+      }
+    },
+    {
+      "file": "frames/02.png",
+      "sha256": "fed6384ea7395c26888614518a8aa5139dc24176d8377bfc4780ea3ad6a15619",
+      "rectangle": {
+        "left": 64,
+        "top": 0,
+        "width": 64,
+        "height": 64
+      }
+    },
+    {
+      "file": "frames/03.png",
+      "sha256": "8da1e6adf52eab13699418b52ed7d75933d6366154ae8753bd46e786308d866b",
+      "rectangle": {
+        "left": 128,
+        "top": 0,
+        "width": 64,
+        "height": 64
+      }
+    },
+    {
+      "file": "frames/04.png",
+      "sha256": "dbe71b501d57708bc150e168b40fbfa56537c0b81905087e96b24ac513df560b",
+      "rectangle": {
+        "left": 192,
+        "top": 0,
+        "width": 64,
+        "height": 64
+      }
+    },
+    {
+      "file": "frames/05.png",
+      "sha256": "9a9a5ea674a6e33791f4768bf48d04e2751835f320f779fcf70295d3233a116d",
+      "rectangle": {
+        "left": 0,
+        "top": 64,
+        "width": 64,
+        "height": 64
+      }
+    },
+    {
+      "file": "frames/06.png",
+      "sha256": "d018f2f3d4da10884db5ad509ea34fe118ffdf12e99749ff10811a5f1b0df71f",
+      "rectangle": {
+        "left": 64,
+        "top": 64,
+        "width": 64,
+        "height": 64
+      }
+    },
+    {
+      "file": "frames/07.png",
+      "sha256": "3d57582022a5edc099839068127b1fa32d220b9c0dd0d041458843cf2b0122f4",
+      "rectangle": {
+        "left": 128,
+        "top": 64,
+        "width": 64,
+        "height": 64
+      }
+    },
+    {
+      "file": "frames/08.png",
+      "sha256": "c856535f7861ad4587b14ccbeb90fcd053a2cf122ad539e53168a61411dea93d",
+      "rectangle": {
+        "left": 192,
+        "top": 64,
+        "width": 64,
+        "height": 64
+      }
+    },
+    {
+      "file": "frames/09.png",
+      "sha256": "2a2a80528f5ca5f3c1fa3e852deca54c8e1bb582a026858c8db9ced2873b9aab",
+      "rectangle": {
+        "left": 0,
+        "top": 128,
+        "width": 64,
+        "height": 64
+      }
+    },
+    {
+      "file": "frames/10.png",
+      "sha256": "8585b66a2c86eda9f1650e63601ff72e3475dba23176eef7414c3b988a69294a",
+      "rectangle": {
+        "left": 64,
+        "top": 128,
+        "width": 64,
+        "height": 64
+      }
+    },
+    {
+      "file": "frames/11.png",
+      "sha256": "b31fdabed5360c5e75c07fd2afae6ee34892fdcb39822aaacd644379188870ef",
+      "rectangle": {
+        "left": 128,
+        "top": 128,
+        "width": 64,
+        "height": 64
+      }
+    },
+    {
+      "file": "frames/12.png",
+      "sha256": "90f5675e6238013384a6c9556dc07ee45b1897c4b740425cb6c068a148576ba5",
+      "rectangle": {
+        "left": 192,
+        "top": 128,
+        "width": 64,
+        "height": 64
+      }
+    },
+    {
+      "file": "frames/13.png",
+      "sha256": "20ec8d25fdeef15a36e287c7cf86506618c3f91e5551b2bd5662acf114ff3634",
+      "rectangle": {
+        "left": 0,
+        "top": 192,
+        "width": 64,
+        "height": 64
+      }
+    },
+    {
+      "file": "frames/14.png",
+      "sha256": "265543066be09667bb39123ce8e50c58a93aabb400c4edfb63e1b0b12870102a",
+      "rectangle": {
+        "left": 64,
+        "top": 192,
+        "width": 64,
+        "height": 64
+      }
+    },
+    {
+      "file": "frames/15.png",
+      "sha256": "d79ad2e8744f3c5e66666ac9b1904081d8df9594d29f6985ed0cf62233b20ab0",
+      "rectangle": {
+        "left": 128,
+        "top": 192,
+        "width": 64,
+        "height": 64
+      }
+    },
+    {
+      "file": "frames/16.png",
+      "sha256": "128a586a06552ff15978886678081a48d8c2f8dfbd6ad66d57d8c7300647efae",
+      "rectangle": {
+        "left": 192,
+        "top": 192,
+        "width": 64,
+        "height": 64
+      }
+    }
+  ]
+}

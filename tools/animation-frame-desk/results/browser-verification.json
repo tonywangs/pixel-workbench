@@ -1,0 +1,42 @@
+{
+  "executedAt": "2026-10-22T17:14:41.334Z",
+  "browser": "141.0.7390.37",
+  "decoder": "Chromium WebCodecs ImageDecoder",
+  "containerChecker": "independent RIFF parser",
+  "width": 64,
+  "height": 64,
+  "requestedOccurrences": 17,
+  "encodedFrames": 17,
+  "totalDurationMs": 1680,
+  "loop": 2,
+  "exactRgbaTimeline": true,
+  "pixels": {
+    "decoder": "Pillow 12.0.0",
+    "libwebp": "1.6.0",
+    "encodedFrames": 17,
+    "exactManifestPixels": true,
+    "independentOriginalAppearance": true,
+    "pngTolerance": 0,
+    "jpegRgbTolerance": 3,
+    "totalDurationMs": 1680
+  },
+  "sourceHashes": true,
+  "outputHashes": true,
+  "independentOriginalAppearance": true,
+  "jpegChannelTolerance": 3,
+  "workflow": [
+    "real PNG import",
+    "explicit reorder",
+    "duplicate occurrence",
+    "remove and undo",
+    "unequal duration",
+    "finite loop",
+    "play/pause/step",
+    "reload recovery",
+    "portable reopen",
+    "hash mismatch rejection",
+    "matching reconnection",
+    "three downloads",
+    "standalone file viewer"
+  ]
+}

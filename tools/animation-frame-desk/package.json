@@ -1,0 +1,26 @@
+{
+  "name": "animation-frame-desk",
+  "version": "1.0.0",
+  "description": "A local animation workbench for ordering image frames, editing timing, previewing playback, and exporting verified animated WebP files.",
+  "scripts": {
+    "start": "node scripts/launch.mjs",
+    "sample": "node scripts/sample.mjs",
+    "test": "node --test tests/core.test.mjs",
+    "test:browser": "playwright test",
+    "verify": "node scripts/verify.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "sharp": "0.35.5"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.56.1"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "private": true
+}
