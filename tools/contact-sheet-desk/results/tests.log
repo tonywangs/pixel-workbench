@@ -1,0 +1,62 @@
+> contact-sheet-desk@1.0.0 test
+> node --test test/core.test.js
+
+✔ all eight EXIF orientations have independently expected corner placement (278.696201ms)
+✔ reject damaged, unsupported and animated inputs; flatten transparency on white (23.101808ms)
+✔ project recovery validates hashes, order, settings, and preserves originals (470.323224ms)
+✔ bundled real inputs match recorded public-domain provenance and hashes (121.615198ms)
+ℹ tests 4
+ℹ suites 0
+ℹ pass 4
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1621.331539
+
+> contact-sheet-desk@1.0.0 test:browser
+> node test/browser.mjs
+
+Browser: imported real folder
+Browser: selected and reordered
+Browser: reload recovered
+Browser: export A4
+Browser: export Letter
+Browser: real PDFs downloaded
+Browser: export A4
+Browser: export Letter
+PASS browser: real folder import, inspect, select, reorder, reload, portable project, A4/Letter exports, 16 controlled fixtures, demo, mobile, original hashes unchanged
+
+> contact-sheet-desk@1.0.0 verify:pdf
+> node test/inspect-pdf.mjs
+
+[
+  {
+    "kind": "demo",
+    "paper": "A4",
+    "pages": 3,
+    "selected": 23,
+    "maxPixelRMSE": 8.208192328174109
+  },
+  {
+    "kind": "demo",
+    "paper": "Letter",
+    "pages": 3,
+    "selected": 23,
+    "maxPixelRMSE": 8.274584581717683
+  },
+  {
+    "kind": "fixtures",
+    "paper": "A4",
+    "pages": 1,
+    "selected": 13,
+    "maxPixelRMSE": 7.568972972065091
+  },
+  {
+    "kind": "fixtures",
+    "paper": "Letter",
+    "pages": 1,
+    "selected": 13,
+    "maxPixelRMSE": 6.19377487661783
+  }
+]
